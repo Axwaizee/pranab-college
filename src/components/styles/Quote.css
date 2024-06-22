@@ -1,0 +1,19 @@
+span {
+  background: -webkit-linear-gradient(
+    left,
+    #6957e3,
+    #6957e3,
+    #9764e0,
+    #cc73dd,
+    #cc73dd /* #61a6f2,
+    #8f6fdb */
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#history {
+  background: -webkit-linear-gradient(left, #61a6f2, #8f6fdb, #ff5a5e, #f2c94c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
