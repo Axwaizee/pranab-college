@@ -2,7 +2,7 @@ import React from "react";
 
 const ImageCarausal = () => {
   return (
-    <div className=" w-full bg-emerald-500 font-roboto items-center text-white justify-center mt-[60px] min-[200px]:max-[1180px]:mt-0">
+    <div className="h-[500px] w-full bg-emerald-500 font-roboto items-center text-white justify-center mt-[60px] min-[200px]:max-[1180px]:mt-0">
       <div className="min-[200px]:max-[1180px]:pt-[60px]">
         imageCarausal Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Libero nobis nemo nihil. Quos sint ut dolorem ex qui aliquam pariatur

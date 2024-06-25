@@ -101,7 +101,7 @@ export default function Header() {
           </div>
         </div>
         {/*calling nav element for desktop, its hidden for mobile  */}
-        <div className="desk:hidden " ref={boxRef}>
+        <div className="desk:hidden min-[200px]:max-[1180px]:z-50" ref={boxRef}>
           {isVisible && <SideBarMobile />}
         </div>
       </div>

@@ -125,7 +125,7 @@ function Nav() {
   };
   return (
     <>
-      <div className="min-[200px]:max-[1180px]:hidden desk:block  desk:pt-1.5 bg-sate-400 desk:sticky top-0">
+      <div className="min-[200px]:max-[1180px]:hidden desk:block  desk:pt-1.5 bg-sate-400 desk:sticky top-0 z-50">
         <div className="flex justify-center relative">
           <div className="absolute overflow-hidden dark:bg-[#4948481a] bg-[#ffffff1a] bg-opacity-50 backdrop-blur-md rounded-[25px] border-[1px] border-[#666666] ">
             <div className="navStill flex gap-[10px] px-[23px] text-base dark:text-white cursor-pointer border-b-[0.5px] border-[#666666]">
@@ -149,7 +149,7 @@ function Nav() {
               id="options"
               onMouseEnter={() => handleMouseOver(currentNav)}
               onMouseLeave={handleMouseOut}
-              className=""
+              className=" z-50"
             >
               {currentNav &&
                 navItems[currentNav] &&
@@ -160,7 +160,7 @@ function Nav() {
                       handleMouseOverOptions(option);
                     }}
                     // onMouseOut={handleMouseOutOptions}
-                    className=" pl-9 h-[50px] w-full font-semibold dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out"
+                    className=" z-50 pl-9 h-[50px] w-full font-semibold dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out"
                   >
                     {option}
                   </div>
