@@ -120,7 +120,7 @@ function Sidebar() {
     <div className="z-[9999] absolute w-80 h-screen right-0 p-4 overflow-y-auto text-black dark:text-white bg-[#ffffff1a] bg-opacity-50 backdrop-blur-md dark:bg-[#4948481a]">
       <div className="relative z-50">
         {Object.keys(navItems).map((nav) => (
-          <div key={nav} className=" z-50">
+          <div key={nav} className=" z-50 select-none">
             <div
               id={nav}
               onClick={() => handleNavClick(nav)}
@@ -136,7 +136,7 @@ function Sidebar() {
               >
                 {navItems[currentNav].map((option, index) => (
                   <div key={index} className=" z-50 p-2 pl-5  rounded-md ">
-                    {option}
+                    <a href="https://www.youtube.com">{option}</a>
                   </div>
                 ))}
               </div>

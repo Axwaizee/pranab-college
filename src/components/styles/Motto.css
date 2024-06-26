@@ -1,0 +1,11 @@
+#motto {
+  background: -webkit-linear-gradient(
+    -45deg,
+    #61a6f2,
+    #8f6fdb,
+    #ff5a5e,
+    #f2c94c
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

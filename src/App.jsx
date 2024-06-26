@@ -3,6 +3,9 @@ import Section from "./pages/temp1";
 import Footer from "./components/Footer";
 import ImageCarausal from "./components/imageCarausal";
 import Quote from "./components/Quote";
+import CTA from "./components/CTA";
+import Motto from "./components/Motto";
+import Notification from "./components/Notification";
 
 export default function App() {
   return (
@@ -10,9 +13,9 @@ export default function App() {
       <Header />
       <ImageCarausal />
       <Quote />
-      <Section />
-      <Section />
-      <Section />
+      <CTA />
+      <Motto />
+      <Notification />
       <Section />
       <Section />
       <Section />
