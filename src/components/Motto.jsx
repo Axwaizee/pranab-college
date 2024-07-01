@@ -27,14 +27,7 @@ const Motto = () => {
               sed voluptatem modi officiis laboriosam aliquam aspernatur odit
               cupiditate perferendis cumque ullam provident labore, magnam
               blanditiis! Quia placeat adipisci error pariatur omnis at, vel nam
-              obcaecati molestiae sequi illum repellendus odio vitae quam
-              quaerat! Ratione suscipit asperiores eligendi quidem, expedita
-              perspiciatis magni sequi numquam ex necessitatibus! Dolor
-              architecto deserunt voluptas quidem animi distinctio eveniet quo
-              ea alias numquam quae illum voluptatem tempora quibusdam ipsam
-              placeat iusto eos maiores laboriosam, nisi magni atque nostrum
-              sed! Tempore reprehenderit laboriosam neque libero, maiores
-              ducimus explicabo ex quaerat.
+              obcaecati molestiae sequi illum repellendus odio vitae
             </p>
           </div>
         </div>

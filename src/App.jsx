@@ -17,14 +17,8 @@ export default function App() {
       <Motto />
       <Notification />
       <Section />
-      <Section />
-      <Section />
-      <Section />
-      <Section />
-      <Section />
-      <Section />
-      <Section />
-      <Section />
+      {/* <FeedbackForm />
+      <ProfileForm /> */}
       <Footer />
     </>
   );

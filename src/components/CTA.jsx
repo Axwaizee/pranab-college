@@ -2,19 +2,19 @@ import React from "react";
 
 const CTA = () => {
   return (
-    <div className=" min-[200px]:max-[1180px]:relative flex desk:ml-[80px] desk:mt-[100px] desk:max-[1919px]:mt-[80px] mt-[25px] desk:max-[1919px]:mb-[25px] desk:mb-[30px] mb-5 min-[200px]:max-[1180px]:justify-center">
-      <div className="min-[200px]:max-[1180px]:w-full min-[200px]:max-[1180px]:px-5">
-        <div className=" bg-[#017bfa] desk:h-[600px] desk:w-[960px] desk:max-[1919px]:h-[400px] desk:max-[1919px]:w-[640px] h-[500px] min-[200px]:max-[1180px]:w-full desk:rounded-l-[300px] desk:rounded-r-3xl rounded-t-[300px] rounded-b-3xl"></div>
+    <div className=" min-[200px]:max-[1180px]:relative  flex desk:ml-[80px] desk:mt-[100px] desk:max-[1919px]:mt-[80px] mt-[25px] desk:max-[1919px]:mb-[25px] desk:mb-[30px] mb-5 min-[200px]:max-[1180px]:justify-center">
+      <div className="min-[200px]:max-[1180px]:w-full min-[200px]:max-[1180px]:px-5 ">
+        <div className=" bg-[#017bfa] desk:h-[600px] desk:w-[960px] desk:max-[1919px]:h-[400px] desk:max-[1919px]:w-[640px] h-[500px]  desk:rounded-l-[300px] desk:rounded-r-3xl min-[500px]:max-[1180px]:rounded-t-3xl rounded-t-[300px] rounded-b-3xl"></div>
       </div>
-      <div className="min-[200px]:max-[1180px]:absolute min-[200px]:max-[1180px]:object-contain bottom-[30px]">
-        <div className="flex flex-col justify-between h-full px-[52px] desk:py-[85px] desk:max-[1919px]:py-[62px]  gap-8">
+      <div className="min-[200px]:max-[1180px]:absolute min-[200px]:max-[1180px]:object-contain bottom-[30px] min-[500px]:max-[1180px]:bottom-[100px]">
+        <div className="flex flex-col justify-between h-full px-[52px] desk:py-[85px] desk:max-[1919px]:py-[62px] gap-8">
           <div>
-            <p className="desk:w-[450px]  font-inter font-normal desk:max-[1919px]:text-4xl desk:text-5xl text-2xl dark:text-white desk:leading-[57px]">
+            <p className="desk:w-[450px] min-[200px]:max-[1180px]:text-center font-inter font-normal desk:max-[1919px]:text-4xl desk:text-5xl text-2xl dark:text-white desk:leading-[57px]">
               Experience your life at Pranab College
             </p>
           </div>
           <div>
-            <p className="desk:w-[450px] font-inter font-normal desk:max-[1919px]:text-xl desk:text-2xl text-lg dark:text-white">
+            <p className="desk:w-[450px] min-[200px]:max-[1180px]:text-center font-inter font-normal desk:max-[1919px]:text-xl desk:text-2xl text-lg dark:text-white">
               Get quality education to build and grow your professional career.
             </p>
           </div>
