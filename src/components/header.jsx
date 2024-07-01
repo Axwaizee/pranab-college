@@ -38,7 +38,7 @@ export default function Header() {
 
   return (
     <>
-      <div className=" min-[200px]:max-[1180px]:fixed min-[200px]:max-[1180px]:w-full z-[9999]">
+      <div className=" min-[200px]:max-[1180px]:fixed min-[200px]:max-[1180px]:w-full">
         <div
           id="head"
           className="  dark:bg-[#1a1a1a] bg-white  flex h-14  dark:text-white  pl-4 pr-4 desk:h-full  desk:justify-center desk:mt-2.5 desk:mb-2.5"
@@ -76,7 +76,7 @@ export default function Header() {
               />
             </div>
           </div>
-          <div className="   bg items-center justify-between max-[1180px]:w-full flex desk:pl-60 desk:pr-60 ">
+          <div className="  bg items-center justify-between max-[1180px]:w-full flex desk:pl-60 desk:pr-60 ">
             <div className="">
               <p className="font-inter font-semibold text-xl desk:text-5xl desk:font-poppins desk:font-normal desk:uppercase desk:tracking-[.18em] desk:text-center">
                 Pranab College

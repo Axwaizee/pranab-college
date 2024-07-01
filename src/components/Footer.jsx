@@ -1,7 +1,6 @@
 // import "./footer.css";
 
 //min-[200px]:max-[1180px]:
-// desk:max-[1919px]:
 
 function Footer() {
   return (
