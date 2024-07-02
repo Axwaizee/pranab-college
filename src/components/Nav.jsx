@@ -90,7 +90,7 @@ function Nav() {
   };
 
   const handleMouseOver = (nav) => {
-    console.log(nav);
+    // console.log(nav);
     if (navItems[nav]) {
       setCurrentNav(nav);
       gsap.to(boxRef.current, {
@@ -121,7 +121,7 @@ function Nav() {
   };
 
   const handleMouseOverOptions = (item) => {
-    console.log(item);
+    // console.log(item);
   };
   return (
     <>
