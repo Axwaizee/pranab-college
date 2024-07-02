@@ -6,7 +6,6 @@ import Quote from "./components/Quote";
 import CTA from "./components/CTA";
 import Motto from "./components/Motto";
 import Notification from "./components/Notification";
-// import { Feedback } from "./components/form";
 
 export default function App() {
   return (
@@ -17,7 +16,7 @@ export default function App() {
       <CTA />
       <Motto />
       <Notification />
-      <Feedback />
+      <Section />
       <Footer />
     </>
   );

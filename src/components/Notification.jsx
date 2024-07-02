@@ -48,3 +48,16 @@ const Notification = () => {
 };
 
 export default Notification;
+
+{
+  /* <div className=" w-full h-full overflow-hidden relative rounded-bl-3xl rounded-br-[180px]">
+            <div>
+              <div className="w-full h-3/4 bg-[#61a6f2] absolute bottom-0 rounded-t-[180px]"></div>
+              <img
+                className="absolute inset-0 w-full h-full object-cover object-center"
+                src="./public/assets/elements/principal/principal.png"
+                alt="Principal"
+              />
+            </div>
+          </div> */
+}

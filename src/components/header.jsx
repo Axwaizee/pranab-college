@@ -38,7 +38,7 @@ export default function Header() {
 
   return (
     <>
-      <div className=" min-[200px]:max-[1180px]:fixed min-[200px]:max-[1180px]:w-full">
+      <div className=" min-[200px]:max-[1180px]:fixed min-[200px]:max-[1180px]:w-full z-50">
         <div
           id="head"
           className="  dark:bg-[#1a1a1a] bg-white  flex h-14  dark:text-white  pl-4 pr-4 desk:h-full  desk:justify-center desk:mt-2.5 desk:mb-2.5"
