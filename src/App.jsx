@@ -7,6 +7,8 @@ import CTA from "./components/CTA";
 import Motto from "./components/Motto";
 import Notification from "./components/Notification";
 import Feedback from "./components/feedback";
+import Testimonials from "./components/Testimonials";
+import Test from "./components/Test";
 
 export default function App() {
   return (
@@ -18,6 +20,8 @@ export default function App() {
       <Motto />
       <Notification />
       <Section />
+      <Testimonials />
+      <Test />
       <Feedback />
       <Footer />
     </>

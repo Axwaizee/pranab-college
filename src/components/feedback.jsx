@@ -30,7 +30,7 @@ const Feedback = () => {
   return (
     <div className="flex justify-center items-center">
       <form
-        className="flex flex-col gap-2 dark:text-white p-10 desk:w-[500px] w-full"
+        className="flex flex-col gap-2 dark:text-white p-2 desk:w-[500px] w-full"
         ref={form}
         onSubmit={sendEmail}
         name="feedbackForm"
@@ -63,7 +63,7 @@ const Feedback = () => {
         />
         <button
           type="submit"
-          className=" h-10 bg-[#0376D1] rounded-lg font-inter font-medium"
+          className=" h-10 bg-[#000] rounded-lg font-inter font-medium text-white"
         >
           Submit
         </button>
