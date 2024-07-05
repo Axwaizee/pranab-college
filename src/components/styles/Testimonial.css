@@ -1,0 +1,23 @@
+/* src/tailwind.css */
+.testGradient {
+  background: -webkit-linear-gradient(
+    left,
+    #22c261,
+    #22c261,
+    #008ef3,
+    #003eb9,
+    #003eb9
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradientBar {
+  background: -webkit-linear-gradient(top, #22c261, #008ef3, #003eb9);
+}
+
+@media (min-width: 200px) and (max-width: 1180px) {
+  .gradientBar {
+    background: -webkit-linear-gradient(left, #22c261, #008ef3, #003eb9);
+  }
+}
