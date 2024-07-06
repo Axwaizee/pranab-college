@@ -39,6 +39,7 @@ const Notification = () => {
               className=" h-full  absolute "
               src="./public/assets/elements/principal/principal.png"
               alt=""
+              draggable="false"
             />
           </div>
         </div>

@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import "./styles/Testimonial.css";
 
 import Slider from "react-slick";
-import { blue } from "@mui/material/colors";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;

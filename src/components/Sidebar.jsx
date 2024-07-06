@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import { gsap } from "gsap";
+import { Library } from "lucide-react";
 
 function Sidebar() {
   const boxRef = useRef(null);
@@ -15,6 +16,12 @@ function Sidebar() {
       "Association",
       "Courses Offered",
       "Code of Conduct",
+    ],
+    About: [
+      "About us",
+      "Teaching Employees",
+      "Non-teaching Employees",
+      "Contact",
     ],
     Online_Admissions: [
       "New Admissions to 1st Semester (under construction)",
@@ -48,10 +55,8 @@ function Sidebar() {
       "Journal",
       "Prospectus",
       "Results",
-      "Syllabus",
-      "Question Bank",
-      "ILMS",
     ],
+    Library: ["Syllabus", "Question Bank", "ILMS"],
     Committees: [
       "List of Committees and its Members",
       "NSS",
@@ -79,12 +84,6 @@ function Sidebar() {
       "Study Tours",
       "Charity Drive",
       "Cleanliness Drive",
-    ],
-    About: [
-      "About us",
-      "Teaching Employees",
-      "Non-teaching Employees",
-      "Contact",
     ],
   };
 

@@ -1,0 +1,27 @@
+.slider-container {
+  position: relative;
+  overflow: hidden; /* Hide overflow to clip the divs */
+  width: 100%; /* Adjust as needed */
+  height: 600px; /* Adjust as needed */
+}
+
+.overlay-div {
+  position: absolute;
+  width: 50px; /* Adjust width and height as needed */
+  height: 50px;
+  pointer-events: none; /* Allow mouse events to pass through */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.5
+  ); /* Semi-transparent background for visibility */
+}
+
+.left-div {
+  background-color: rgba(255, 0, 0, 0.5); /* Red for left */
+}
+
+.right-div {
+  background-color: rgba(0, 0, 255, 0.5); /* Blue for right */
+}

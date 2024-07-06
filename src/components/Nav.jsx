@@ -17,6 +17,12 @@ function Nav() {
       "Courses Offered",
       "Code of Conduct",
     ],
+    About: [
+      "About us",
+      "Teaching Employees",
+      "Non-teaching Employees",
+      "Contact",
+    ],
     Online_Admissions: [
       "New Admissions to 1st Semester (under construction)",
       "Fee Payment for New Students (under construction)",
@@ -49,10 +55,8 @@ function Nav() {
       "Journal",
       "Prospectus",
       "Results",
-      "Syllabus",
-      "Question Bank",
-      "ILMS",
     ],
+    Library: ["Syllabus", "Question Bank", "ILMS"],
     Committees: [
       "List of Committees and its Members",
       "NSS",
@@ -80,12 +84,6 @@ function Nav() {
       "Study Tours",
       "Charity Drive",
       "Cleanliness Drive",
-    ],
-    About: [
-      "About us",
-      "Teaching Employees",
-      "Non-teaching Employees",
-      "Contact",
     ],
   };
 
