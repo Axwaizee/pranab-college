@@ -36,15 +36,40 @@ function Footer() {
                 External Links
               </p>
               <p className="min-[200px]:max-[1180px]:hidden font-inter text-base desk:text-lg font-normal leading-[30px]">
-                University Grants Commission
+                <a
+                  href="https://www.ugc.gov.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className=" hover:text-white"
+                >
+                  University Grants Commission
+                </a>
               </p>
               <p className="desk:hidden font-inter text-base desk:text-lg font-normal leading-[30px]">
-                UGC
+                <a
+                  href="https://www.ugc.gov.in/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  UGC
+                </a>
               </p>
               <p className="min-[200px]:max-[1180px]:hidden font-inter text-base desk:text-lg font-normal leading-[30px]">
-                Nagaland University
+                <a
+                  href="https://nagalanduniversity.ac.in/English/"
+                  target="_blank"
+                  className=" hover:text-white"
+                  rel="noopener noreferrer"
+                >
+                  Nagaland University
+                </a>
               </p>
               <p className="desk:hidden font-inter text-base desk:text-lg font-normal leading-[30px]">
+                <a
+                  href="https://nagalanduniversity.ac.in/English/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                ></a>
                 NU
               </p>
               <p className="font-inter text-base desk:text-lg font-normal leading-[30px]">
