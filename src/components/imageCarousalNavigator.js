@@ -1,4 +1,5 @@
-const cursor = "/assets/elements/ImageCarausal/cursor/cursorPrev.svg";
+const cursorLeft = "/assets/elements/ImageCarausal/cursor/cursorPrev.svg";
+const cursorRight = "/assets/elements/ImageCarausal/cursor/cursorNext.svg";
 export function initializeCarousalEventListener() {
   const carousalContainer = document.getElementById("slider");
 
@@ -10,11 +11,10 @@ export function initializeCarousalEventListener() {
 
       if (x < mid) {
         console.log("Mouse Position: left");
-        carousalContainer.style.cursor = `url(${cursor}), auto`;
+        carousalContainer.style.cursor = `url(${cursorLeft}), auto`;
       } else {
         console.log("Mouse Position: right");
-        carousalContainer.style.cursor =
-          "url(./public/assets/elements/ImageCarausal/cursor/cursorNext.svg), auto";
+        carousalContainer.style.cursor = `url(${cursorRight}), auto`;
       }
     });
   } else {
