@@ -1,10 +1,10 @@
 import React from "react";
 import "./styles/Quote.css";
 
-const research = "./public/assets/elements/Icons/research.svg";
-const alumni = "./public/assets/elements/Icons/alumni.svg";
-const results = "./public/assets/elements/Icons/results.svg";
-const placement = "./public/assets/elements/Icons/placement.svg";
+const research = "/assets/elements/Icons/research.svg";
+const alumni = "/assets/elements/Icons/alumni.svg";
+const results = "/assets/elements/Icons/results.svg";
+const placement = "/assets/elements/Icons/placement.svg";
 
 const Quote = () => {
   return (

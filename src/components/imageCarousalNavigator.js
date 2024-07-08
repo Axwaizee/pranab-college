@@ -1,3 +1,4 @@
+const cursor = "/assets/elements/ImageCarausal/cursor/cursorPrev.svg";
 export function initializeCarousalEventListener() {
   const carousalContainer = document.getElementById("slider");
 
@@ -9,8 +10,7 @@ export function initializeCarousalEventListener() {
 
       if (x < mid) {
         console.log("Mouse Position: left");
-        carousalContainer.style.cursor =
-          "url(./public/assets/elements/ImageCarausal/cursor/cursorPrev.svg), auto";
+        carousalContainer.style.cursor = `url(${cursor}), auto`;
       } else {
         console.log("Mouse Position: right");
         carousalContainer.style.cursor =

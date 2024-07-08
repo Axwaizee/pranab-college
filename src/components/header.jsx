@@ -5,8 +5,8 @@ import React, { useRef, useState, useEffect } from "react";
 import Nav from "./Nav";
 import SideBarMobile from "./Sidebar";
 
-const collegeLogo = "./public/assets/elements/logo/logopart.png";
-const bssLogo = "./public/assets/elements/logo/BSS_logo.png";
+const collegeLogo = "/assets/elements/logo/logopart.png";
+const bssLogo = "/assets/elements/logo/BSS_logo.png";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);

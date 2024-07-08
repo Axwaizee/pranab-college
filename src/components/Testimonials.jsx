@@ -31,21 +31,21 @@ function SamplePrevArrow(props) {
 const testimonial = {
   Alumni: [
     {
-      image: `./public/assets/testimonials/alumni/test.jpg`,
+      image: `/assets/testimonials/alumni/test.jpg`,
       name: "George Shrivastav",
       course: { course: "B.A. English", batch: "2011-14" },
       testimonial:
         "adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar",
     },
     {
-      image: "./public/assets/testimonials/alumni/test.jpg",
+      image: "/assets/testimonials/alumni/test.jpg",
       name: "Leorio Shrivastav",
       course: { course: "B.A. English", batch: "2024-28" },
       testimonial:
         "adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar",
     },
     {
-      image: "./public/assets/testimonials/alumni/test.jpg",
+      image: "/assets/testimonials/alumni/test.jpg",
       name: "Kurapika Shrivastav",
       course: { course: "B.A. English", batch: "2024-28" },
       testimonial:

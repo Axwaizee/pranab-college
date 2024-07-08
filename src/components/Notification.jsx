@@ -1,5 +1,7 @@
 import React from "react";
 
+const principal = "/assets/elements/principal/principal.png";
+
 const Notification = () => {
   return (
     <div className=" min-[1181px]:max-[1399px]:px-[100px] min-[1400px]:max-[1600px]:px-[200px] wide:px-[300px] min-[200px]:max-[1180px]:px-5 desk:mt-[120px] desk:max-[1919px]:mt-[80px] min-[200px]:max-[1180px]:mt-12">
@@ -37,7 +39,7 @@ const Notification = () => {
             <div className="w-full h-4/5 bg-[#61a6f2] absolute bottom-0 rounded-t-[150px] "></div>
             <img
               className=" h-full  absolute "
-              src="./public/assets/elements/principal/principal.png"
+              src={principal}
               alt=""
               draggable="false"
             />
