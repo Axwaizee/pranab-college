@@ -92,28 +92,28 @@ const ImageCarausal = () => {
           <div className="w-full">
             <img
               className="w-full h-[600px] min-[481px]:max-[1180px]:h-[500px] min-[200px]:max-[480px]:h-[250px] object-cover rounded-3xl"
-              src="/assets/elements/ImageCarausal/1.jpg"
+              src={carousalimage.image1}
               alt="Caraousal"
             />
           </div>
           <div className="w-full">
             <img
               className="w-full h-[600px] min-[481px]:max-[1180px]:h-[500px] min-[200px]:max-[480px]:h-[250px] object-cover rounded-3xl"
-              src="/assets/elements/ImageCarausal/2.jpg"
+              src={carousalimage.image2}
               alt="Caraousal"
             />
           </div>
           <div className="w-full">
             <img
               className="w-full h-[600px] min-[481px]:max-[1180px]:h-[500px] min-[200px]:max-[480px]:h-[250px] object-cover rounded-3xl"
-              src="/assets/elements/ImageCarausal/3.jpg"
+              src={carousalimage.image3}
               alt="Caraousal"
             />
           </div>
           <div className="w-full">
             <img
               className="w-full h-[600px] min-[481px]:max-[1180px]:h-[500px] min-[200px]:max-[480px]:h-[250px] object-cover rounded-3xl"
-              src="/assets/elements/ImageCarausal/2.jpg"
+              src={carousalimage.image4}
               alt="Caraousal"
             />
           </div>
