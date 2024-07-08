@@ -25,10 +25,10 @@ function SamplePrevArrow(props) {
 }
 
 const carousalimage = {
-  image1: "/public/assets/elements/ImageCarausal/1.jpg",
-  image2: "/public/assets/elements/ImageCarausal/2.jpg",
-  image3: "/public/assets/elements/ImageCarausal/3.jpg",
-  image4: "/public/assets/elements/ImageCarausal/2.jpg",
+  image1: "/assets/elements/ImageCarausal/1.jpg",
+  image3: "/assets/elements/ImageCarausal/3.jpg",
+  image2: "/assets/elements/ImageCarausal/2.jpg",
+  image4: "/assets/elements/ImageCarausal/2.jpg",
 };
 
 const ImageCarausal = () => {
@@ -93,28 +93,28 @@ const ImageCarausal = () => {
             <img
               className="w-full h-[600px] min-[481px]:max-[1180px]:h-[500px] min-[200px]:max-[480px]:h-[250px] object-cover rounded-3xl"
               src={carousalimage.image1}
-              alt="Calaousal"
+              alt="Caraousal"
             />
           </div>
           <div className="w-full">
             <img
               className="w-full h-[600px] min-[481px]:max-[1180px]:h-[500px] min-[200px]:max-[480px]:h-[250px] object-cover rounded-3xl"
               src={carousalimage.image2}
-              alt="Calaousal"
+              alt="Caraousal"
             />
           </div>
           <div className="w-full">
             <img
               className="w-full h-[600px] min-[481px]:max-[1180px]:h-[500px] min-[200px]:max-[480px]:h-[250px] object-cover rounded-3xl"
               src={carousalimage.image3}
-              alt="Calaousal"
+              alt="Caraousal"
             />
           </div>
           <div className="w-full">
             <img
               className="w-full h-[600px] min-[481px]:max-[1180px]:h-[500px] min-[200px]:max-[480px]:h-[250px] object-cover rounded-3xl"
               src={carousalimage.image2}
-              alt="Calaousal"
+              alt="Caraousal"
             />
           </div>
         </Slider>
