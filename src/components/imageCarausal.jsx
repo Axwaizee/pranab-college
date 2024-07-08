@@ -26,9 +26,9 @@ function SamplePrevArrow(props) {
 
 const carousalimage = {
   image1: "/assets/elements/ImageCarausal/1.jpg",
-  image3: "./public/assets/elements/ImageCarausal/3.jpg",
+  image3: "/assets/elements/ImageCarausal/3.jpg",
   image2: "/assets/elements/ImageCarausal/2.jpg",
-  image4: "/public/assets/elements/ImageCarausal/2.jpg",
+  image4: "/assets/elements/ImageCarausal/2.jpg",
 };
 
 const ImageCarausal = () => {
