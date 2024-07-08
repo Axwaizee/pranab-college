@@ -1,6 +1,11 @@
 import React from "react";
 import "./styles/Quote.css";
 
+const research = "./public/assets/elements/Icons/research.svg";
+const alumni = "./public/assets/elements/Icons/alumni.svg";
+const results = "./public/assets/elements/Icons/results.svg";
+const placement = "./public/assets/elements/Icons/placement.svg";
+
 const Quote = () => {
   return (
     <div
@@ -16,7 +21,7 @@ const Quote = () => {
             >
               <img
                 className=" h-[70px] desk:h-[80px] p-2 dark:invert"
-                src="./public/assets/elements/Icons/research.svg"
+                src={research}
                 alt=""
               />
             </div>
@@ -45,7 +50,7 @@ const Quote = () => {
             >
               <img
                 className=" h-[70px] desk:h-[80px] p-2 dark:invert"
-                src="./public/assets/elements/Icons/alumni.svg"
+                src={alumni}
                 alt=""
               />
             </div>
@@ -71,7 +76,7 @@ const Quote = () => {
             >
               <img
                 className=" h-[70px] desk:h-[80px] p-2 dark:invert"
-                src="./public/assets/elements/Icons/results.svg"
+                src={results}
                 alt=""
               />
             </div>
@@ -97,7 +102,7 @@ const Quote = () => {
             >
               <img
                 className=" h-[70px] desk:h-[80px] p-2 dark:invert"
-                src="./public/assets/elements/Icons/placement.svg"
+                src={placement}
                 alt=""
               />
             </div>

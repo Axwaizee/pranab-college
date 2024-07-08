@@ -5,6 +5,9 @@ import React, { useRef, useState, useEffect } from "react";
 import Nav from "./Nav";
 import SideBarMobile from "./Sidebar";
 
+const collegeLogo = "./public/assets/elements/logo/logopart.png";
+const bssLogo = "./public/assets/elements/logo/BSS_logo.png";
+
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
@@ -72,7 +75,7 @@ export default function Header() {
               </svg>
               <img
                 className="absolute top-0 left-0 w-full h-full"
-                src="./public/assets/elements/logo/logopart.png"
+                src={collegeLogo}
               />
             </div>
           </div>
@@ -93,11 +96,7 @@ export default function Header() {
             </button>
           </div>
           <div className="hidden desk:block">
-            <img
-              className=" size-32  object-contain "
-              src="./public/assets/elements/logo/BSS_logo.png"
-              alt=""
-            />
+            <img className=" size-32  object-contain " src={bssLogo} alt="" />
           </div>
         </div>
         {/*calling nav element for desktop, its hidden for mobile  */}
