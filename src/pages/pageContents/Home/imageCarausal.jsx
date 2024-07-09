@@ -62,10 +62,6 @@ const ImageCarausal = () => {
     initializeCarousalEventListener();
   }, []);
 
-  function buttonClick(pos) {
-    console.log(`${pos} pressed`);
-  }
-
   return (
     <div className="w-full min-[200px]:max-[1180px]:mt-0">
       <div className="slider-container relative" id="slider">

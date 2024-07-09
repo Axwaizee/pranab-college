@@ -10,10 +10,8 @@ export function initializeCarousalEventListener() {
       const mid = (rect.right - rect.left) / 2;
 
       if (x < mid) {
-        console.log("Mouse Position: left");
         carousalContainer.style.cursor = `url(${cursorLeft}), auto`;
       } else {
-        console.log("Mouse Position: right");
         carousalContainer.style.cursor = `url(${cursorRight}), auto`;
       }
     });
