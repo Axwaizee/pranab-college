@@ -1,26 +1,22 @@
-import Header from "./components/header";
-import Footer from "./components/Footer";
-import ImageCarausal from "./components/imageCarausal";
-import Quote from "./components/Quote";
-import CTA from "./components/CTA";
-import Motto from "./components/Motto";
-import Notification from "./components/Notification";
-import Feedback from "./components/feedback";
-import Testimonials from "./components/Testimonials";
-import HeadBackground from "./components/headBackground";
+import Header from "./constantComponents/header";
+import Footer from "./constantComponents/Footer";
+import HeadBackground from "./constantComponents/headBackground";
+
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Error404 from "./pages/Error404";
+import NaacRoutes from "./pages/pageContents/NAAC/NaacRoutes";
 
 export default function App() {
   return (
     <>
       <Header />
       <HeadBackground />
-      <ImageCarausal />
-      <Quote />
-      <CTA />
-      <Motto />
-      <Notification />
-      <Testimonials />
-      <Feedback />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/NAAC/*" element={<NaacRoutes />} />
+        <Route path="*" element={<Error404 />} />
+      </Routes>
       <Footer />
     </>
   );

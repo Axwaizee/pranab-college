@@ -67,7 +67,7 @@ const ImageCarausal = () => {
   }
 
   return (
-    <div className="w-full mt-[60px] min-[200px]:max-[1180px]:mt-0">
+    <div className="w-full min-[200px]:max-[1180px]:mt-0">
       <div className="slider-container relative" id="slider">
         <div className="flex z-[999] absolute w-full h-full min-[200px]:max-[1180px]:hidden">
           <div

@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Section() {
   return (
     <div className="w-full h-96 bg-blue-700 text-white mt-[53px] min-[200px]:max-[1180px]:mt-0">
