@@ -458,12 +458,14 @@ function Nav() {
               {currentNav &&
                 navItems[currentNav] &&
                 navItems[currentNav].map((option) => (
-                  <div
-                    key={option}
-                    className=" z-50 pl-9 h-[50px] w-full font-semibold dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out"
-                  >
-                    <Link to={routedOption(option)}>{option}</Link>
-                  </div>
+                  <Link to={routedOption(option)}>
+                    <div
+                      key={option}
+                      className=" z-50 pl-9 h-[50px] w-full font-semibold dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out"
+                    >
+                      {option}
+                    </div>
+                  </Link>
                 ))}
             </div>
           </div>

@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from "react";
 import CTA from "./pageContents/Home/CTA";
 import ImageCarausal from "./pageContents/Home/imageCarausal";

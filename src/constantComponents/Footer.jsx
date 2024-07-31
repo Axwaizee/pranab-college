@@ -118,7 +118,7 @@ function Footer() {
                         .scrollIntoView({ behavior: "smooth" });
                     });
                 }}
-                className=" transition ease-in-out duration-300"
+                className="transition duration-300 ease-in-out "
               >
                 <svg
                   id="btt"

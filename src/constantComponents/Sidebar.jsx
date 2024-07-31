@@ -318,11 +318,11 @@ function Sidebar() {
     <div className="z-[9999] absolute w-80 h-screen right-0 p-4 overflow-y-auto text-black dark:text-white bg-[#ffffff1a] bg-opacity-50 backdrop-blur-md dark:bg-[#4948481a]">
       <div className="relative z-50">
         {Object.keys(navItems).map((nav) => (
-          <div key={nav} className=" z-50">
+          <div key={nav} className="z-50 ">
             <div
               id={nav}
               onClick={() => handleNavClick(nav)}
-              className="z-50 p-4 cursor-pointer font-semibold font-inter text-xl"
+              className="z-50 p-4 text-xl font-semibold cursor-pointer font-inter"
             >
               {nav.replace(/_/g, " ")}
             </div>
@@ -330,10 +330,10 @@ function Sidebar() {
               <div
                 ref={boxRef}
                 id="options"
-                className=" z-50 p-4 rounded-md text-black dark:text-white font-medium text-md"
+                className="z-50 p-4 font-medium text-black rounded-md dark:text-white text-md"
               >
                 {navItems[currentNav].map((option, index) => (
-                  <div key={index} className=" z-50 p-2 pl-5  rounded-md ">
+                  <div key={index} className="z-50 p-2 pl-5 rounded-md ">
                     <Link to={routedOption(option)}>{option}</Link>
                   </div>
                 ))}

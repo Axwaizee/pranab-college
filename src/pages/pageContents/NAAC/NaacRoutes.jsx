@@ -14,12 +14,12 @@ const NaacRoutes = () => {
   return (
     <Routes>
       <Route path="SSR" element={<SSR />} />
-      <Route path="academicAudit" element={<AcademicAudit />} />
+      <Route path="academicAudit/*" element={<AcademicAudit />} />
       <Route path="bestPractices" element={<BestPractices />} />
       <Route path="courseOutcomes" element={<CourseOutcomes />} />
       <Route path="feedback" element={<Feedback />} />
-      <Route path="iqacAtr" element={<IqacMeetingandAtr />} />
-      <Route path="naacStatus" element={<NaacStatus />} />
+      <Route path="iqacAtr/*" element={<IqacMeetingandAtr />} />
+      <Route path="naacStatus/*" element={<NaacStatus />} />
       <Route
         path="StudentSatisfactionSurvey"
         element={<StudentSatisfactionSurvey />}

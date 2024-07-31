@@ -12,13 +12,12 @@ const bssLogo = "/assets/elements/logo/BSS_logo.png";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
-
-  const boxRef = useRef(null);
-
   const handleToggle = () => {
     setIsVisible(!isVisible);
     setIsOpen(!isOpen);
   };
+
+  const boxRef = useRef(null);
 
   useEffect(() => {
     if (isVisible) {
@@ -48,7 +47,7 @@ export default function Header() {
           className="  dark:bg-[#1a1a1a] bg-white  flex h-14  dark:text-white  pl-4 pr-4 desk:h-full  desk:justify-center desk:mt-2.5 desk:mb-2.5"
         >
           <div>
-            <div className="relative  h-32 w-32 hidden desk:block">
+            <div className="relative hidden w-32 h-32 desk:block">
               <Link to="/">
                 <svg
                   className="absolute top-0 left-0 w-full h-full"
@@ -100,12 +99,12 @@ export default function Header() {
                 Managed by Bharat Sevashram Sangha
               </p>
             </div>
-            <button className="desk:hidden right-0" onClick={handleToggle}>
+            <button className="right-0 desk:hidden" onClick={handleToggle}>
               {isOpen ? <X /> : <Menu />}
             </button>
           </div>
           <div className="hidden desk:block">
-            <img className=" size-32  object-contain " src={bssLogo} alt="" />
+            <img className="object-contain size-32" src={bssLogo} alt="" />
           </div>
         </div>
         {/*calling nav element for desktop, its hidden for mobile  */}
