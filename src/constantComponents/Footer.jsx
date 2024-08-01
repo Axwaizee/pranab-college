@@ -22,13 +22,19 @@ function Footer() {
                 Phone no. 9863233963, 03862-357469
               </p>{" "}
               <p className="font-inter font-normal text-sm desk:text-lg leading-[25px] desk:leading-[30px]">
-                Email: Pranabcollege@yahoo.com{" "}
+                Email:{" "}
+                <a href="mailto:pranabcollege@yahoo.com">
+                  Pranabcollege@yahoo.com
+                </a>{" "}
               </p>
               <p
                 id=""
                 className="font-inter font-normal text-sm desk:text-lg leading-[25px]"
               >
-                Email: Pranabananda_wc@yahoo.com
+                Email:{" "}
+                <a href="mailto:pranabananda_wc@yahoo.com">
+                  Pranabananda_wc@yahoo.com
+                </a>
               </p>
             </div>
             <div className=" min-[200px]:max-[1180px]:order-2 desk:grow-[1]">
