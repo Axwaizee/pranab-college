@@ -6,7 +6,7 @@ const Contact = () => {
       <div className="flex items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
         <p>Contact</p>
       </div>
-      <div className="flex flex-col justify-center desk:flex-row ">
+      <div className="flex flex-col justify-center p-10 desk:flex-row">
         <div className="flex justify-center p-10">
           <div className=" w-96 dark:text-white">
             <p className="pb-2 text-3xl">Pranab College</p>
