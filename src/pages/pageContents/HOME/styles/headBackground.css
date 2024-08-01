@@ -1,0 +1,7 @@
+.gradientBar {
+  background: -webkit-linear-gradient(left, #22c261, #008ef3, #003eb9);
+}
+
+.listStyle {
+  list-style-type: "\2B50";
+}
