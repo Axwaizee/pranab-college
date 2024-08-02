@@ -74,9 +74,6 @@ function Sidebar() {
     if (option === "Bus Service") {
       return "/studentServices/busService";
     }
-    if (option === "Grievance Forum") {
-      return "/studentServices/grievanceForm";
-    }
     if (option === "SSR") {
       return "/NAAC/SSR";
     }
@@ -235,7 +232,6 @@ function Sidebar() {
       "Pranab College Students Union (PCSU)",
       "Scholarship & Freeship",
       "Bus Service",
-      "Grievance Forum",
     ],
     NAAC: [
       "SSR",
