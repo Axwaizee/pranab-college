@@ -7,7 +7,7 @@ const GoverningBody = () => {
         <p>Governing Body Members</p>
       </div>
       <div className="flex justify-center p-10">
-        <div className="flex w-1/2 dark:text-white">
+        <div className="flex w-full desk:w-1/2 dark:text-white">
           <div className="w-1/2 ">
             <p className="p-1 text-lg text-center uppercase font-inter">Name</p>
             <p>Swami Dhyaneshanandaji Maharaj</p>

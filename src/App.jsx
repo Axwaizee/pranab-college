@@ -5,10 +5,12 @@ import HeadBackground from "./constantComponents/headBackground";
 import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Error404 from "./pages/Error404";
-import NaacRoutes from "./pages/pageContents/NAAC/NaacRoutes";
-import HomeRoutes from "./pages/pageContents/HOME/HomeRoutes";
-import AboutRoutes from "./pages/pageContents/ABOUT/AboutRoutes";
-import SSRoutes from "./pages/pageContents/STUDENTSERVICES/SSRoutes";
+import NaacRoutes from "./pages/NAAC/NaacRoutes";
+import HomeRoutes from "./pages/HOME/HomeRoutes";
+import AboutRoutes from "./pages/ABOUT/AboutRoutes";
+import SSRoutes from "./pages/STUDENTSERVICES/SSRoutes";
+import CalenderRoutes from "./pages/CALENDER/CalenderRoutes";
+import ResourcesRoutes from "./pages/RESOURCES/ResourcesRoutes";
 
 export default function App() {
   return (
@@ -22,8 +24,8 @@ export default function App() {
         <Route path="/onlineAdmissions/*" element />
         <Route path="/studentServices/*" element={<SSRoutes />} />
         <Route path="/NAAC/*" element={<NaacRoutes />} />
-        <Route path="/calender/*" element />
-        <Route path="/resources/*" element />
+        <Route path="/calender/*" element={<CalenderRoutes />} />
+        <Route path="/resources/*" element={<ResourcesRoutes />} />
         <Route path="/library/*" element />
         <Route path="/committees/*" element />
         <Route path="/gallery/*" element />

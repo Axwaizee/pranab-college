@@ -226,49 +226,55 @@ const StudentSatisfactionSurvey = () => {
               RESULTS:
             </p>
             <br />
-            <table className="w-full table-fixed">
-              <thead>
-                <tr className="text-center ">
-                  <th>SSS POINTS</th>
-                  <th>PERCENTAGE</th>
-                  <th>RESOLUSION</th>
+            <table className="w-full">
+              <thead className="bg-gray-200 border-b-2 border-zinc-500 dark:bg-opacity-25 dark:bg-black">
+                <tr className="">
+                  <th className="p-3 text-sm font-semibold tracking-wide text-left">
+                    SSS POINTS
+                  </th>
+                  <th className="p-3 text-sm font-semibold tracking-wide text-left">
+                    PERCENTAGE
+                  </th>
+                  <th className="p-3 text-sm font-semibold tracking-wide text-left">
+                    RESOLUSION
+                  </th>
                 </tr>
               </thead>
               <tbody className="">
-                <tr className="p-5 text-center">
-                  <td className="p-2 ">INFRASTRUCTURE</td>
-                  <td className="p-2 ">70% </td>
-                  <td className="p-2 text-left">
+                <tr className="">
+                  <td className="p-3 text-sm ">INFRASTRUCTURE</td>
+                  <td className="p-3 text-sm ">70% </td>
+                  <td className="p-3 text-sm ">
                     College has taken various initiatives in improving
                     infrastructure.
                   </td>
                 </tr>
-                <tr className="text-center ">
-                  <td className="p-2 ">TEACHING</td>
-                  <td className="p-2 ">80% </td>
-                  <td className="p-2 text-left">
+                <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
+                  <td className="p-3 text-sm ">TEACHING</td>
+                  <td className="p-3 text-sm ">80% </td>
+                  <td className="p-3 text-sm ">
                     Sending teachers for various faculty development programmes
                   </td>
                 </tr>
-                <tr className="text-center ">
-                  <td className="p-2 ">LEARNING</td>
-                  <td className="p-2 ">65% </td>
-                  <td className="p-2 text-left">
+                <tr className="">
+                  <td className="p-3 text-sm ">LEARNING</td>
+                  <td className="p-3 text-sm ">65% </td>
+                  <td className="p-3 text-sm ">
                     Various modern IT enabled tools has been installed in
                     premises.
                   </td>
                 </tr>
-                <tr className="text-center ">
-                  <td className="p-2 ">CURRICULUM</td>
-                  <td className="p-2 ">83% </td>
-                  <td className="p-2 text-left">
+                <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
+                  <td className="p-3 text-sm ">CURRICULUM</td>
+                  <td className="p-3 text-sm ">83% </td>
+                  <td className="p-3 text-sm ">
                     Curriculum as per university guidelines is followed.
                   </td>
                 </tr>
-                <tr className="text-center ">
-                  <td className="p-2 ">EVALUATION</td>
-                  <td className="p-2 ">80% </td>
-                  <td className="p-2 text-left">
+                <tr className="">
+                  <td className="p-3 text-sm ">EVALUATION</td>
+                  <td className="p-3 text-sm ">80% </td>
+                  <td className="p-3 text-sm ">
                     Evaluation is based on students total performance.
                   </td>
                 </tr>
