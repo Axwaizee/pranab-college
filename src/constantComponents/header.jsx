@@ -3,7 +3,7 @@ import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import React, { useRef, useState, useEffect } from "react";
 import Nav from "./Nav";
-import SideBarMobile from "./Sidebar";
+import Sidebar from "./Sidebar";
 import { Link } from "react-router-dom";
 
 const collegeLogo = "/assets/elements/logo/logopart.png";
@@ -109,7 +109,7 @@ export default function Header() {
         </div>
         {/*calling nav element for desktop, its hidden for mobile  */}
         <div className="desk:hidden min-[200px]:max-[1180px]:z-50" ref={boxRef}>
-          {isVisible && <SideBarMobile />}
+          {isVisible && <Sidebar />}
         </div>
       </div>
       <Nav />
