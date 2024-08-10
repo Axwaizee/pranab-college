@@ -232,7 +232,7 @@ function Nav() {
       return "/resources/results";
     }
     if (option === "Syllabus") {
-      return "/library/syllabus";
+      return "https://nagalanduniversity.ac.in/English/node/69";
     }
     if (option === "Question Bank") {
       return "/library/questionBank";
@@ -291,7 +291,7 @@ function Nav() {
     if (option === "Sports") {
       return "/gallery/sports";
     }
-    if (option === "Classroom & Computer Laboratory") {
+    if (option === "Classroom & Computer Laboratory") {
       return "/gallery/classroom";
     }
     if (option === "Health Seminar") {
