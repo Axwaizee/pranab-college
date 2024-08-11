@@ -30,9 +30,9 @@ export default function App() {
         <Route path="/resources/*" element={<ResourcesRoutes />} />
         <Route path="/library/*" element={<LibraryRoutes />} />
         <Route path="/committees/*" element={<CommitteesRoutes />} />
-        {/* <Route path="/gallery/*" element /> */}
+        <Route path="/gallery/*" element />
 
-        <Route path="*" element={<Error404 />} />
+        <Route path="/*" element={<Error404 />} />
       </Routes>
       <Footer />
     </>

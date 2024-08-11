@@ -13,12 +13,9 @@ const CBCS = () => {
         >
           <p className="">BA SAMPLE GEN ALL SUBS </p>
           <div className="flex justify-center text-white rounded-full ">
-            <Link
-              className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white"
-              to="/NAAC/academicAudit/qualityAssuranceInitiatives"
-            >
+            <a className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white">
               View
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -29,12 +26,9 @@ const CBCS = () => {
         >
           <p className="">Quality Assurance Initiatives</p>
           <div className="flex justify-center text-white rounded-full ">
-            <Link
-              className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white"
-              to="/NAAC/academicAudit/qualityAssuranceInitiatives"
-            >
+            <a className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white">
               View
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -45,12 +39,9 @@ const CBCS = () => {
         >
           <p className="">Quality Assurance Initiatives</p>
           <div className="flex justify-center text-white rounded-full ">
-            <Link
-              className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white"
-              to="/NAAC/academicAudit/qualityAssuranceInitiatives"
-            >
+            <a className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white">
               View
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -61,12 +52,9 @@ const CBCS = () => {
         >
           <p className="">Quality Assurance Initiatives</p>
           <div className="flex justify-center text-white rounded-full ">
-            <Link
-              className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white"
-              to="/NAAC/academicAudit/qualityAssuranceInitiatives"
-            >
+            <a className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white">
               View
-            </Link>
+            </a>
           </div>
         </div>
       </div>
@@ -585,7 +573,7 @@ const MA = () => {
 const QuestionBank = () => {
   return (
     <>
-      <div className="flex items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
         <p>Question Bank</p>
       </div>
       <div className="flex justify-center ">

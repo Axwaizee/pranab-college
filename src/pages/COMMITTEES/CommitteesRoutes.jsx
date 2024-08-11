@@ -18,6 +18,7 @@ import AlumniAssociation from "./AlumniAssociation";
 import GrievanceRedressal from "./GrievanceRedressal";
 import Policy from "./GrievanceRedressal/Policy";
 import MeetingMinutes from "./GrievanceRedressal/MeetingMinutes";
+import Error404 from "../Error404";
 
 const CommitteesRoutes = () => {
   return (
@@ -44,6 +45,7 @@ const CommitteesRoutes = () => {
         path="grievanceRedressal/meetingMinutes/*"
         element={<MeetingMinutes />}
       />
+      <Route path="*" element={<Error404 />} />
     </Routes>
   );
 };

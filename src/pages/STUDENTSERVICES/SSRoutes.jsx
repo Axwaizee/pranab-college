@@ -4,6 +4,7 @@ import PCSU from "./PCSU";
 import GrievanceForum from "./GrievanceForum";
 import BusService from "./BusService";
 import ScholarshipFreeship from "./ScholarshipFreeship";
+import Error404 from "../Error404";
 
 const SSRoutes = () => {
   return (
@@ -12,6 +13,7 @@ const SSRoutes = () => {
       <Route path="grievanceFourm" element={<GrievanceForum />} />
       <Route path="busService" element={<BusService />} />
       <Route path="scholarshipFreeship" element={<ScholarshipFreeship />} />
+      <Route path="*" element={<Error404 />} />
     </Routes>
   );
 };

@@ -47,7 +47,7 @@ const organogram = () => {
 const AcademicAudit = () => {
   return (
     <>
-      <div className="flex items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
         <p>Academic Audit</p>
       </div>
       <div className="flex justify-center p-10">
@@ -62,6 +62,11 @@ const AcademicAudit = () => {
                 <Link
                   className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white"
                   to="/NAAC/academicAudit/perspectivePlan"
+                  onClick={() => {
+                    alert(
+                      "Scroll to the bottom of the page to view the document!"
+                    );
+                  }}
                 >
                   View
                 </Link>
@@ -78,6 +83,11 @@ const AcademicAudit = () => {
                 <Link
                   className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white"
                   to="/NAAC/academicAudit/qualityAssuranceInitiatives"
+                  onClick={() => {
+                    alert(
+                      "Scroll to the bottom of the page to view the document!"
+                    );
+                  }}
                 >
                   View
                 </Link>
@@ -94,6 +104,11 @@ const AcademicAudit = () => {
                 <Link
                   className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white"
                   to="/NAAC/academicAudit/academicAuditReport"
+                  onClick={() => {
+                    alert(
+                      "Scroll to the bottom of the page to view the document!"
+                    );
+                  }}
                 >
                   View
                 </Link>
@@ -110,6 +125,11 @@ const AcademicAudit = () => {
                 <Link
                   className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white"
                   to="/NAAC/academicAudit/internalExternalAuditReport"
+                  onClick={() => {
+                    alert(
+                      "Scroll to the bottom of the page to view the document!"
+                    );
+                  }}
                 >
                   View
                 </Link>
@@ -126,6 +146,11 @@ const AcademicAudit = () => {
                 <Link
                   className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white"
                   to="/NAAC/academicAudit/reservationPolicy"
+                  onClick={() => {
+                    alert(
+                      "Scroll to the bottom of the page to view the document!"
+                    );
+                  }}
                 >
                   View
                 </Link>
@@ -145,6 +170,11 @@ const AcademicAudit = () => {
                 <Link
                   className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white"
                   to="/NAAC/academicAudit/PDPMA"
+                  onClick={() => {
+                    alert(
+                      "Scroll to the bottom of the page to view the document!"
+                    );
+                  }}
                 >
                   View
                 </Link>
@@ -161,6 +191,11 @@ const AcademicAudit = () => {
                 <Link
                   className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white"
                   to="/NAAC/academicAudit/recruitmentPolicy"
+                  onClick={() => {
+                    alert(
+                      "Scroll to the bottom of the page to view the document!"
+                    );
+                  }}
                 >
                   View
                 </Link>
@@ -177,6 +212,11 @@ const AcademicAudit = () => {
                 <Link
                   className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white"
                   to="/NAAC/academicAudit/institutionalDistinctiveness"
+                  onClick={() => {
+                    alert(
+                      "Scroll to the bottom of the page to view the document!"
+                    );
+                  }}
                 >
                   View
                 </Link>
@@ -193,6 +233,11 @@ const AcademicAudit = () => {
                 <Link
                   className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white"
                   to="/NAAC/academicAudit/Organogram"
+                  onClick={() => {
+                    alert(
+                      "Scroll to the bottom of the page to view the document!"
+                    );
+                  }}
                 >
                   View
                 </Link>

@@ -11,7 +11,7 @@ const greenCampusPolicyCertificate =
 const Eco = () => {
   return (
     <>
-      <div className="flex items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
         <p>Eco Club</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10">
@@ -104,19 +104,31 @@ const Eco = () => {
         <p>Green Audit</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10">
-        <div className="w-full desk:w-1/2">
-          <img src={greenAuditCertificate} className="w-full " />
+        <div className="w-full desk:w-1/2 dark:text-white">
+          <img
+            src={greenAuditCertificate}
+            alt="Green Audit Certificate"
+            className="w-full "
+          />
         </div>
       </div>
       <div className="flex flex-col items-center justify-center p-8 text-3xl font-normal text-white desk:text-6xl gradientBar font-inter">
         <p className="pb-8 ">Green Campus Policy</p>
-        <div className="w-full desk:w-1/2">
-          <img src={greenCampusPolicy} className="w-full " />
+        <div className="w-full text-sm desk:w-1/2 dark:text-white">
+          <img
+            src={greenCampusPolicy}
+            alt="green campus policy image"
+            className="w-full "
+          />
         </div>
       </div>
       <div className="flex justify-center p-5 bg-white desk:p-10">
-        <div className="w-full desk:w-1/2">
-          <img src={greenCampusPolicyCertificate} className="w-full " />
+        <div className="w-full text-sm desk:w-1/2 ">
+          <img
+            src={greenCampusPolicyCertificate}
+            alt="green campus policy certificate"
+            className="w-full "
+          />
         </div>
       </div>
     </>

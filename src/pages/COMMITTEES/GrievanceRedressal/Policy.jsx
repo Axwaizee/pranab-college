@@ -4,10 +4,18 @@ import { Link } from "react-router-dom";
 const Policy = () => {
   return (
     <>
-      <div className="flex items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
         <p>Policy of Grievance Redressal Committee</p>
       </div>
-      <div className="flex justify-center p-5 desk:p-10">
+      <div className="flex justify-center p-1 pt-7 ">
+        <Link
+          className="desk:w-[160px] w-[100px] py-3 text-center text-black transition-all duration-300 border border-black rounded-xl dark:text-white hover:dark:text-black hover:text-white dark:hover:bg-white hover:bg-black dark:border-white "
+          to="/committees/grievanceRedressal/"
+        >
+          Go back
+        </Link>
+      </div>
+      <div className="flex justify-center p-5 desk:p-10 desk:pt-5">
         <div className="w-full desk:w-1/2 dark:text-white">
           <div>
             <p className="pb-3 text-justify">
@@ -197,14 +205,6 @@ const Policy = () => {
             </p>
           </div>
         </div>
-      </div>
-      <div className="flex justify-center p-1 ">
-        <Link
-          className="desk:w-[160px] w-[100px] py-3 text-center text-black transition-all duration-300 border border-black rounded-xl dark:text-white hover:dark:text-black hover:text-white dark:hover:bg-white hover:bg-black dark:border-white "
-          to="/committees/grievanceRedressal/"
-        >
-          Go back
-        </Link>
       </div>
     </>
   );

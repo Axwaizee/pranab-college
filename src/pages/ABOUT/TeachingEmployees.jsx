@@ -16,7 +16,7 @@ import {
 const TeachingEmployees = () => {
   return (
     <>
-      <div className="flex items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex  text-center items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
         <p>Teaching Employees</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10">

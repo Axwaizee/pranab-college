@@ -5,7 +5,9 @@ const Journal = () => {
     <>
       <div className="flex items-center flex-col justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
         <p className="text-center ">Pranab College Journal (PCJ)</p>
-        <p className="pt-2 text-xl desk:text-4xl">(ISSN -2394-2851)</p>
+        <p className="pt-2 text-xl text-center desk:text-4xl">
+          (ISSN -2394-2851)
+        </p>
       </div>
       <div className="flex items-center justify-center">
         <div className="w-full p-5 desk:p-10 desk:w-1/2 dark:text-white">

@@ -3,7 +3,7 @@ import React from "react";
 
 const aqar = () => {
   return (
-    <div className="flex justify-center w-full gap-5 pb-12">
+    <div className="flex flex-col items-center justify-center w-full gap-5 pb-12 desk:flex-row">
       <div className=" h-14 w-44">
         <button
           className="w-full h-full bg-[#BB86FC] rounded-full "
@@ -76,10 +76,10 @@ const aqar = () => {
 const NaacStatus = () => {
   return (
     <>
-      <div className="flex items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex  text-center items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
         <p>NAAC Status</p>
       </div>
-      <div className=" h-[200px] min-[200px]:max-[1180px]:h-[500px] w-full flex items-center justify-center">
+      <div className=" desk:h-[200px] h-[300px] w-full flex items-center justify-center">
         <div className="flex flex-row min-[200px]:max-[1180px]:flex-col gap-8">
           <div className="rounded-full h-14 w-44 group border-[1px] border-white relative flex items-center justify-center overflow-hidden">
             <div className="absolute w-0 h-0 transition-all duration-300 ease-in-out bg-[#008ef3] rounded-full group-hover:w-48 group-hover:h-48 "></div>

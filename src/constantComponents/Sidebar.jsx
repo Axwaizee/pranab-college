@@ -3,7 +3,7 @@ import { gsap } from "gsap";
 import { Library } from "lucide-react";
 import { Link } from "react-router-dom";
 
-function Sidebar() {
+function Sidebar({ onLinkClick }) {
   const boxRef = useRef(null);
   const [currentNav, setCurrentNav] = useState(null);
 
@@ -120,7 +120,7 @@ function Sidebar() {
       return "/resources/results";
     }
     if (option === "Syllabus") {
-      return "/library/syllabus";
+      return "https://nagalanduniversity.ac.in/English/node/69";
     }
     if (option === "Question Bank") {
       return "/library/questionBank";
@@ -329,9 +329,15 @@ function Sidebar() {
                 className="z-50 p-4 font-medium text-black rounded-md dark:text-white text-md"
               >
                 {navItems[currentNav].map((option, index) => (
-                  <div key={index} className="z-50 p-2 pl-5 rounded-md ">
-                    <Link to={routedOption(option)}>{option}</Link>
-                  </div>
+                  <Link to={routedOption(option)}>
+                    <div
+                      key={index}
+                      className="z-50 p-2 pl-5 rounded-md "
+                      onClick={onLinkClick}
+                    >
+                      {option}
+                    </div>
+                  </Link>
                 ))}
               </div>
             )}

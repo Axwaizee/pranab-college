@@ -9,6 +9,7 @@ import CoursesOffered from "./CoursesOffered";
 import CodeofConduct from "./CodeofConduct";
 
 import { Route, Routes } from "react-router-dom";
+import Error404 from "../Error404";
 
 const HomeRoutes = () => {
   return (
@@ -21,6 +22,7 @@ const HomeRoutes = () => {
       <Route path="association" element={<Association />} />
       <Route path="coursesOffered" element={<CoursesOffered />} />
       <Route path="codeOfConduct" element={<CodeofConduct />} />
+      <Route path="*" element={<Error404 />} />
     </Routes>
   );
 };

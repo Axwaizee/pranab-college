@@ -1,5 +1,7 @@
 // import "./footer.css";
 
+import { Link } from "react-router-dom";
+
 //min-[200px]:max-[1180px]:
 
 function Footer() {
@@ -78,9 +80,12 @@ function Footer() {
                 ></a>
                 NU
               </p>
-              <p className="font-inter text-base desk:text-lg font-normal leading-[30px]">
-                About us
-              </p>
+              <Link
+                className="font-inter text-base desk:text-lg font-normal leading-[30px]"
+                to="/about/aboutUs"
+              >
+                <p>About us</p>
+              </Link>
             </div>
             <div className=" min-[200px]:max-[1180px]:order-3 min-[200px]:max-[1180px]:col-span-2 desk:mt-[28px] desk:grow-[1]">
               <p className="font-inter text-base desk:text-lg font-normal leading-[30px]">
@@ -89,23 +94,38 @@ function Footer() {
               <p className="font-inter text-base desk:text-lg font-normal leading-[30px]">
                 Nagaland State Scholarship
               </p>
-              <p className="font-inter text-base desk:text-lg font-normal leading-[30px]">
-                Question bank
-              </p>
-              <p className="font-inter text-base desk:text-lg font-normal leading-[30px]">
-                Holiday list
-              </p>
+              <Link
+                to="/library/questionBank"
+                className="font-inter text-base desk:text-lg font-normal leading-[30px]"
+              >
+                <p>Question bank</p>
+              </Link>
+              <Link
+                to="/calender/holidayList"
+                className="font-inter text-base desk:text-lg font-normal leading-[30px]"
+              >
+                <p>Holiday list</p>
+              </Link>
             </div>
             <div className="min-[200px]:max-[1180px]:order-1 desk:mt-[28px] desk:grow-[1]">
-              <p className="font-inter text-base desk:text-lg font-normal leading-[30px]">
-                Enrol for bus service
-              </p>
-              <p className="font-inter text-base desk:text-lg font-normal leading-[30px]">
-                Bus route
-              </p>
-              <p className="font-inter text-base desk:text-lg  font-normal leading-[30px]">
-                Pay your bus fees
-              </p>
+              <Link
+                to="/studentServices/busService"
+                className="font-inter text-base desk:text-lg font-normal leading-[30px]"
+              >
+                <p>Enrol for bus service</p>
+              </Link>
+              <Link
+                to="/studentServices/busService"
+                className="font-inter text-base desk:text-lg font-normal leading-[30px]"
+              >
+                <p>Bus route</p>
+              </Link>
+              <Link
+                to="/studentServices/busService"
+                className="font-inter text-base desk:text-lg  font-normal leading-[30px]"
+              >
+                <p>Pay your bus fees</p>
+              </Link>
             </div>
           </div>
           <div className="relative w-full h-[138px] min-[200px]:max-[1180px]:hidden">

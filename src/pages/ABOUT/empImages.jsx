@@ -79,8 +79,8 @@ export const english = () => {
       <div className="p-3 text-2xl text-center uppercase dark:text-white">
         Department of English
       </div>
-      <div className="flex flex-col gap-5 p-2 pl-10 dark:text-white">
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+      <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={sanjukta}
@@ -95,7 +95,7 @@ export const english = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={meyisangla}
@@ -110,7 +110,7 @@ export const english = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={rupa}
@@ -125,7 +125,7 @@ export const english = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={anju}
@@ -151,8 +151,8 @@ export const education = () => {
       <div className="p-3 text-2xl text-center uppercase dark:text-white">
         Department of Education
       </div>
-      <div className="flex flex-col gap-5 p-2 pl-10 dark:text-white">
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+      <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={nayan}
@@ -167,7 +167,7 @@ export const education = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={gracia}
@@ -182,7 +182,7 @@ export const education = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={rina}
@@ -197,7 +197,7 @@ export const education = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={ulla}
@@ -223,8 +223,8 @@ export const economics = () => {
       <div className="p-3 text-2xl text-center uppercase dark:text-white">
         Department of Economics
       </div>
-      <div className="flex flex-col gap-5 p-2 pl-10 dark:text-white">
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+      <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={dhruba}
@@ -239,7 +239,7 @@ export const economics = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={tekamongla}
@@ -264,8 +264,8 @@ export const evs = () => {
       <div className="p-3 text-2xl text-center uppercase dark:text-white">
         Department of Environmental Studies
       </div>
-      <div className="flex flex-col gap-5 p-2 pl-10 dark:text-white">
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+      <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={purnima}
@@ -290,8 +290,8 @@ export const mil = () => {
       <div className="p-3 text-2xl text-center uppercase dark:text-white">
         Department of MIL
       </div>
-      <div className="flex flex-col gap-5 p-2 pl-10 dark:text-white">
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+      <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={pramila}
@@ -306,7 +306,7 @@ export const mil = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={atmaram}
@@ -331,8 +331,8 @@ export const sociology = () => {
       <div className="p-3 text-2xl text-center uppercase dark:text-white">
         Department of Sociology
       </div>
-      <div className="flex flex-col gap-5 p-2 pl-10 dark:text-white">
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+      <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={majakhon}
@@ -347,7 +347,7 @@ export const sociology = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={tongpok}
@@ -362,7 +362,7 @@ export const sociology = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={olivia}
@@ -377,7 +377,7 @@ export const sociology = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={alomi}
@@ -392,7 +392,7 @@ export const sociology = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={seiboy}
@@ -417,8 +417,8 @@ export const commerce = () => {
       <div className="p-3 text-2xl text-center uppercase dark:text-white">
         Department of Commerce
       </div>
-      <div className="flex flex-col gap-5 p-2 pl-10 dark:text-white">
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+      <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={suraj}
@@ -433,7 +433,7 @@ export const commerce = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={rupam}
@@ -448,7 +448,7 @@ export const commerce = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={moa}
@@ -463,7 +463,7 @@ export const commerce = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={bendang}
@@ -488,8 +488,8 @@ export const polSci = () => {
       <div className="p-3 text-2xl text-center uppercase dark:text-white">
         Department of Political Science
       </div>
-      <div className="flex flex-col gap-5 p-2 pl-10 dark:text-white">
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+      <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={anil}
@@ -504,7 +504,7 @@ export const polSci = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={saurav}
@@ -519,7 +519,7 @@ export const polSci = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={mhono}
@@ -544,8 +544,8 @@ export const history = () => {
       <div className="p-3 text-2xl text-center uppercase dark:text-white">
         Department of History
       </div>
-      <div className="flex flex-col gap-5 p-2 pl-10 dark:text-white">
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+      <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={tainla}
@@ -560,7 +560,7 @@ export const history = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={imtijungla}
@@ -575,7 +575,7 @@ export const history = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={imkongakum}
@@ -600,8 +600,8 @@ export const office = () => {
       <div className="p-3 text-2xl text-center uppercase dark:text-white">
         Office Staff
       </div>
-      <div className="flex flex-col gap-5 p-2 pl-10 dark:text-white">
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+      <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={moloy}
@@ -614,7 +614,7 @@ export const office = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={ratan}
@@ -627,7 +627,7 @@ export const office = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={suvankar}
@@ -640,7 +640,7 @@ export const office = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={sujit}
@@ -653,7 +653,7 @@ export const office = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={shantanu}
@@ -666,7 +666,7 @@ export const office = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={sudiptam}
@@ -679,7 +679,7 @@ export const office = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={swapan}
@@ -702,8 +702,8 @@ export const library = () => {
       <div className="p-3 text-2xl text-center uppercase dark:text-white">
         Library Staff
       </div>
-      <div className="flex flex-col gap-5 p-2 pl-10 dark:text-white">
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+      <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={pintu}
@@ -717,7 +717,7 @@ export const library = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={parimal}
@@ -741,8 +741,8 @@ export const gradeIV = () => {
       <div className="p-3 text-2xl text-center uppercase dark:text-white">
         Grade IV Staff
       </div>
-      <div className="flex flex-col gap-5 p-2 pl-10 dark:text-white">
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+      <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={bahadur}
@@ -755,7 +755,7 @@ export const gradeIV = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={chabi}
@@ -768,7 +768,7 @@ export const gradeIV = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={dambar}
@@ -781,7 +781,7 @@ export const gradeIV = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={nitya}
@@ -794,7 +794,7 @@ export const gradeIV = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={nirmal}
@@ -807,7 +807,7 @@ export const gradeIV = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={dilmaya}
@@ -820,7 +820,7 @@ export const gradeIV = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={romita}
@@ -833,7 +833,7 @@ export const gradeIV = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={aparna}
@@ -846,7 +846,7 @@ export const gradeIV = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={dhansingh}
@@ -859,7 +859,7 @@ export const gradeIV = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={rajesh}
@@ -872,7 +872,7 @@ export const gradeIV = () => {
             </p>
           </div>
         </div>
-        <div className="flex min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={rajiv}

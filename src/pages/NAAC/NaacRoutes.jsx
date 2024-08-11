@@ -9,6 +9,7 @@ import NaacStatus from "./NaacStatus";
 import StudentSatisfactionSurvey from "./StudentSatisfactionSurvey";
 
 import { Route, Routes } from "react-router-dom";
+import Error404 from "../Error404";
 
 const NaacRoutes = () => {
   return (
@@ -24,6 +25,7 @@ const NaacRoutes = () => {
         path="StudentSatisfactionSurvey"
         element={<StudentSatisfactionSurvey />}
       />
+      <Route path="*" element={<Error404 />} />
     </Routes>
   );
 };

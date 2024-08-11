@@ -12,6 +12,7 @@ const bssLogo = "/assets/elements/logo/BSS_logo.png";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
   const [isVisible, setIsVisible] = useState(false);
+
   const handleToggle = () => {
     setIsVisible(!isVisible);
     setIsOpen(!isOpen);
@@ -109,7 +110,7 @@ export default function Header() {
         </div>
         {/*calling nav element for desktop, its hidden for mobile  */}
         <div className="desk:hidden min-[200px]:max-[1180px]:z-50" ref={boxRef}>
-          {isVisible && <Sidebar />}
+          {isVisible && <Sidebar onLinkClick={handleToggle} />}
         </div>
       </div>
       <Nav />

@@ -5,6 +5,7 @@ import Magazines from "./Magazines";
 import Journal from "./Journal";
 import Prospectus from "./Prospectus";
 import Results from "./Results";
+import Error404 from "../Error404";
 
 const ResourcesRoutes = () => {
   return (
@@ -14,6 +15,7 @@ const ResourcesRoutes = () => {
       <Route path="journal/*" element={<Journal />} />
       <Route path="prospectus/*" element={<Prospectus />} />
       <Route path="results/*" element={<Results />} />
+      <Route path="*" element={<Error404 />} />
     </Routes>
   );
 };
