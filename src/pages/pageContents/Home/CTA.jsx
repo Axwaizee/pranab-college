@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const CTA = () => {
   return (
@@ -19,12 +20,19 @@ const CTA = () => {
             </p>
           </div>
           <div className="flex justify-between desk:w-[450px] min-[200px]:max-[1180px]:flex-col gap-2">
-            <button className="rounded-full px-6 py-[15px] bg-[#048AF9] hover:bg-[#0376d1] font-inter font-medium desk:max-[1919px]:text-lg desk:text-xl text-white">
+            <Link
+              to="/onlineAdmissions/newAdmissions"
+              className="rounded-full px-6 py-[15px] bg-[#048AF9] hover:bg-[#0376d1] font-inter font-medium desk:max-[1919px]:text-lg desk:text-xl text-white"
+            >
               Apply now
-            </button>
-            <button className="rounded-full px-6 py-[15px] font-inter font-medium desk:max-[1919px]:text-lg desk:text-xl dark:text-white hover:text-white hover:bg-[#048af9] border-[1px] border-[#048af9] transition ease-in-out duration-300">
+            </Link>
+            <a
+              href="https://drive.google.com/file/d/1VwsUtfJte4LConYwox2SE03X-ij-w-HM/view?usp=sharing"
+              target="_blank"
+              className="rounded-full px-6 py-[15px] font-inter font-medium desk:max-[1919px]:text-lg desk:text-xl dark:text-white hover:text-white hover:bg-[#048af9] border-[1px] border-[#048af9] transition ease-in-out duration-300"
+            >
               Download Prospectus
-            </button>
+            </a>
           </div>
         </div>
       </div>

@@ -564,6 +564,12 @@ function Nav() {
     );
   };
 
+  const ifHome = (item) => {
+    if (item === "Home") {
+      return "/";
+    }
+  };
+
   return (
     <>
       <div className="min-[200px]:max-[1180px]:hidden desk:block  desk:pt-1.5 bg-sate-400 desk:sticky top-0 z-[9999]">
@@ -571,17 +577,19 @@ function Nav() {
           <div className="absolute overflow-hidden dark:bg-[#4948481a] bg-[#ffffff1a] bg-opacity-50 backdrop-blur-md rounded-[25px] border-[1px] border-[#666666] ">
             <div className="navStill flex gap-[10px] px-[23px] text-base dark:text-white cursor-pointer border-b-[0.5px] border-[#666666]">
               {Object.keys(navItems).map((nav) => (
-                <div
-                  key={nav}
-                  id={nav}
-                  onMouseEnter={() => {
-                    handleMouseOver(nav);
-                  }}
-                  onMouseOut={handleMouseOut}
-                  className="item h-[50px] px-[13px] flex justify-center items-center font-inter object-contain hover:font-bold  "
-                >
-                  {nav.replace(/_/g, " ")}
-                </div>
+                <Link to={ifHome(nav)}>
+                  <div
+                    key={nav}
+                    id={nav}
+                    onMouseEnter={() => {
+                      handleMouseOver(nav);
+                    }}
+                    onMouseOut={handleMouseOut}
+                    className="item h-[50px] px-[13px] flex justify-center items-center font-inter object-contain hover:font-bold  "
+                  >
+                    {nav.replace(/_/g, " ")}
+                  </div>
+                </Link>
               ))}
             </div>
             <div

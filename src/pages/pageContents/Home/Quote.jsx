@@ -27,15 +27,15 @@ const Quote = () => {
             </div>
           </div>
           <div>
-            <p className=" font-poppins font-normal text-4xl dark:text-white">
+            <p className="text-4xl font-normal font-poppins dark:text-white">
               5
             </p>
           </div>
-          <div className=" text-center">
-            <p className="font-poppins font-normal text-base  dark:text-white">
+          <div className="text-center ">
+            <p className="text-base font-normal font-poppins dark:text-white">
               Research Journal
             </p>
-            <p className="font-poppins font-normal text-sm dark:text-white">
+            <p className="text-sm font-normal font-poppins dark:text-white">
               Published
             </p>
           </div>
@@ -56,12 +56,12 @@ const Quote = () => {
             </div>
           </div>
           <div>
-            <p className=" font-poppins font-normal text-3xl dark:text-white">
+            <p className="text-3xl font-normal font-poppins dark:text-white">
               2000+
             </p>
           </div>
-          <div className=" text-center">
-            <p className="font-poppins font-normal text-sm dark:text-white">
+          <div className="text-center ">
+            <p className="text-sm font-normal font-poppins dark:text-white">
               Alumni
             </p>
           </div>
@@ -82,12 +82,12 @@ const Quote = () => {
             </div>
           </div>
           <div>
-            <p className=" font-poppins font-normal text-3xl dark:text-white">
+            <p className="text-3xl font-normal font-poppins dark:text-white">
               96%{" "}
             </p>
           </div>
-          <div className=" text-center">
-            <p className="font-poppins font-normal text-sm dark:text-white">
+          <div className="text-center ">
+            <p className="text-sm font-normal font-poppins dark:text-white">
               Academic Results
             </p>
           </div>
@@ -108,23 +108,23 @@ const Quote = () => {
             </div>
           </div>
           <div>
-            <p className=" font-poppins font-normal text-3xl dark:text-white">
+            <p className="text-3xl font-normal font-poppins dark:text-white">
               1500+
             </p>
           </div>
-          <div className=" text-center">
-            <p className="font-poppins font-normal text-sm dark:text-white">
+          <div className="text-center ">
+            <p className="text-sm font-normal font-poppins dark:text-white">
               Students Placed
             </p>
           </div>
         </div>
       </div>
-      <div className="">
-        <div className="desk:w-[1190px]">
-          <h1 className="dark:text-white text-black font-normal font-inter desk:text-[80px] text-[40px]">
+      <div>
+        <div className="desk:w-[1190px] flex justify-center">
+          <p className="dark:text-white desk:leading-[1em] leading-[1.5em] text-black font-normal font-inter desk:text-[80px]  text-[40px]">
             <span>Shaping</span> the minds of tomorrow for{" "}
             <span id="history">over 30 years.</span>
-          </h1>
+          </p>
         </div>
       </div>
     </div>
