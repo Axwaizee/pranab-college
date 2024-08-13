@@ -4,7 +4,7 @@ import "./styles/headBackground.css";
 const SSR = () => {
   return (
     <>
-      <div className="flex  text-center items-center justify-center p-8 text-6xl min-[200px]:max-[1180px]:text-3xl font-normal text-white gradientBar font-inter">
+      <div className="flex  text-center items-center justify-center p-8 text-5xl min-[200px]:max-[1180px]:text-3xl font-normal text-white bg-[#003eb9] font-inter">
         <p>SELF STUDY REPORT</p>
       </div>
       <div className="flex items-center justify-center gap-10 p-10 min-[200px]:max-[1180px]:flex-col">

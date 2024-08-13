@@ -3,14 +3,14 @@ import React from "react";
 const Journal = () => {
   return (
     <>
-      <div className="flex items-center flex-col justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex items-center flex-col justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
         <p className="text-center ">Pranab College Journal (PCJ)</p>
         <p className="pt-2 text-xl text-center desk:text-4xl">
           (ISSN -2394-2851)
         </p>
       </div>
       <div className="flex items-center justify-center">
-        <div className="w-full p-5 desk:p-10 desk:w-1/2 dark:text-white">
+        <div className="w-full p-5 desk:p-10 desk:w-3/4 dark:text-white">
           <p>
             The Pranabananda Women’s College Journal (PWCJ) Journal is an annual
             multi-disciplinary research journal on social sciences and commerce,
@@ -280,7 +280,7 @@ const Journal = () => {
           </div>
           <div className="flex justify-center py-5">
             <iframe
-              className=" w-full h-[600px] desk:h-[1000px]"
+              className=" w-full desk:w-2/3 h-[600px] desk:h-[1000px]"
               src="https://drive.google.com/file/d/1-VgHFi866C5IPruR6bWkXzFVpkD_x9FB/preview"
               type="application/pdf"
             />

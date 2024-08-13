@@ -5,11 +5,11 @@ import "./styles/headBackground.css";
 const MissionVision = () => {
   return (
     <>
-      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
-        <p>Vision & Mission of the College</p>
+      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
+        <p>Vision & Mission</p>
       </div>
       <div className="flex justify-center ">
-        <div className=" desk:w-1/2 min-[200px]:max-[1180px]:w-full dark:text-white">
+        <div className=" desk:w-3/4 min-[200px]:max-[1180px]:w-full dark:text-white">
           <ol className="p-10 text-lg listStyle ">
             <li className="pb-1 pl-2">
               To impart inclusive, equitable and holistic education for the

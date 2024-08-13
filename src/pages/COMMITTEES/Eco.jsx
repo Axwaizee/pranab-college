@@ -11,11 +11,11 @@ const greenCampusPolicyCertificate =
 const Eco = () => {
   return (
     <>
-      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex  text-center items-center justify-center p-8 min-[200px]:max-[1180px]:text-center min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
         <p>Eco Club</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10">
-        <div className="w-full desk:w-1/2">
+        <div className="w-full desk:w-3/4">
           <div className="text-justify dark:text-white">
             <p>
               <b>Objectives</b>
@@ -100,7 +100,7 @@ const Eco = () => {
           </div>
         </div>
       </div>
-      <div className="flex items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
         <p>Green Audit</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10">
@@ -112,7 +112,7 @@ const Eco = () => {
           />
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center p-8 text-3xl font-normal text-white desk:text-6xl gradientBar font-inter">
+      <div className="flex flex-col items-center justify-center p-8 text-3xl font-normal text-white desk:text-5xl bg-[#003eb9] font-inter">
         <p className="pb-8 ">Green Campus Policy</p>
         <div className="w-full text-sm desk:w-1/2 dark:text-white">
           <img

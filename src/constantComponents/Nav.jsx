@@ -7,118 +7,6 @@ function Nav() {
   const boxRef = useRef(null);
   const [currentNav, setCurrentNav] = useState(null);
 
-  // const navItems = {
-  //   Home: [
-  //     { name: "Mission & Vision", link: "missionVision" },
-  //     { name: "Principal's Desk", link: "principalsDesk" },
-  //     { name: "Governing Body", link: "governingBody" },
-  //     { name: "Administration", link: "administration" },
-  //     { name: "Procedure and Policies", link: "procedureNpolicies" },
-  //     { name: "Association", link: "association" },
-  //     { name: "Courses Offered", link: "coursesOffered" },
-  //     { name: "Code of Conduct", link: "codeOfConduct" },
-  //   ],
-  //   About: [
-  //     { name: "About us", link: "aboutUs" },
-  //     { name: "Teaching Employees", link: "teachingEmployees" },
-  //     { name: "Non-teaching Employees", link: "nonTeachingEmployees" },
-  //     { name: "Contact", link: "contact" },
-  //   ],
-  //   Online_Admissions: [
-  //     {
-  //       name: "New Admissions to 1st Semester (under construction)",
-  //       link: "newAdmissions",
-  //     },
-  //     {
-  //       name: "Fee Payment for New Students (under construction)",
-  //       link: "underConstruction",
-  //     },
-  //     {
-  //       name: "Fee Payment for Current Students (under construction)",
-  //       link: "underConstruction",
-  //     },
-  //     {
-  //       name: "Fee Payment for Bus Students (under construction)",
-  //       link: "underConstruction",
-  //     },
-  //     {
-  //       name: "View Application Status (under construction)",
-  //       link: "underConstruction",
-  //     },
-  //     { name: "Admission Procedure", link: "admissionProcedure" },
-  //     { name: "Fee Structure", link: "feeStructure" },
-  //   ],
-  //   Student_Services: [
-  //     { name: "Pranab College Students Union (PCSU)", link: "PCSU" },
-  //     { name: "Scholarship & Freeship ", link: "scholarshipFreeship" },
-  //     { name: "Bus Service", link: "busService" },
-  //     { name: "Grievance Forum", link: "grievanceForm" },
-  //   ],
-  //   NAAC: [
-  //     { name: "SSR", link: "SSR" },
-  //     { name: "IQAC Meeting and ATR", link: "iqacAtr" },
-  //     {
-  //       name: "Student Satisfaction Survey",
-  //       link: "StudentSatisfactionSurvey",
-  //     },
-  //     { name: "Course Outcomes", link: "courseOutcomes" },
-  //     { name: "NAAC Status", link: "naacStatus" },
-  //     { name: "Feedback", link: "feedback" },
-  //     { name: "Best Practices", link: "bestPractices" },
-  //     { name: "Academic Audit", link: "academicAudit" },
-  //   ],
-  //   Calender: [
-  //     { name: "Academic Calender", link: "academicCalender" },
-  //     { name: "Holiday List", link: "holidayList" },
-  //   ],
-  //   Resources: [
-  //     { name: "Academic Record", link: "academicRecord" },
-  //     { name: "Magazines", link: "magazines" },
-  //     { name: "Journal", link: "journal" },
-  //     { name: "Prospectus", link: "prospectus" },
-  //     { name: "Results", link: "results" },
-  //   ],
-  //   Library: [
-  //     { name: "Syllabus", link: "syllabus" },
-  //     { name: "Question Bank", link: "questionBank" },
-  //     { name: "ILMS", link: "ILMS" },
-  //   ],
-  //   Committees: [
-  //     { name: "List of Committees and its Members", link: "list" },
-  //     { name: "NSS", link: "NSS" },
-  //     { name: "Anti-Ragging Committee", link: "antiRagging" },
-  //     {
-  //       name: "Career Guidance and Placement Cell",
-  //       link: "careerGuidancePlacement",
-  //     },
-  //     {
-  //       name: "Anti-Sexual Harassment Committee",
-  //       link: "antiSexualHarassment",
-  //     },
-  //     { name: "Sports Committee", link: "sports" },
-  //     { name: "Eco Club", link: "eco" },
-  //     { name: "Library Advisory Committee", link: "libraryAdvisory" },
-  //     { name: "Red Ribbon Club", link: "redRibbon" },
-  //     { name: "Women Empowerment Cell", link: "womenEmpowerment" },
-  //     { name: "Admission Committee", link: "admission" },
-  //     { name: "Examination Committee", link: "examination" },
-  //     { name: "Research Committee", link: "research" },
-  //     { name: "Cultural Committee", link: "cultural" },
-  //     { name: "Alumni Association", link: "alumniAssociation" },
-  //     { name: "Grievance Redressal Committee", link: "grievanceRedressal" },
-  //   ],
-  //   Gallery: [
-  //     { name: "Sports", link: "sports" },
-  //     { name: "Classroom & Computer Laboratory", link: "classroom" },
-  //     { name: "Health Seminar", link: "healthSeminar" },
-  //     { name: "Cultural Day", link: "cuturalDay" },
-  //     { name: "NSS & RRC", link: "NSSandRRC" },
-  //     { name: "Study Tours", link: "studyTours" },
-  //     { name: "Charity Drive", link: "charityDrive" },
-  //     { name: "Cleanliness Drive", link: "cleanlinessDrive" },
-  //   ],
-  // };
-
   const routedOption = (option) => {
     if (option === "Mission & Vision") {
       return "/home/missionVision";
@@ -147,10 +35,10 @@ function Nav() {
     if (option === "About us") {
       return "/about/aboutUs";
     }
-    if (option === "Teaching Employees") {
+    if (option === "Teaching Faculty") {
       return "/about/teachingEmployees";
     }
-    if (option === "Non-teaching Employees") {
+    if (option === "Non-teaching Staff") {
       return "/about/nonTeachingEmployees";
     }
     if (option === "Contact") {
@@ -288,6 +176,30 @@ function Nav() {
     if (option === "Grievance Redressal Committee") {
       return "/committees/grievanceRedressal";
     }
+    if (option === "Cyber Cell") {
+      return "/committees/cyber";
+    }
+    if (option === "Entrepreneurship Cell") {
+      return "/committees/entrepreneurship";
+    }
+    if (option === "Innovation and Development Cell") {
+      return "/committees/innovationDevelopement";
+    }
+    if (option === "Literary Club") {
+      return "/committees/literary";
+    }
+    if (option === "Magazine Committee") {
+      return "/committees/magazine";
+    }
+    if (option === "Mentor - Mentee Cell") {
+      return "/committees/mentorMentee";
+    }
+    if (option === "Parents - Teachers Association") {
+      return "/committees/parentsTeachers";
+    }
+    if (option === "Publicity and Media Cell") {
+      return "/committees/publicityMedia";
+    }
     if (option === "Sports") {
       return "/gallery/sports";
     }
@@ -325,12 +237,7 @@ function Nav() {
       "Courses Offered",
       "Code of Conduct",
     ],
-    About: [
-      "About us",
-      "Teaching Employees",
-      "Non-teaching Employees",
-      "Contact",
-    ],
+    About: ["About us", "Teaching Faculty", "Non-teaching Staff", "Contact"],
     Online_Admissions: [
       "New Admissions to 1st Semester (under construction)",
       "Fee Payment for New Students (under construction)",
@@ -370,6 +277,13 @@ function Nav() {
       "Anti-Ragging Committee",
       "Career Guidance and Placement Cell",
       "Anti-Sexual Harassment Committee",
+      "Innovation and Development Cell",
+      "Cyber Cell",
+      "Publicity and Media Cell",
+      "Entrepreneurship Cell ",
+      "Magazine Committee",
+      "Literary Club",
+      "Mentor - Mentee Cell",
       "Sports Committee",
       "Eco Club",
       "Library Advisory Committee",
@@ -380,6 +294,7 @@ function Nav() {
       "Research Committee",
       "Cultural Committee",
       "Alumni Association",
+      "Parents - Teachers Association",
       "Grievance Redressal Committee",
     ],
     Gallery: [
@@ -424,6 +339,231 @@ function Nav() {
     });
   };
 
+  const CommitteesRender = () => {
+    return (
+      <table className="z-50 w-full dark:text-white ml-9">
+        <tbody>
+          <tr>
+            <td>
+              <Link to={routedOption("List of Committees and its Members")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  List of Committees and its Members
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("NSS")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  NSS
+                </div>
+              </Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("Anti-Ragging Committee")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Anti-Ragging Committee
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("Career Guidance and Placement Cell")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Career Guidance and Placement Cell
+                </div>
+              </Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("Anti-Sexual Harassment Committee")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Anti-Sexual Harassment Committee
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("Innovation and Development Cell")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Innovation and Development Cell
+                </div>
+              </Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("Cyber Cell")}>
+                {" "}
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Cyber Cell
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("Publicity and Media Cell")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Publicity and Media Cell
+                </div>
+              </Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("Entrepreneurship Cell")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Entrepreneurship Cell
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("Magazine Committee")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Magazine Committee
+                </div>
+              </Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("Literary Club")}>
+                {" "}
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Literary Club
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("Mentor - Mentee Cell")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Mentor - Mentee Cell
+                </div>
+              </Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("Sports Committee")}>
+                {" "}
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Sports Committee
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("Eco Club")}>
+                {" "}
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Eco Club
+                </div>
+              </Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("Library Advisory Committee")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Library Advisory Committee
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("Red Ribbon Club")}>
+                {" "}
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Red Ribbon Club
+                </div>
+              </Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("Women Empowerment Cell")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Women Empowerment Cell
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("Admission Committee")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Admission Committee
+                </div>
+              </Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("Examination Committee")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Examination Committee
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("Research Committee")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Research Committee
+                </div>
+              </Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("Cultural Committee")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Cultural Committee
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("Alumni Association")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Alumni Association
+                </div>
+              </Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("Parents - Teachers Association")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Parents - Teachers Association
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("Grievance Redressal Committee")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Grievance Redressal Committee
+                </div>
+              </Link>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    );
+  };
+  const NavLinks = () => {
+    return (
+      <div>
+        {currentNav &&
+          navItems[currentNav] &&
+          navItems[currentNav].map((option) => (
+            // for loop display only 12 items
+            <Link to={routedOption(option)} className="">
+              <div
+                key={option}
+                className=" z-50 pl-9 h-[40px] w-full font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out"
+              >
+                {option}
+              </div>
+            </Link>
+          ))}
+      </div>
+    );
+  };
+
   return (
     <>
       <div className="min-[200px]:max-[1180px]:hidden desk:block  desk:pt-1.5 bg-sate-400 desk:sticky top-0 z-[9999]">
@@ -451,18 +591,11 @@ function Nav() {
               onMouseLeave={handleMouseOut}
               className="z-50 "
             >
-              {currentNav &&
-                navItems[currentNav] &&
-                navItems[currentNav].map((option) => (
-                  <Link to={routedOption(option)}>
-                    <div
-                      key={option}
-                      className=" z-50 pl-9 h-[50px] w-full font-semibold dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out"
-                    >
-                      {option}
-                    </div>
-                  </Link>
-                ))}
+              {currentNav === "Committees" ? (
+                <CommitteesRender />
+              ) : (
+                <NavLinks />
+              )}
             </div>
           </div>
         </div>

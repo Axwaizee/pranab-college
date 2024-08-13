@@ -35,10 +35,10 @@ function Sidebar({ onLinkClick }) {
     if (option === "About us") {
       return "/about/aboutUs";
     }
-    if (option === "Teaching Employees") {
+    if (option === "Teaching Faculty") {
       return "/about/teachingEmployees";
     }
-    if (option === "Non-teaching Employees") {
+    if (option === "Non-teaching Staff") {
       return "/about/nonTeachingEmployees";
     }
     if (option === "Contact") {
@@ -176,10 +176,34 @@ function Sidebar({ onLinkClick }) {
     if (option === "Grievance Redressal Committee") {
       return "/committees/grievanceRedressal";
     }
+    if (option === "Cyber Cell") {
+      return "/committees/cyber";
+    }
+    if (option === "Entrepreneurship Cell") {
+      return "/committees/entrepreneurship";
+    }
+    if (option === "Innovation and Development Cell") {
+      return "/committees/innovationDevelopement";
+    }
+    if (option === "Literary Club") {
+      return "/committees/literary";
+    }
+    if (option === "Magazine Committee") {
+      return "/committees/magazine";
+    }
+    if (option === "Mentor - Mentee Cell") {
+      return "/committees/mentorMentee";
+    }
+    if (option === "Parents - Teachers Association") {
+      return "/committees/parentsTeachers";
+    }
+    if (option === "Publicity and Media Cell") {
+      return "/committees/publicityMedia";
+    }
     if (option === "Sports") {
       return "/gallery/sports";
     }
-    if (option === "Classroom & Computer Laboratory") {
+    if (option === "Classroom & Computer Laboratory") {
       return "/gallery/classroom";
     }
     if (option === "Health Seminar") {
@@ -213,12 +237,7 @@ function Sidebar({ onLinkClick }) {
       "Courses Offered",
       "Code of Conduct",
     ],
-    About: [
-      "About us",
-      "Teaching Employees",
-      "Non-teaching Employees",
-      "Contact",
-    ],
+    About: ["About us", "Teaching Faculty", "Non-teaching Staff", "Contact"],
     Online_Admissions: [
       "New Admissions to 1st Semester (under construction)",
       "Fee Payment for New Students (under construction)",
@@ -258,6 +277,13 @@ function Sidebar({ onLinkClick }) {
       "Anti-Ragging Committee",
       "Career Guidance and Placement Cell",
       "Anti-Sexual Harassment Committee",
+      "Innovation and Development Cell",
+      "Cyber Cell",
+      "Publicity and Media Cell",
+      "Entrepreneurship Cell ",
+      "Magazine Committee",
+      "Literary Club",
+      "Mentor - Mentee Cell",
       "Sports Committee",
       "Eco Club",
       "Library Advisory Committee",
@@ -268,6 +294,7 @@ function Sidebar({ onLinkClick }) {
       "Research Committee",
       "Cultural Committee",
       "Alumni Association",
+      "Parents - Teachers Association",
       "Grievance Redressal Committee",
     ],
     Gallery: [

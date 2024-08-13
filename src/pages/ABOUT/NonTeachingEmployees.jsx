@@ -6,8 +6,8 @@ import { office, library, gradeIV } from "./empImages";
 const NonTeachingEmployees = () => {
   return (
     <>
-      <div className="flex  text-center items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
-        <p>Non Teaching Employees</p>
+      <div className="flex  text-center items-center justify-center p-8 min-[200px]:max-[1180px]:text-center min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
+        <p>Non Teaching Staff</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10">
         <div className="flex min-[200px]:max-[426px]:flex-col w-4/5 min-[200px]:max-[1180px]:w-full">

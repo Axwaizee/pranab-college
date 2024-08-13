@@ -47,7 +47,7 @@ const organogram = () => {
 const AcademicAudit = () => {
   return (
     <>
-      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
         <p>Academic Audit</p>
       </div>
       <div className="flex justify-center p-10">
@@ -162,7 +162,7 @@ const AcademicAudit = () => {
               className=" h-[200px] w-[250px] px-6 pt-8 pb-10 text-center
             bg-slate-50 rounded-3xl flex flex-col justify-between"
             >
-              <p className="">
+              <p className="text-base">
                 Policy on Decentralisation Participatory Management &
                 Accountability
               </p>

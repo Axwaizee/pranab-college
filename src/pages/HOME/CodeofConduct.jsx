@@ -3,11 +3,11 @@ import React from "react";
 const CodeofConduct = () => {
   return (
     <>
-      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
         <p>Code Of Conduct</p>
       </div>
       <div className="flex justify-center py-5">
-        <div className="p-5 desk:w-1/2 dark:text-white">
+        <div className="p-5 desk:w-3/4 dark:text-white">
           <ol className="p-2 text-justify list-decimal list-inside">
             <li className="py-1.5">
               80% attendance must be secured by students in each semester.
@@ -66,11 +66,11 @@ const CodeofConduct = () => {
           </ol>
         </div>
       </div>
-      <div className="flex items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white bg-[#003eb9] font-inter">
         <p>DRESS CODE</p>
       </div>
       <div className="flex justify-center py-5">
-        <div className="p-5 desk:w-1/2 dark:text-white">
+        <div className="p-5 desk:w-3/4 dark:text-white">
           <p className=" dark:text-white">
             The students will have to put on uniform prescribed by the College
             authorities i.e., Salwar-Kameez, having half sleeved pink kameez

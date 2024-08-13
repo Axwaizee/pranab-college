@@ -238,7 +238,7 @@ const Testimonials = () => {
             ALUMNI
           </button>
           <div
-            className={`w-1 min-[200px]:max-[1180px]:h-1 desk:rounded-t-full min-[200px]:max-[1180px]:rounded-l-full ${review === "Alumni" ? "gradientBar" : "bg-[#C8C3C3] dark:bg-[#373737]"} min-[200px]:max-[1180px]:w-full`}
+            className={`w-1 min-[200px]:max-[1180px]:h-1 desk:rounded-t-full min-[200px]:max-[1180px]:rounded-l-full ${review === "Alumni" ? "bg-[#003eb9]" : "bg-[#C8C3C3] dark:bg-[#373737]"} min-[200px]:max-[1180px]:w-full`}
           ></div>
         </div>
         <div className=" flex flex-row min-[200px]:max-[1180px]:flex-col min-[200px]:max-[1180px]:w-full">
@@ -249,7 +249,7 @@ const Testimonials = () => {
             STUDENTS
           </button>
           <div
-            className={`w-1 min-[200px]:max-[1180px]:h-1 ${review === "Students" ? "gradientBar" : "bg-[#C8C3C3] dark:bg-[#373737]"} min-[200px]:max-[1180px]:w-full`}
+            className={`w-1 min-[200px]:max-[1180px]:h-1 ${review === "Students" ? "bg-[#003eb9]" : "bg-[#C8C3C3] dark:bg-[#373737]"} min-[200px]:max-[1180px]:w-full`}
           ></div>
         </div>
         <div className=" flex flex-row min-[200px]:max-[1180px]:flex-col min-[200px]:max-[1180px]:w-full">
@@ -260,7 +260,7 @@ const Testimonials = () => {
             PARENTS
           </button>
           <div
-            className={`w-1 min-[200px]:max-[1180px]:h-1 desk:rounded-b-full min-[200px]:max-[1180px]:rounded-r-full ${review === "Parents" ? "gradientBar" : "bg-[#C8C3C3] dark:bg-[#373737]"} min-[200px]:max-[1180px]:w-full`}
+            className={`w-1 min-[200px]:max-[1180px]:h-1 desk:rounded-b-full min-[200px]:max-[1180px]:rounded-r-full ${review === "Parents" ? "bg-[#003eb9]" : "bg-[#C8C3C3] dark:bg-[#373737]"} min-[200px]:max-[1180px]:w-full`}
           ></div>
         </div>
       </div>

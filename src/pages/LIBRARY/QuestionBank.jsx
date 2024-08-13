@@ -573,7 +573,7 @@ const MA = () => {
 const QuestionBank = () => {
   return (
     <>
-      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
         <p>Question Bank</p>
       </div>
       <div className="flex justify-center ">

@@ -3,12 +3,12 @@ import React from "react";
 const Examination = () => {
   return (
     <>
-      <div className="flex  text-center items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex  text-center items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
         <p>Examination Committee</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10">
         {" "}
-        <div className="w-full desk:w-1/2 dark:text-white">
+        <div className="w-full desk:w-3/4 dark:text-white">
           <div>
             <p className="pb-3 ">
               The Pranabananda Women’s College Authority by notification shall
@@ -226,9 +226,9 @@ const Examination = () => {
             </table>
           </div>
           <br />
-          <div>
+          <div className="flex justify-center ">
             <iframe
-              className="w-full h-[900px]"
+              className="w-full desk:w-2/3 h-[900px]"
               src="https://drive.google.com/file/d/1wQLEsZtolpGJNI9PY6Gge4DQRpBsRZC_/preview"
               type="application/pdf"
             />

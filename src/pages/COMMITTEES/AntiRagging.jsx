@@ -4,9 +4,9 @@ import { Link, Routes, Route } from "react-router-dom";
 const MeetingMinutes = () => {
   const D05_03_22 = () => {
     return (
-      <div>
+      <div className="flex justify-center ">
         <iframe
-          className="w-full h-[900px]"
+          className="w-full desk:w-2/3 h-[900px]"
           src="https://drive.google.com/file/d/1fn9M7apDRZp1vQFC6uFEEm0W9V4DrU9M/preview"
           type="application/pdf"
         />
@@ -15,9 +15,9 @@ const MeetingMinutes = () => {
   };
   const D18_02_22 = () => {
     return (
-      <div>
+      <div className="flex justify-center ">
         <iframe
-          className="w-full h-[900px]"
+          className="w-full desk:w-2/3 h-[900px]"
           src="https://drive.google.com/file/d/1233G7J3P1aOd4fOUVgfWY1HX8GyqQAhf/preview"
           type="application/pdf"
         />
@@ -26,9 +26,9 @@ const MeetingMinutes = () => {
   };
   const D02_02_21 = () => {
     return (
-      <div>
+      <div className="flex justify-center ">
         <iframe
-          className="w-full h-[900px]"
+          className="w-full desk:w-2/3 h-[900px]"
           src="https://drive.google.com/file/d/1XQy1ni3qh8SH0qFNXeKvOL0FEH7AU71h/preview"
           type="application/pdf"
         />
@@ -147,9 +147,9 @@ const Policies = () => {
             <li>Ms. T. Hanneng, Asst. Prof. (Political Science) , Member</li>
           </ol>
         </div>
-        <div>
+        <div className="flex justify-center ">
           <iframe
-            className="w-full h-[900px]"
+            className="w-full desk:w-2/3 h-[900px]"
             src="https://drive.google.com/file/d/11p470Rw8cNSqtCCET203H1jZ4VfAmU0V/preview"
             type="application/pdf"
           />
@@ -162,7 +162,7 @@ const Policies = () => {
 const AntiRagging = () => {
   return (
     <>
-      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex  text-center items-center justify-center p-8 min-[200px]:max-[1180px]:text-center min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
         <p>Anti-Ragging Committee</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10 ">
@@ -181,15 +181,14 @@ const AntiRagging = () => {
               Policies
             </Link>
           </div>
-          <div className="w-full">
-            <Routes>
-              <Route
-                path="meetingMinutes/*"
-                element={<MeetingMinutes />}
-              ></Route>
-              <Route path="policies" element={<Policies />}></Route>
-            </Routes>
-          </div>
+        </div>{" "}
+      </div>
+      <div className="flex justify-center">
+        <div className="w-full desk:w-3/4">
+          <Routes>
+            <Route path="meetingMinutes/*" element={<MeetingMinutes />}></Route>
+            <Route path="policies" element={<Policies />}></Route>
+          </Routes>
         </div>
       </div>
     </>

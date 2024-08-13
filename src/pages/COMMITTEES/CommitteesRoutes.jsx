@@ -18,6 +18,14 @@ import AlumniAssociation from "./AlumniAssociation";
 import GrievanceRedressal from "./GrievanceRedressal";
 import Policy from "./GrievanceRedressal/Policy";
 import MeetingMinutes from "./GrievanceRedressal/MeetingMinutes";
+import Cyber from "./Cyber";
+import Entrepreneurship from "./Entrepreneurship";
+import InnovationDevelopement from "./InnovationDevelopement";
+import Literary from "./Literary";
+import Magazine from "./Magazine";
+import MentorMentee from "./MentorMentee";
+import ParentsTeachers from "./ParentsTeachers";
+import PublicityMedia from "./PublicityMedia";
 import Error404 from "../Error404";
 
 const CommitteesRoutes = () => {
@@ -45,6 +53,17 @@ const CommitteesRoutes = () => {
         path="grievanceRedressal/meetingMinutes/*"
         element={<MeetingMinutes />}
       />
+      <Route path="cyber/*" element={<Cyber />} />
+      <Route path="entrepreneurship/*" element={<Entrepreneurship />} />
+      <Route
+        path="innovationDevelopement/*"
+        element={<InnovationDevelopement />}
+      />
+      <Route path="literary/*" element={<Literary />} />
+      <Route path="magazine/*" element={<Magazine />} />
+      <Route path="mentorMentee/*" element={<MentorMentee />} />
+      <Route path="parentsTeachers/*" element={<ParentsTeachers />} />
+      <Route path="publicityMedia/*" element={<PublicityMedia />} />
       <Route path="*" element={<Error404 />} />
     </Routes>
   );

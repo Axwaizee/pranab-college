@@ -264,7 +264,7 @@ const rankHolder = () => {
 const AcademicRecord = () => {
   return (
     <>
-      <div className="flex items-center text-center  justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex items-center text-center  justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
         <p>Academic Record</p>
       </div>
       <div className="flex justify-center p-10 ">
@@ -283,12 +283,14 @@ const AcademicRecord = () => {
               Rank Holder of the College
             </Link>
           </div>
-          <div className="w-full pt-10">
-            <Routes>
-              <Route path="result" element={result()} />
-              <Route path="rankHolder" element={rankHolder()} />
-            </Routes>
-          </div>
+        </div>
+      </div>
+      <div className="flex justify-center pb-5 desk:pb-10">
+        <div className="w-full pt-10 desk:w-3/4">
+          <Routes>
+            <Route path="result" element={result()} />
+            <Route path="rankHolder" element={rankHolder()} />
+          </Routes>
         </div>
       </div>
     </>

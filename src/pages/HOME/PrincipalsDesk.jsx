@@ -5,14 +5,14 @@ const principal = "/assets/elements/principal/Principal.webp";
 const PrincipalsDesk = () => {
   return (
     <>
-      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
         <p>Principal's Desk</p>
       </div>
       <div className="flex flex-col items-center ">
         <div className="p-5">
-          <img src={principal} className=" h-[250px] rounded-xl " />
+          <img src={principal} className=" h-[350px] rounded-xl " />
         </div>
-        <div className="w-full p-5 pb-10 text-justify desk:w-1/2 dark:text-white">
+        <div className="w-full p-5 pb-10 text-justify desk:w-3/4 dark:text-white">
           <p>
             Twenty-seven years have gone since Pranabananda Women’s College, the
             first women’s college in Nagaland was established in the year 1991.

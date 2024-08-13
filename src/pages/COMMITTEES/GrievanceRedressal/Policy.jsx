@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Policy = () => {
   return (
     <>
-      <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex  text-center items-center justify-center p-8 min-[200px]:max-[1180px]:text-center min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
         <p>Policy of Grievance Redressal Committee</p>
       </div>
       <div className="flex justify-center p-1 pt-7 ">
@@ -16,7 +16,7 @@ const Policy = () => {
         </Link>
       </div>
       <div className="flex justify-center p-5 desk:p-10 desk:pt-5">
-        <div className="w-full desk:w-1/2 dark:text-white">
+        <div className="w-full desk:w-3/4 dark:text-white">
           <div>
             <p className="pb-3 text-justify">
               The student’s grievance and redressal cell will look into the

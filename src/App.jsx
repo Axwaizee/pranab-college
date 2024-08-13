@@ -16,7 +16,7 @@ import CommitteesRoutes from "./pages/COMMITTEES/CommitteesRoutes";
 
 export default function App() {
   return (
-    <>
+    <div className=" desk:text-lg">
       <Header />
       <HeadBackground />
       <Routes>
@@ -35,6 +35,6 @@ export default function App() {
         <Route path="/*" element={<Error404 />} />
       </Routes>
       <Footer />
-    </>
+    </div>
   );
 }

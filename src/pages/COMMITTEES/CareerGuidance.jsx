@@ -3,11 +3,11 @@ import React from "react";
 const CareerGuidance = () => {
   return (
     <>
-      <div className="flex text-center items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-6xl font-normal text-white gradientBar font-inter">
+      <div className="flex  text-center items-center justify-center p-8 min-[200px]:max-[1180px]:text-center min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
         <p>Career Guidance and Placement Cell</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10">
-        <div className="w-full desk:w-1/2 dark:text-white">
+        <div className="w-full desk:w-3/4 dark:text-white">
           <div>
             <p className="pb-3 ">
               The Career Guidance and Placement Cell of the college is
@@ -50,10 +50,10 @@ const CareerGuidance = () => {
               <li>Mr. Seiboy Khongsai, Asst. Prof. of Sociology, Member</li>
             </ol>
           </div>
-          <div className=" h-[260px] desk:h-[600px]">
+          <div className=" h-[260px] desk:h-[600px] flex justify-center">
             {" "}
             <iframe
-              className="w-full h-full"
+              className="w-full h-full desk:w-2/3"
               src="https://drive.google.com/file/d/1KYf4QyE8E2c7cAWbTkopFpV4K8csreMY/preview"
               type="application/pdf"
             />
