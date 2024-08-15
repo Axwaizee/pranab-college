@@ -30,7 +30,7 @@ const Motto = () => {
                   of 8 students participated in the marathon. LITO V SUMI BA 5th
                   semester secured 2nd position.{" "}
                   <a
-                    href="http://"
+                    href="https://www.instagram.com/p/C-o5L-tPUSv/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
                     className="pl-2 font-semibold transition-all duration-200 ease-in-out hover:text-white "
                     target="_blank"
                     rel="noopener noreferrer"
@@ -48,7 +48,7 @@ const Motto = () => {
                   was contributed by the students and faculty members of the
                   college.{" "}
                   <a
-                    href="http://"
+                    href="https://www.instagram.com/p/C-o42sRvv0o/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
                     className="pl-2 font-semibold transition-all duration-200 ease-in-out hover:text-white "
                     target="_blank"
                     rel="noopener noreferrer"
