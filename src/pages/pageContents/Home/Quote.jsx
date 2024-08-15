@@ -57,7 +57,7 @@ const Quote = () => {
           </div>
           <div>
             <p className="text-3xl font-normal font-poppins dark:text-white">
-              2000+
+              4000+
             </p>
           </div>
           <div className="text-center ">
@@ -114,7 +114,10 @@ const Quote = () => {
           </div>
           <div className="text-center ">
             <p className="text-sm font-normal font-poppins dark:text-white">
-              Students Placed
+              Students Received
+            </p>
+            <p className="text-sm font-normal font-poppins dark:text-white">
+              Scholarship
             </p>
           </div>
         </div>

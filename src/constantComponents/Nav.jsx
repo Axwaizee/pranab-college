@@ -577,7 +577,7 @@ function Nav() {
           <div className="absolute overflow-hidden dark:bg-[#4948481a] bg-[#ffffff1a] bg-opacity-50 backdrop-blur-md rounded-[25px] border-[1px] border-[#666666] ">
             <div className="navStill flex gap-[10px] px-[23px] text-base dark:text-white cursor-pointer border-b-[0.5px] border-[#666666]">
               {Object.keys(navItems).map((nav) => (
-                <Link to={ifHome(nav)}>
+                <Link to={ifHome(nav)} className="">
                   <div
                     key={nav}
                     id={nav}
@@ -585,7 +585,7 @@ function Nav() {
                       handleMouseOver(nav);
                     }}
                     onMouseOut={handleMouseOut}
-                    className="item h-[50px] px-[13px] flex justify-center items-center font-inter object-contain hover:font-bold  "
+                    className="item h-[50px]   rounded-full hover:rounded-none px-[13px] flex justify-center items-center font-inter object-contain hover:font-bold  "
                   >
                     {nav.replace(/_/g, " ")}
                   </div>

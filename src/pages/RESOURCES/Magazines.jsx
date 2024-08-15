@@ -24,7 +24,7 @@ const Magazines = () => {
           className=" h-[200px] w-[250px] px-6 pt-14 pb-10 text-center
             bg-slate-50 rounded-3xl flex flex-col justify-between"
         >
-          <p className="">MEGAZINE 2022</p>
+          <p className="">MAGAZINE 2022</p>
           <div className="flex justify-center text-white rounded-full ">
             <Link
               className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white"
