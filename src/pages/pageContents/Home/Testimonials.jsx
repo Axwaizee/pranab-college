@@ -89,7 +89,7 @@ const testimonial = {
   Students: [
     {
       image: "https://picsum.photos/200",
-      name: "Mr. Shivani Shrivastav",
+      name: "Mr. Itoka Shrivastav",
       course: { course: "B.A. English", batch: "2011-14" },
       testimonial:
         "adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar",
