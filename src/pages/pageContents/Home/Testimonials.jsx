@@ -97,7 +97,7 @@ const testimonial = {
       name: "Mr. Itoka Tuccu",
       course: { course: "B.A. 1st Semester", batch: "2024-27" },
       testimonial:
-        "The college campus is spacious, cleen and well maintained. The library is well stocked and the computer lab is equipped with mordern facilities.",
+        "The college campus is spacious, clean and well maintained. The library is well stocked and the computer lab is equipped with mordern facilities.",
     },
     {
       image: ngunnonStudent,
