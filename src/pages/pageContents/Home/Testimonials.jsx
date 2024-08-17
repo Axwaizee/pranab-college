@@ -72,7 +72,7 @@ const testimonial = {
     {
       image: "https://picsum.photos/200",
       parentof: "alferd",
-      name: "Mr. Arvindra Green",
+      name: "Mr. balbal",
       relation: "Brother",
       testimonial:
         "adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar",
@@ -80,7 +80,7 @@ const testimonial = {
     {
       image: "https://picsum.photos/200",
       parentof: "alferd",
-      name: "Mr. Arvindra Green",
+      name: "Mr. lablab",
       relation: "Gardian",
       testimonial:
         "adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar",
