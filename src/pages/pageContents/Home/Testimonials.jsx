@@ -89,31 +89,31 @@ const testimonial = {
   Students: [
     {
       image: "https://picsum.photos/200",
-      name: "Mr. Itoka Shrivastav",
-      course: { course: "B.A. English", batch: "2011-14" },
+      name: "Mr. Itoka Tuccu",
+      course: { course: "B.A. 1st Semester", batch: "2011-14" },
       testimonial:
-        "adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar",
+        "The college campus is spacious, cleen and well maintained. The library is well stocked and the computer lab is equipped with mordern facilities.",
     },
     {
       image: "https://picsum.photos/200",
-      name: "Mr. Shivani Shrivastav",
-      course: { course: "B.A. English", batch: "2011-14" },
+      name: "Ms. Ngunnon Konyak",
+      course: { course: "B.A. 1st Semester", batch: "2011-14" },
       testimonial:
-        "adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar",
+        "Experienced and suportive faculty, good infrastructure and facilities vibrant campus life, excellent support services.",
     },
     {
       image: "https://picsum.photos/200",
-      name: "Mr. Shivani Shrivastav",
-      course: { course: "B.A. English", batch: "2011-14" },
+      name: "Mr. Som Kumar",
+      course: { course: "B.A. 1st Semester", batch: "2011-14" },
       testimonial:
-        "adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar",
+        "Pranab College is an excellent institution that provides a supportive and stimulating environment for students to grow and learn.",
     },
     {
       image: "https://picsum.photos/200",
-      name: "Mr. Shivani Shrivastav",
-      course: { course: "B.A. English", batch: "2011-14" },
+      name: "Ms. Loangam Konyak",
+      course: { course: "B.A. 5th Semester", batch: "2011-14" },
       testimonial:
-        "adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar",
+        "The college provides a perfect blend of academics, extra curricular activities, and personal development opportunities.",
     },
   ],
 };
@@ -160,7 +160,7 @@ const studentContent = () =>
         </div>
         <div className=" col-span-2 col-start-2 h-[160px] flex justify-center items-center min-[200px]:max-[480px]:order-4 min-[200px]:max-[480px]:col-start-1 min-[200px]:max-[480px]:col-span-3">
           <p className=" text-center font-inter font-light text-2xl min-[200px]:max-[480px]:text-lg min-[200px]:max-[480px]:text-left">
-            "{t.testimonial}"
+            {t.testimonial}
           </p>
         </div>
         <div className=" col-span-4 col-start-2 min-[200px]:max-[480px]:order-2 min-[200px]:max-[480px]:col-span-2 min-[200px]:max-[480px]:pl-8 min-[200px]:max-[480px]:mt-4">
