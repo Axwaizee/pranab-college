@@ -55,7 +55,7 @@ const testimonial = {
   Parents: [
     {
       image: "https://picsum.photos/200",
-      name: "Mr. Arvindra Green",
+      name: "Mr. Arvindra Aalbaal",
       parentof: "Alferd",
       relation: "Father",
       testimonial:
@@ -63,7 +63,7 @@ const testimonial = {
     },
     {
       image: "https://picsum.photos/200",
-      name: "Mr. Arvindra Green",
+      name: "Mr. Aalbaal Green",
       parentof: "alferd",
       relation: "Mother",
       testimonial:
