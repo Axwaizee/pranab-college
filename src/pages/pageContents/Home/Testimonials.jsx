@@ -6,6 +6,11 @@ import "./styles/Testimonial.css";
 
 import Slider from "react-slick";
 
+const itokaStudent = "/assets/testimonials/students/itoka.JPG";
+const loangamStudent = "/assets/testimonials/students/loangam.JPG";
+const ngunnonStudent = "/assets/testimonials/students/ngunnon.JPG";
+const somStudent = "/assets/testimonials/students/som.JPG";
+
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
   return (
@@ -88,28 +93,28 @@ const testimonial = {
   ],
   Students: [
     {
-      image: "https://picsum.photos/200",
+      image: itokaStudent,
       name: "Mr. Itoka Tuccu",
-      course: { course: "B.A. 1st Semester", batch: "2011-14" },
+      course: { course: "B.A. 1st Semester", batch: "2024-27" },
       testimonial:
         "The college campus is spacious, cleen and well maintained. The library is well stocked and the computer lab is equipped with mordern facilities.",
     },
     {
-      image: "https://picsum.photos/200",
+      image: ngunnonStudent,
       name: "Ms. Ngunnon Konyak",
-      course: { course: "B.A. 1st Semester", batch: "2011-14" },
+      course: { course: "B.A. 1st Semester", batch: "2024-27" },
       testimonial:
         "Experienced and suportive faculty, good infrastructure and facilities vibrant campus life, excellent support services.",
     },
     {
-      image: "https://picsum.photos/200",
+      image: somStudent,
       name: "Mr. Som Kumar",
-      course: { course: "B.A. 1st Semester", batch: "2011-14" },
+      course: { course: "B.A. 1st Semester", batch: "2024-27" },
       testimonial:
         "Pranab College is an excellent institution that provides a supportive and stimulating environment for students to grow and learn.",
     },
     {
-      image: "https://picsum.photos/200",
+      image: loangamStudent,
       name: "Ms. Loangam Konyak",
       course: { course: "B.A. 5th Semester", batch: "2011-14" },
       testimonial:
@@ -141,7 +146,7 @@ const alumniContent = () =>
         </div>
         <div className=" text-center font-inter font-medium text-base col-span-4 min-[200px]:max-[480px]:order-3 min-[200px]:max-[480px]:col-span-2 min-[200px]:max-[480px]:text-left min-[200px]:max-[480px]:pl-8 min-[200px]:max-[480px]:pt-1 min-[200px]:max-[480px]:text-sm">
           <p>{t.course.course}</p>
-          <p>Batch:{t.course.batch}</p>
+          <p>Batch: {t.course.batch}</p>
         </div>
       </div>
     </div>
@@ -170,7 +175,7 @@ const studentContent = () =>
         </div>
         <div className=" text-center font-inter font-medium text-base col-span-4 min-[200px]:max-[480px]:order-3 min-[200px]:max-[480px]:col-span-2 min-[200px]:max-[480px]:text-left min-[200px]:max-[480px]:pl-8 min-[200px]:max-[480px]:pt-1 min-[200px]:max-[480px]:text-sm">
           <p>{t.course.course}</p>
-          <p>Batch:{t.course.batch}</p>
+          <p>Batch: {t.course.batch}</p>
         </div>
       </div>
     </div>
