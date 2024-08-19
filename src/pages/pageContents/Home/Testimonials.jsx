@@ -10,7 +10,7 @@ const itokaStudent = "/assets/testimonials/students/itoka.JPG";
 const loangamStudent = "/assets/testimonials/students/loangam.JPG";
 const ngunnonStudent = "/assets/testimonials/students/ngunnon.JPG";
 const somStudent = "/assets/testimonials/students/som.JPG";
-const kedarai = "/assets/testimonials/students/kedarai.jpeg";
+const kedaraiStudent = "/assets/testimonials/students/kedarai.jpeg";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -101,7 +101,7 @@ const testimonial = {
         "The college campus is spacious, clean and well maintained. The library is well stocked and the computer lab is equipped with mordern facilities.",
     },
     {
-      image: kedarai,
+      image: kedaraiStudent,
       name: "Ms. Kedarai Chewang",
       course: { course: "B.A. 3rd Semester", batch: "2023-26" },
       testimonial:
