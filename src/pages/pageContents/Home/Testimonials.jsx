@@ -10,7 +10,7 @@ const itokaStudent = "/assets/testimonials/students/itoka.JPG";
 const loangamStudent = "/assets/testimonials/students/loangam.JPG";
 const ngunnonStudent = "/assets/testimonials/students/ngunnon.JPG";
 const somStudent = "/assets/testimonials/students/som.JPG";
-const kedarai = "/assets/testimonials/students/kedaraistudent.jpeg";
+const kedarai = "/assets/testimonials/students/kedarai.jpeg";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
