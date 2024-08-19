@@ -10,6 +10,7 @@ const itokaStudent = "/assets/testimonials/students/itoka.JPG";
 const loangamStudent = "/assets/testimonials/students/loangam.JPG";
 const ngunnonStudent = "/assets/testimonials/students/ngunnon.JPG";
 const somStudent = "/assets/testimonials/students/som.JPG";
+const kedaraiStudent = "/assets/testimonials/students/kedaraistudent.jpeg";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -100,6 +101,13 @@ const testimonial = {
         "The college campus is spacious, clean and well maintained. The library is well stocked and the computer lab is equipped with mordern facilities.",
     },
     {
+      image: kedaraiStudent,
+      name: "Ms. Kedarai Chewang",
+      course: { course: "B.A. 3rd Semester", batch: "2023-26" },
+      testimonial:
+        "Pranab College has given me the greatest opportunity to bring out the best in me, with the most supportive lecturers. I will always choose Pranab College again if I ever get a chance to reexperience my college life.",
+    },
+    {
       image: ngunnonStudent,
       name: "Ms. Ngunnon Konyak",
       course: { course: "B.A. 1st Semester", batch: "2024-27" },
@@ -116,7 +124,7 @@ const testimonial = {
     {
       image: loangamStudent,
       name: "Ms. Loangam Konyak",
-      course: { course: "B.A. 5th Semester", batch: "2011-14" },
+      course: { course: "B.A. 5th Semester", batch: "2022-25" },
       testimonial:
         "The college provides a perfect blend of academics, extra curricular activities, and personal development opportunities.",
     },
