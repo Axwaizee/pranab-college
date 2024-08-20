@@ -38,58 +38,31 @@ const testimonial = {
   Alumni: [
     {
       image: `/assets/testimonials/alumni/test.jpg`,
-      name: "George Shrivastav",
+      name: "DEF",
       course: { course: "B.A. English", batch: "2011-14" },
-      testimonial:
-        "adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar",
+      testimonial: "Comming Soon...",
     },
     {
       image: "/assets/testimonials/alumni/test.jpg",
-      name: "Leorio Shrivastav",
+      name: "UVW",
       course: { course: "B.A. English", batch: "2024-28" },
-      testimonial:
-        "adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar",
-    },
-    {
-      image: "/assets/testimonials/alumni/test.jpg",
-      name: "Kurapika Shrivastav",
-      course: { course: "B.A. English", batch: "2024-28" },
-      testimonial:
-        "adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar",
+      testimonial: "Comming Soon...",
     },
   ],
   Parents: [
     {
       image: "https://picsum.photos/200",
-      name: "Mr. Arvindra Aalbaal",
-      parentof: "Alferd",
+      name: "Mr. ABC",
+      parentof: "DEF",
       relation: "Father",
-      testimonial:
-        "adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar",
+      testimonial: "Comming Soon...",
     },
     {
       image: "https://picsum.photos/200",
-      name: "Mr. Aalbaal Green",
-      parentof: "alferd",
+      name: "Mrs. XYZ",
+      parentof: "UVW",
       relation: "Mother",
-      testimonial:
-        "adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar",
-    },
-    {
-      image: "https://picsum.photos/200",
-      parentof: "alferd",
-      name: "Mr. rohan",
-      relation: "Brother",
-      testimonial:
-        "adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar",
-    },
-    {
-      image: "https://picsum.photos/200",
-      parentof: "alferd",
-      name: "Mr. rahul",
-      relation: "Gardian",
-      testimonial:
-        "adipiscing diam donec adipiscing tristique risus nec feugiat in fermentum posuere urna nec tincidunt praesent semper feugiat nibh sed pulvinar",
+      testimonial: "Comming Soon...",
     },
   ],
   Students: [
@@ -144,7 +117,7 @@ const alumniContent = () =>
         </div>
         <div className=" col-span-2 col-start-2 h-[160px] flex justify-center items-center min-[200px]:max-[480px]:order-4 min-[200px]:max-[480px]:col-start-1 min-[200px]:max-[480px]:col-span-3">
           <p className=" text-center font-inter font-light text-2xl min-[200px]:max-[480px]:text-lg min-[200px]:max-[480px]:text-left">
-            "{t.testimonial}"
+            {t.testimonial}
           </p>
         </div>
         <div className=" col-span-4 col-start-2 min-[200px]:max-[480px]:order-2 min-[200px]:max-[480px]:col-span-2 min-[200px]:max-[480px]:pl-8 min-[200px]:max-[480px]:mt-4">
@@ -202,7 +175,7 @@ const parentsContent = () =>
         </div>
         <div className=" col-span-2 col-start-2 h-[160px] flex justify-center items-center min-[200px]:max-[480px]:order-4 min-[200px]:max-[480px]:col-start-1 min-[200px]:max-[480px]:col-span-3">
           <p className=" text-center font-inter font-light text-2xl min-[200px]:max-[480px]:text-lg min-[200px]:max-[480px]:text-left">
-            "{t.testimonial}"
+            {t.testimonial}
           </p>
         </div>
         <div className=" col-span-4 col-start-2 min-[200px]:max-[480px]:order-2 min-[200px]:max-[480px]:col-span-2 min-[200px]:max-[480px]:pl-8 min-[200px]:max-[480px]:mt-4">

@@ -13,6 +13,7 @@ import CalenderRoutes from "./pages/CALENDER/CalenderRoutes";
 import ResourcesRoutes from "./pages/RESOURCES/ResourcesRoutes";
 import LibraryRoutes from "./pages/LIBRARY/LibraryRoutes";
 import CommitteesRoutes from "./pages/COMMITTEES/CommitteesRoutes";
+import GalleryRoutes from "./pages/GALLERY/GalleryRoutes";
 
 export default function App() {
   return (
@@ -30,7 +31,7 @@ export default function App() {
         <Route path="/resources/*" element={<ResourcesRoutes />} />
         <Route path="/library/*" element={<LibraryRoutes />} />
         <Route path="/committees/*" element={<CommitteesRoutes />} />
-        {/* <Route path="/gallery/*" element /> */}
+        <Route path="/gallery/*" element={<GalleryRoutes />} />
 
         <Route path="/*" element={<Error404 />} />
       </Routes>
