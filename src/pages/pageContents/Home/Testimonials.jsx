@@ -11,6 +11,7 @@ const loangamStudent = "/assets/testimonials/students/loangam.JPG";
 const ngunnonStudent = "/assets/testimonials/students/ngunnon.JPG";
 const somStudent = "/assets/testimonials/students/som.JPG";
 const kedaraiStudent = "/assets/testimonials/students/kedarai.jpeg";
+const veronicaStudent = "/assets/testimonials/students/veronica.jpeg";
 
 function SampleNextArrow(props) {
   const { className, style, onClick } = props;
@@ -81,6 +82,13 @@ const testimonial = {
         "Pranab College has given me the greatest opportunity to bring out the best in me, with the most supportive lecturers. I will always choose Pranab College again if I ever get a chance to reexperience my college life.",
     },
     {
+      image: veronicaStudent,
+      name: "Ms. Veronica K Yeptho",
+      course: { course: "B.A. 3rd Semester", batch: "2023-26" },
+      testimonial:
+        "Pranab College has been an incredible place for my academic and personal growth. The approachable and supportive lectures make a significant role in our learning experiences. One of the standard features of Pranab college is it's reasonable fee structure, making quality education accessible to many.",
+    },
+    {
       image: ngunnonStudent,
       name: "Ms. Ngunnon Konyak",
       course: { course: "B.A. 1st Semester", batch: "2024-27" },
@@ -139,7 +147,7 @@ const studentContent = () =>
       <div className="grid grid-cols-3 ">
         <div className=" flex items-center desk:justify-start justify-center col-span-1 row-span-3 min-[200px]:max-[480px]:order-1 min-[200px]:max-[480px]:col-span-1 ">
           <img
-            className="wide:h-[350px] wide:w-[350px] desk:w-[270px] desk:h-[270px] min-[480px]:max-[1180px]:h-full min-[200px]:max-[480px]:rounded-full min-[200px]:max-[480px]:h-[100px] min-[200px]:max-[480px]:w-[100px]"
+            className="wide:h-[350px]  wide:w-[350px] desk:w-[270px] desk:h-[270px] min-[480px]:max-[1180px]:h-full min-[200px]:max-[480px]:rounded-full min-[200px]:max-[480px]:h-[100px] min-[200px]:max-[480px]:w-[100px]"
             src={t.image}
             alt=""
           />

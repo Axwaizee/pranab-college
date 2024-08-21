@@ -273,29 +273,29 @@ function Sidebar({ onLinkClick }) {
     Library: ["Syllabus", "Question Bank", "ILMS"],
     Committees: [
       "List of Committees and its Members",
-      "NSS",
-      "Anti-Ragging Committee",
-      "Career Guidance and Placement Cell",
-      "Anti-Sexual Harassment Committee",
-      "Innovation and Development Cell",
-      "Cyber Cell",
-      "Publicity and Media Cell",
-      "Entrepreneurship Cell ",
-      "Magazine Committee",
-      "Literary Club",
-      "Mentor - Mentee Cell",
-      "Sports Committee",
-      "Eco Club",
-      "Library Advisory Committee",
-      "Red Ribbon Club",
-      "Women Empowerment Cell",
       "Admission Committee",
-      "Examination Committee",
-      "Research Committee",
-      "Cultural Committee",
       "Alumni Association",
-      "Parents - Teachers Association",
+      "Anti-Ragging Committee",
+      "Anti-Sexual Harassment Committee",
+      "Career Guidance and Placement Cell",
+      "Cultural Committee",
+      "Cyber Cell",
+      "Eco Club",
+      "Entrepreneurship Cell",
+      "Examination Committee",
       "Grievance Redressal Committee",
+      "Innovation and Development Cell",
+      "Library Advisory Committee",
+      "Literary Club",
+      "Magazine Committee",
+      "Mentor - Mentee Cell",
+      "NSS",
+      "Parents - Teachers Association",
+      "Publicity and Media Cell",
+      "Red Ribbon Club",
+      "Research Committee",
+      "Sports Committee",
+      "Women Empowerment Cell",
     ],
     Gallery: [
       "Sports",
@@ -360,7 +360,7 @@ function Sidebar({ onLinkClick }) {
                     <div
                       key={index}
                       className="z-50 p-2 pl-5 rounded-md "
-                      onClick={onLinkClick}
+                      // onClick={onLinkClick}
                     >
                       {option}
                     </div>

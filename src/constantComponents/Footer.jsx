@@ -171,21 +171,27 @@ function Footer() {
             <div className="min-[200px]:max-[1180px]:text-sm order-2">
               &#169; Copyright Pranab College,2024. All rights reserved
             </div>
-            <div className="flex gap-x-5 desk:gap-x-2.5 desk:items-center desk:justify-center order-1">
+            <div className="  flex gap-x-5 desk:gap-x-2.5 items-center justify-center order-1">
               <span>
-                <svg
-                  className="hover:h-[28px] hover:w-[28px]"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
+                <a
+                  href="https://www.facebook.com/pranabanandawomenscollege"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <path
-                    className="fill-[#E0D9D9]"
-                    d="M12 2.04004C6.5 2.04004 2 6.53004 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85004C10.44 7.34004 11.93 5.96004 14.22 5.96004C15.31 5.96004 16.45 6.15004 16.45 6.15004V8.62004H15.19C13.95 8.62004 13.56 9.39004 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5879 18.0622 20.3856 19.6099 18.5701C21.1576 16.7546 22.0054 14.4457 22 12.06C22 6.53004 17.5 2.04004 12 2.04004Z"
-                  />
-                </svg>
+                  <svg
+                    className="hover:h-[40px] hover:w-[40px]"
+                    width="30"
+                    height="30"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      className="fill-[#E0D9D9]"
+                      d="M12 2.04004C6.5 2.04004 2 6.53004 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.85004C10.44 7.34004 11.93 5.96004 14.22 5.96004C15.31 5.96004 16.45 6.15004 16.45 6.15004V8.62004H15.19C13.95 8.62004 13.56 9.39004 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5879 18.0622 20.3856 19.6099 18.5701C21.1576 16.7546 22.0054 14.4457 22 12.06C22 6.53004 17.5 2.04004 12 2.04004Z"
+                    />
+                  </svg>
+                </a>
               </span>
               <span>
                 <a
@@ -194,9 +200,9 @@ function Footer() {
                   rel="noopener noreferrer"
                 >
                   <svg
-                    className=" hover:h-[28px] hover:w-[28px]"
-                    width="24"
-                    height="24"
+                    className="hover:h-[40px] hover:w-[40px]"
+                    width="30"
+                    height="30"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -224,9 +230,9 @@ function Footer() {
                   target="_blank"
                 >
                   <svg
-                    className="hover:h-[28px] hover:w-[28px]"
-                    width="24"
-                    height="24"
+                    className="hover:h-[40px] hover:w-[40px]"
+                    width="30"
+                    height="30"
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
@@ -239,19 +245,21 @@ function Footer() {
                 </a>
               </span>
               <span>
-                <svg
-                  className="hover:h-[28px] hover:w-[28px]"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M1.75 3H22.25C23.216 3 24 3.784 24 4.75V18.75C24 19.2141 23.8156 19.6592 23.4874 19.9874C23.1592 20.3156 22.7141 20.5 22.25 20.5H1.75C1.28587 20.5 0.840752 20.3156 0.512563 19.9874C0.184374 19.6592 0 19.2141 0 18.75L0 4.75C0 3.784 0.784 3 1.75 3ZM1.5 7.412V18.75C1.5 18.888 1.612 19 1.75 19H22.25C22.3163 19 22.3799 18.9737 22.4268 18.9268C22.4737 18.8799 22.5 18.8163 22.5 18.75V7.412L12.98 13.845C12.388 14.245 11.612 14.245 11.02 13.845L1.5 7.412ZM1.5 4.75V5.602L11.86 12.602C11.9013 12.6299 11.9501 12.6449 12 12.6449C12.0499 12.6449 12.0987 12.6299 12.14 12.602L22.5 5.602V4.75C22.5 4.6837 22.4737 4.62011 22.4268 4.57322C22.3799 4.52634 22.3163 4.5 22.25 4.5H1.75C1.6837 4.5 1.62011 4.52634 1.57322 4.57322C1.52634 4.62011 1.5 4.6837 1.5 4.75Z"
-                    className="fill-[#E0D9D9]"
-                  />
-                </svg>
+                <a href="mailto:pranabcollege@yahoo.com">
+                  <svg
+                    className="hover:h-[40px] hover:w-[40px]"
+                    width="30"
+                    height="30"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M1.75 3H22.25C23.216 3 24 3.784 24 4.75V18.75C24 19.2141 23.8156 19.6592 23.4874 19.9874C23.1592 20.3156 22.7141 20.5 22.25 20.5H1.75C1.28587 20.5 0.840752 20.3156 0.512563 19.9874C0.184374 19.6592 0 19.2141 0 18.75L0 4.75C0 3.784 0.784 3 1.75 3ZM1.5 7.412V18.75C1.5 18.888 1.612 19 1.75 19H22.25C22.3163 19 22.3799 18.9737 22.4268 18.9268C22.4737 18.8799 22.5 18.8163 22.5 18.75V7.412L12.98 13.845C12.388 14.245 11.612 14.245 11.02 13.845L1.5 7.412ZM1.5 4.75V5.602L11.86 12.602C11.9013 12.6299 11.9501 12.6449 12 12.6449C12.0499 12.6449 12.0987 12.6299 12.14 12.602L22.5 5.602V4.75C22.5 4.6837 22.4737 4.62011 22.4268 4.57322C22.3799 4.52634 22.3163 4.5 22.25 4.5H1.75C1.6837 4.5 1.62011 4.52634 1.57322 4.57322C1.52634 4.62011 1.5 4.6837 1.5 4.75Z"
+                      className="fill-[#E0D9D9]"
+                    />
+                  </svg>
+                </a>
               </span>
             </div>
           </div>

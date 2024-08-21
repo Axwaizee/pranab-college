@@ -280,7 +280,7 @@ function Nav() {
       "Innovation and Development Cell",
       "Cyber Cell",
       "Publicity and Media Cell",
-      "Entrepreneurship Cell ",
+      "Entrepreneurship Cell",
       "Magazine Committee",
       "Literary Club",
       "Mentor - Mentee Cell",
@@ -352,25 +352,25 @@ function Nav() {
               </Link>
             </td>
             <td>
-              <Link to={routedOption("NSS")}>
+              <Link to={routedOption("Admission Committee")}>
                 <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  NSS
+                  Admission Committee
                 </div>
               </Link>
             </td>
           </tr>
           <tr>
             <td>
-              <Link to={routedOption("Anti-Ragging Committee")}>
+              <Link to={routedOption("Alumni Association")}>
                 <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  Anti-Ragging Committee
+                  Alumni Association{" "}
                 </div>
               </Link>
             </td>
             <td>
-              <Link to={routedOption("Career Guidance and Placement Cell")}>
+              <Link to={routedOption("Anti-Ragging Committee")}>
                 <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  Career Guidance and Placement Cell
+                  Anti-Ragging Committee
                 </div>
               </Link>
             </td>
@@ -384,31 +384,38 @@ function Nav() {
               </Link>
             </td>
             <td>
-              <Link to={routedOption("Innovation and Development Cell")}>
+              <Link to={routedOption("Career Guidance and Placement Cell")}>
                 <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  Innovation and Development Cell
+                  Career Guidance and Placement Cell
                 </div>
               </Link>
             </td>
           </tr>
           <tr>
             <td>
-              <Link to={routedOption("Cyber Cell")}>
+              <Link to={routedOption("Cultural Committee")}>
                 {" "}
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Cultural Committee
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("Cyber Cell")}>
                 <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
                   Cyber Cell
                 </div>
               </Link>
             </td>
+          </tr>
+          <tr>
             <td>
-              <Link to={routedOption("Publicity and Media Cell")}>
+              <Link to={routedOption("Eco Club")}>
                 <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  Publicity and Media Cell
+                  Eco Club
                 </div>
               </Link>
             </td>
-          </tr>
-          <tr>
             <td>
               <Link to={routedOption("Entrepreneurship Cell")}>
                 <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
@@ -416,8 +423,53 @@ function Nav() {
                 </div>
               </Link>
             </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("Examination CommitteeLiterary Club")}>
+                {" "}
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Examination Committee
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("Grievance Redressal Committee")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Grievance Redressal Committee
+                </div>
+              </Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("Innovation and Development Cell")}>
+                {" "}
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Innovation and Development Cell
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("Library Advisory Committee")}>
+                {" "}
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Library Advisory Committee
+                </div>
+              </Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("Literary Club")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Literary Club
+                </div>
+              </Link>
+            </td>
             <td>
               <Link to={routedOption("Magazine Committee")}>
+                {" "}
                 <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
                   Magazine Committee
                 </div>
@@ -426,100 +478,16 @@ function Nav() {
           </tr>
           <tr>
             <td>
-              <Link to={routedOption("Literary Club")}>
-                {" "}
-                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  Literary Club
-                </div>
-              </Link>
-            </td>
-            <td>
               <Link to={routedOption("Mentor - Mentee Cell")}>
                 <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
                   Mentor - Mentee Cell
                 </div>
               </Link>
             </td>
-          </tr>
-          <tr>
             <td>
-              <Link to={routedOption("Sports Committee")}>
-                {" "}
+              <Link to={routedOption("NSS")}>
                 <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  Sports Committee
-                </div>
-              </Link>
-            </td>
-            <td>
-              <Link to={routedOption("Eco Club")}>
-                {" "}
-                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  Eco Club
-                </div>
-              </Link>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <Link to={routedOption("Library Advisory Committee")}>
-                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  Library Advisory Committee
-                </div>
-              </Link>
-            </td>
-            <td>
-              <Link to={routedOption("Red Ribbon Club")}>
-                {" "}
-                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  Red Ribbon Club
-                </div>
-              </Link>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <Link to={routedOption("Women Empowerment Cell")}>
-                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  Women Empowerment Cell
-                </div>
-              </Link>
-            </td>
-            <td>
-              <Link to={routedOption("Admission Committee")}>
-                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  Admission Committee
-                </div>
-              </Link>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <Link to={routedOption("Examination Committee")}>
-                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  Examination Committee
-                </div>
-              </Link>
-            </td>
-            <td>
-              <Link to={routedOption("Research Committee")}>
-                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  Research Committee
-                </div>
-              </Link>
-            </td>
-          </tr>
-          <tr>
-            <td>
-              <Link to={routedOption("Cultural Committee")}>
-                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  Cultural Committee
-                </div>
-              </Link>
-            </td>
-            <td>
-              <Link to={routedOption("Alumni Association")}>
-                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  Alumni Association
+                  NSS
                 </div>
               </Link>
             </td>
@@ -533,9 +501,41 @@ function Nav() {
               </Link>
             </td>
             <td>
-              <Link to={routedOption("Grievance Redressal Committee")}>
+              <Link to={routedOption("Publicity and Media Cell")}>
                 <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
-                  Grievance Redressal Committee
+                  Publicity and Media Cell
+                </div>
+              </Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("Red Ribbon Club")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Red Ribbon Club
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("Research Committee")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Research Committee
+                </div>
+              </Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("Sports Committee")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Sports Committee
+                </div>
+              </Link>
+            </td>
+            <td>
+              <Link to={routedOption("Women Empowerment Cell")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  Women Empowerment Cell
                 </div>
               </Link>
             </td>
