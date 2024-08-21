@@ -38,13 +38,13 @@ function SamplePrevArrow(props) {
 const testimonial = {
   Alumni: [
     {
-      image: `/assets/testimonials/alumni/test.jpg`,
+      image: `https://picsum.photos/500?random=1`,
       name: "DEF",
       course: { course: "B.A. English", batch: "2011-14" },
       testimonial: "Comming Soon...",
     },
     {
-      image: "/assets/testimonials/alumni/test.jpg",
+      image: "https://picsum.photos/500?random=2",
       name: "UVW",
       course: { course: "B.A. English", batch: "2024-28" },
       testimonial: "Comming Soon...",
@@ -52,14 +52,14 @@ const testimonial = {
   ],
   Parents: [
     {
-      image: "https://picsum.photos/200",
+      image: "https://picsum.photos/500?random=3",
       name: "Mr. ABC",
       parentof: "DEF",
       relation: "Father",
       testimonial: "Comming Soon...",
     },
     {
-      image: "https://picsum.photos/200",
+      image: "https://picsum.photos/500?random=4",
       name: "Mrs. XYZ",
       parentof: "UVW",
       relation: "Mother",
