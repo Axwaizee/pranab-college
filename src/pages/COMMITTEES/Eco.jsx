@@ -83,19 +83,11 @@ const Eco = () => {
             </p>
             <br />
             <ul className="list-decimal list-inside">
-              <li className="pb-2">
-                Mrs. Purnima Das, Asst. Prof., Dept. of EVS, Convenor
-              </li>
-              <li className="pb-2">
-                Mrs. Anju Rai, Asst. Prof., Dept of English, Member
-              </li>
-              <li className="pb-2">
-                Mr. Suraj Chhinal, Asst. Prof. & Head of Dept. of Commerce,
-                Member
-              </li>
-              <li className="pb-2">
-                Ms. Olivia J. Kikon, Asst. Prof., Dept. of Sociology, Member
-              </li>
+              <li className="pb-2">Purnima Das, Convenor</li>
+              <li className="pb-2">Tekamongla Jamir Asst. Convenor</li>
+              <li className="pb-2">Ulla Laureen Fernandez</li>
+              <li className="pb-2">Bendangmongla Lemdur </li>
+              <li className="pb-2 ">Exceutive members of PCSU</li>
             </ul>
           </div>
         </div>

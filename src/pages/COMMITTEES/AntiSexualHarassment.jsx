@@ -142,10 +142,20 @@ const AntiSexualHarassment = () => {
             <ul className="pl-2 list-decimal list-inside ">
               <li className="pb-2">
                 Gracia K Jimo (Co-ordinator) – 9862816745
-              </li>
-              <li className="pb-2">Miss Themneingah Hanneng (Member)</li>
+              </li>{" "}
             </ul>
           </p>
+          <div className="pt-4 ">
+            <p className="pb-1 text-lg font-semibold ">
+              Members of the Anti Sexual Harassment Committees includes:-
+            </p>
+            <ol className="list-decimal list-inside ">
+              <li>N. Tainla Jamir - Convenor </li>
+              <li>I. Imkongakum Ao - Asst. Convenor</li>
+              <li>Gracia K Jimo</li>
+              <li>Saurav Dowarah</li>
+            </ol>
+          </div>
         </div>
       </div>
     </>

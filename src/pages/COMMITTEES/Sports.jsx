@@ -84,15 +84,16 @@ const Sports = () => {
               <li className="pb-2">
                 Tongpok Assistant Profesor (Sociology), Member
               </li>
-              <li className="pb-2">
-                Rupam Dasgupta Asst. Profesor (Commerce), Member
-              </li>
+              <li className="pb-2">Tekamongla Jamir</li>
               <li className="pb-2">
                 Ulla Laureen Fernandez Assistant Profesor (Education), Member
               </li>
               <li className="pb-2">
                 Moasunep Asst. Profesor (Commerce), Member
               </li>
+              <li className="pb-2">Bendangmongla Lemdur</li>
+              <li className="pb-2">Sports Secretary, PCSU</li>
+              <li className="pb-2">Asst. Sports Secretary, PCSU</li>
             </ul>
           </div>
         </div>

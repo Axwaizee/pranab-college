@@ -141,20 +141,14 @@ const NSS = () => {
                 </li>
               </ul>
             </p>
+            <p className="pb-1 text-lg font-semibold ">
+              Members of the NSS includes:-
+            </p>
             <ul className="list-decimal ">
-              <li>
-                Ms. Ulla Laureen Fernandez, Asst. Prof., Dept. of Education,
-                Programme Officer
-              </li>
-              <li>
-                Mr. Temsenyala Amlari, Asst. Prof., Dept. of Commerce, Member
-              </li>
-              <li>
-                Ms. Meyisangla Jamir, Asst. Prof., Dept. of English, Member
-              </li>
-              <li>
-                Mr. Rupam Dasgupta, Asst. Prof., Dept. of Commerce, Member
-              </li>
+              <li>Ms. Ulla Laureen Fernandez, Convenor</li>
+              <li>Mr. Moasunep, Asst. Convenor</li>
+              <li>Mr. Rupam Dasgupta</li>
+              <li>Ms. Tekamongla Jamir</li>
             </ul>
           </section>
         </div>

@@ -41,12 +41,12 @@ const CareerGuidance = () => {
               Cell:
             </p>
             <ol className="pb-3 list-disc list-inside">
+              <li>Ms. Rupa Dutta, Asst. Prof. of English, Convenor</li>
               <li>
                 Mrs. Sanjukta Bhattacharjee, Asst. Prof. & Head, Dept. Of
-                English, Convenor
+                English, Assistant Convenor
               </li>
               <li>Mrs. Rina Anal, Asst. Prof. of Education, Member</li>
-              <li>Ms. Rupa Dutta, Asst. Prof. of English, Member</li>
               <li>Mr. Seiboy Khongsai, Asst. Prof. of Sociology, Member</li>
             </ol>
           </div>

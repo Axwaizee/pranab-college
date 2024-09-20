@@ -163,6 +163,16 @@ const RedRibbon = () => {
                 member.
               </li>
             </ul>
+            <div className="pt-4 ">
+              <p className="pb-1 text-lg font-semibold ">
+                Members of the Red Ribbon Club includes:-
+              </p>
+              <ol className="list-decimal list-inside ">
+                <li>I. Imkongakum Ao, Convenor </li>
+                <li>Sanjukta Bhattacharjee, Asst. Convenor</li>
+                <li>Tekamongla Jamir</li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>

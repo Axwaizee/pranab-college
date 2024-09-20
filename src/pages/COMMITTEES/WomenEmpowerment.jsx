@@ -88,16 +88,16 @@ const WomenEmpowerment = () => {
           </div>
           <br />
           <div>
-            <p>
+            <p className="pb-1 ">
               <b>Members of the Women Empoerment Cell includes:-</b>
             </p>
-            <ul className="list-decimal list-inside">
-              <li className="pb-2">
-                Gracia K. Jimo, Assistant Professor (Education), Convenor
-              </li>
-              <li className="pb-2">
-                T. Hanneng, Asst. Prof. (Political Science) , Member
-              </li>
+            <ul className="list-decimal list-inside ">
+              <li className="pb-2">Gracia K. Jimo, Convenor</li>
+              <li className="pb-2">Rina Anal, Asst. Convenor</li>
+              <li className="pb-2">Dr. Alomi Cynthia Shikhu</li>
+              <li className="pb-2">Purnima Das</li>
+              <li className="pb-2">President - PCSU</li>
+              <li className="pb-2">Police Personnel (Women's Cell)</li>
             </ul>
           </div>
         </div>

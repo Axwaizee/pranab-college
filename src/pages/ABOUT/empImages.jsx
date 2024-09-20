@@ -1,77 +1,78 @@
 //english
-const sanjukta = "/assets/images/staffs/teaching/english/S.BHATTACHARJEE.webp";
-const meyisangla = "/assets/images/staffs/teaching/english/MEYISANGLA.webp";
-const rupa = "/assets/images/staffs/teaching/english/RUPA-DUTTA.webp";
-const anju = "/assets/images/staffs/teaching/english/ANJU_RAI.webp";
+const sanjukta = "/assets/images/staffs/teaching/english/S.BHATTACHARJEE.jpeg";
+const meyisangla = "/assets/images/staffs/teaching/english/MEYISANGLA.JPG";
+const rupa = "/assets/images/staffs/teaching/english/RUPA-DUTTA.JPG";
+const anju = "/assets/images/staffs/teaching/english/ANJU_RAI.JPG";
 
 //education
-const nayan = "/assets/images/staffs/teaching/education/NAYAN-BASU.webp";
-const gracia = "/assets/images/staffs/teaching/education/GRACIA.webp";
-const rina = "/assets/images/staffs/teaching/education/RINA.webp";
-const ulla = "/assets/images/staffs/teaching/education/ULLA.webp";
+const nayan = "/assets/images/staffs/teaching/education/NAYAN-BASU.JPG";
+const gracia = "/assets/images/staffs/teaching/education/GRACIA.JPG";
+const rina = "/assets/images/staffs/teaching/education/RINA.JPG";
+const ulla = "/assets/images/staffs/teaching/education/ULLA.jpeg";
 
 //economics
-const dhruba = "/assets/images/staffs/teaching/economics/DK-DHAR.webp";
-const tekamongla = "/assets/images/staffs/teaching/economics/TEKAMONGLA.webp";
+const dhruba = "/assets/images/staffs/teaching/economics/DK-DHAR.JPG";
+const tekamongla = "/assets/images/staffs/teaching/economics/TEKAMONGLA.jpg";
 
 //evs
-const purnima = "/assets/images/staffs/teaching/evs/PURNIMA.webp";
+const purnima = "/assets/images/staffs/teaching/evs/PURNIMA.JPG";
 
 //mil
 const atmaram = "/assets/images/staffs/teaching/mil/ATMARAM.webp";
-const pramila = "/assets/images/staffs/teaching/mil/P-PAUL.webp";
+const pramila = "/assets/images/staffs/teaching/mil/P-PAUL.jpeg";
 
 //sociology
 const alomi =
-  "/assets/images/staffs/teaching/sociology/Dr.-Alomi-Cynthia-Shikhu.webp";
-const majakhon = "/assets/images/staffs/teaching/sociology/M.-KAMEI.webp";
-const olivia = "/assets/images/staffs/teaching/sociology/Olivia-J-Kikon.webp";
-const seiboy = "/assets/images/staffs/teaching/sociology/seiboy.webp";
-const tongpok = "/assets/images/staffs/teaching/sociology/TONGPOK.webp";
+  "/assets/images/staffs/teaching/sociology/Dr.-Alomi-Cynthia-Shikhu.JPG";
+const majakhon = "/assets/images/staffs/teaching/sociology/M.-KAMEI.JPG";
+const olivia = "/assets/images/staffs/teaching/sociology/Olivia-J-Kikon.JPG";
+const seiboy = "/assets/images/staffs/teaching/sociology/seiboy.JPG";
+const tongpok = "/assets/images/staffs/teaching/sociology/TONGPOK.JPG";
 
 //commerce
-const bendang = "/assets/images/staffs/teaching/commerce/bendang.webp";
-const moa = "/assets/images/staffs/teaching/commerce/moa.webp";
-const rupam = "/assets/images/staffs/teaching/commerce/Rupam-Dasgupta.webp";
-const suraj = "/assets/images/staffs/teaching/commerce/SURAJ.webp";
+const bendang = "/assets/images/staffs/teaching/commerce/bendang.JPG";
+const moa = "/assets/images/staffs/teaching/commerce/moa.JPG";
+const rupam = "/assets/images/staffs/teaching/commerce/Rupam-Dasgupta.JPG";
+const suraj = "/assets/images/staffs/teaching/commerce/SURAJ.jpg";
 
 //pol sci
-const anil = "/assets/images/staffs/teaching/polSci/ANIL.webp";
-const mhono = "/assets/images/staffs/teaching/polSci/mhono.webp";
-const saurav = "/assets/images/staffs/teaching/polSci/S-DOWARAH.webp";
+const anil = "/assets/images/staffs/teaching/polSci/ANIL.JPG";
+const mhono = "/assets/images/staffs/teaching/polSci/mhono.JPG";
+const saurav = "/assets/images/staffs/teaching/polSci/S-DOWARAH.JPG";
+const atoholi = "/assets/images/staffs/teaching/polSci/Atoholi.JPG";
 
 //history
-const imkongakum = "/assets/images/staffs/teaching/history/IMKONGAKUM.webp";
-const imtijungla = "/assets/images/staffs/teaching/history/IMTIJUNGALA.webp";
-const tainla = "/assets/images/staffs/teaching/history/TIANLA.webp";
+const imkongakum = "/assets/images/staffs/teaching/history/IMKONGAKUM.jpeg";
+const imtijungla = "/assets/images/staffs/teaching/history/IMTIJUNGALA.JPG";
+const tainla = "/assets/images/staffs/teaching/history/TIANLA.JPG";
 
 //office
-const moloy = "/assets/images/staffs/nonTeaching/office/MOLOY-CHOWDHURY.webp";
-const ratan = "/assets/images/staffs/nonTeaching/office/R.-BHATTACHARJEE.webp";
+const moloy = "/assets/images/staffs/nonTeaching/office/MOLOY-CHOWDHURY.JPG";
+const ratan = "/assets/images/staffs/nonTeaching/office/R.-BHATTACHARJEE.JPG";
 const swapan = "/assets/images/staffs/nonTeaching/office/sapon-sarkar.webp";
-const sujit = "/assets/images/staffs/nonTeaching/office/S-PAUL.webp";
-const shantanu = "/assets/images/staffs/nonTeaching/office/S-SARKAR.webp";
-const sudiptam = "/assets/images/staffs/nonTeaching/office/Sudiptam.webp";
-const suvankar = "/assets/images/staffs/nonTeaching/office/SUVANKAR.webp";
+const sujit = "/assets/images/staffs/nonTeaching/office/S-PAUL.JPG";
+const shantanu = "/assets/images/staffs/nonTeaching/office/S-SARKAR.JPG";
+const sudiptam = "/assets/images/staffs/nonTeaching/office/Sudiptam.JPG";
+const suvankar = "/assets/images/staffs/nonTeaching/office/SUVANKAR.JPG";
 
 //library
-const pintu = "/assets/images/staffs/nonTeaching/library/PINTU.webp";
+const pintu = "/assets/images/staffs/nonTeaching/library/PINTU.JPG";
 const parimal = "/assets/images/staffs/nonTeaching/library/parimal.webp";
 
 //gradeIV
-const aparna = "/assets/images/staffs/nonTeaching/gradeIV/Aparna.webp";
-const chabi = "/assets/images/staffs/nonTeaching/gradeIV/Chabi.webp";
+const aparna = "/assets/images/staffs/nonTeaching/gradeIV/Aparna.JPG";
+const chabi = "/assets/images/staffs/nonTeaching/gradeIV/Chabi.JPG";
 const dambar =
-  "/assets/images/staffs/nonTeaching/gradeIV/Dambar-Bahadur-Thapa.webp";
+  "/assets/images/staffs/nonTeaching/gradeIV/Dambar-Bahadur-Thapa.JPG";
 const dhansingh = "/assets/images/staffs/nonTeaching/gradeIV/Dhansingh.webp";
 const dilmaya = "/assets/images/staffs/nonTeaching/gradeIV/Dilmaya.webp";
-const nirmal = "/assets/images/staffs/nonTeaching/gradeIV/Nirmal.webp";
+const nirmal = "/assets/images/staffs/nonTeaching/gradeIV/Nirmal.JPG";
 const nitya =
-  "/assets/images/staffs/nonTeaching/gradeIV/Nitya-gopal-Debnath.webp";
+  "/assets/images/staffs/nonTeaching/gradeIV/Nitya-gopal-Debnath.JPG";
 const rajesh = "/assets/images/staffs/nonTeaching/gradeIV/rajesh-singh.webp";
 const rajiv = "/assets/images/staffs/nonTeaching/gradeIV/rajiv.webp";
-const romita = "/assets/images/staffs/nonTeaching/gradeIV/Romita.webp";
-const bahadur = "/assets/images/staffs/nonTeaching/gradeIV/S-BAHADUR.webp";
+const romita = "/assets/images/staffs/nonTeaching/gradeIV/Romita.JPG";
+const bahadur = "/assets/images/staffs/nonTeaching/gradeIV/S-BAHADUR.JPG";
 
 export const english = () => {
   return (
@@ -284,6 +285,32 @@ export const evs = () => {
     </>
   );
 };
+// export const computer = () => {
+//   return (
+//     <>
+//       <div className="p-3 text-2xl text-center uppercase dark:text-white">
+//         Department of Computer
+//       </div>
+//       <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
+//         <div className="flex items-center min-[200px]:max-[426px]:flex-col">
+//           <div>
+//             <img
+//               src={shaheen}
+//               className=" object-cover object-top h-[250px] w-[210px] rounded-xl"
+//             />
+//           </div>
+//           <div className="flex  justify-center p-5 min-[200px]:max-[426px]:text-lg text-2xl">
+//             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
+//               Mrs. Purnima Das
+//               <br />
+//               Assistant Professor
+//             </p>
+//           </div>
+//         </div>
+//       </div>
+//     </>
+//   );
+// };
 export const mil = () => {
   return (
     <>
@@ -534,6 +561,21 @@ export const polSci = () => {
             </p>
           </div>
         </div>
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
+          <div>
+            <img
+              src={atoholi}
+              className=" object-cover object-top h-[250px] w-[210px] rounded-xl"
+            />
+          </div>
+          <div className="flex  justify-center p-5   min-[200px]:max-[426px]:text-lg text-2xl">
+            <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
+              Mrs. Atoholi H
+              <br />
+              Assistant Professor
+            </p>
+          </div>
+        </div>
       </div>
     </>
   );
@@ -717,7 +759,7 @@ export const library = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
+        {/* <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={parimal}
@@ -730,7 +772,7 @@ export const library = () => {
               Assistant Librarian
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
@@ -807,7 +849,7 @@ export const gradeIV = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
+        {/* <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={dilmaya}
@@ -819,7 +861,7 @@ export const gradeIV = () => {
               Mrs. Dilmaya Devi
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img

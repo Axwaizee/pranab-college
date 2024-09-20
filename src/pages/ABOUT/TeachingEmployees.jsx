@@ -76,6 +76,12 @@ const TeachingEmployees = () => {
             >
               Department of History
             </Link>
+            {/* <Link
+              className="w-full px-3 py-2 text-center transition-all duration-300 border border-blue-500 rounded-full dark:text-white hover:bg-blue-500 hover:text-white"
+              to="/about/teachingEmployees/computer"
+            >
+              Department of Computer
+            </Link> */}
           </div>
           <div className="min-[200px]:max-[426px]:w-full desk:h-full w-4/6">
             <Routes>
@@ -88,6 +94,7 @@ const TeachingEmployees = () => {
               <Route path="commerce" element={commerce()} />
               <Route path="polSci" element={polSci()} />
               <Route path="history" element={history()} />
+              {/* <Route path="computer" element={computer()} /> */}
             </Routes>
           </div>
         </div>

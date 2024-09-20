@@ -60,29 +60,11 @@ const LibraryAdvisory = () => {
             </p>
             <br />
             <ul className="list-decimal list-inside">
-              <li className="pb-2">Santosh Kumar (Principal) Chairperson. </li>
+              <li className="pb-2">librarian - Convenor</li>
               <li className="pb-2">
-                Narola Ao (Vice Principal & Asst. Prof. Dept. of History),
-                Member.
+                Principal & Vice-Principal - Ex Officio members
               </li>
-              <li className="pb-2">
-                Saurav Dowrah(IQAC Coordinator and Asst. Prof. Dept. of Pol.
-                Science) Member.
-              </li>
-              <li className="pb-2">Pintu Chakraborty (Librarian) Convener.</li>
-              <li className="pb-2">MajakhonKemai (HoD Sociology), Member.</li>
-              <li className="pb-2">Anil Kr, Das (HoD Pol. Science) Member.</li>
-              <li className="pb-2">Nayan Basu (HoD Education) Member.</li>
-              <li className="pb-2">Suraj Chinnal (HoD Commerce) Member.</li>
-              <li className="pb-2">Atmaram Dwivedi (HoD Hindi) Member</li>
-              <li className="pb-2">
-                Sanjukta Bhattacharjee (HoD English) Member.
-              </li>
-              <li className="pb-2">
-                Ms Purnima Das (HoD Environmental Science) Member
-              </li>
-              <li className="pb-2">Pramila Paul (HoD Bengali) Member</li>
-              <li className="pb-2">Dhruba kr. Dhar(HoD Economics) Member</li>
+              <li className="pb-2">All HODs - Members</li>
             </ul>
           </div>
         </div>

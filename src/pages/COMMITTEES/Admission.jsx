@@ -49,6 +49,17 @@ const Admission = () => {
               Migration Certificate.
             </li>
           </ul>
+          <div className="pt-4 ">
+            <p className="pb-1 text-lg font-semibold ">
+              Members of the Admission Committees includes:-
+            </p>
+            <ol className="list-decimal list-inside ">
+              <li>C. Narola Ao </li>
+              <li>Dhruba Kumar Dhar</li>
+              <li>Suraj Chhinal</li>
+              <li>N. Tainla Jamir</li>
+            </ol>
+          </div>
         </div>
       </div>
     </>

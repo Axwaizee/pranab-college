@@ -141,10 +141,10 @@ const Policies = () => {
             Members of the Anti-Ragging Cell includes:-
           </p>
           <ol className="list-decimal list-inside ">
-            <li>
-              Mrs. Gracia K. Jimo, Assistant Professor (Education), Convenor
-            </li>
-            <li>Ms. T. Hanneng, Asst. Prof. (Political Science) , Member</li>
+            <li>N. Tainla Jamir - Convenor </li>
+            <li>I. Imkongakum Ao - Asst. Convenor</li>
+            <li>Gracia K Jimo</li>
+            <li>Saurav Dowarah</li>
           </ol>
         </div>
         <div className="flex justify-center ">

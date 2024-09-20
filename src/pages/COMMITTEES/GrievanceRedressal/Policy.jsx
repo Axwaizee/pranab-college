@@ -196,13 +196,10 @@ const Policy = () => {
             <p className="pb-3">
               <b>Core Committee Members:</b>
             </p>
-            <p className="pb-3">
-              Mr. Saurav Dowarah, Co-ordinator, IQAC (Incharge)
-            </p>
-            <p className="pb-3">Mrs. N. Tainla Jamir, HoD, History, Member</p>
-            <p className="pb-3">
-              Mrs. Gracia K. Jimo, Asst. Prof., Education, Member
-            </p>
+            <p className="pb-3">Mr. Saurav Dowarah, Convenor</p>{" "}
+            <p className="pb-3">Mrs. Gracia K. Jimo, Asst. Convenor</p>
+            <p className="pb-3 ">Mr. Nayan Basu</p>
+            <p className="pb-3 ">General Secretary, PCSU</p>
           </div>
         </div>
       </div>

@@ -132,15 +132,11 @@ const Research = () => {
               <b>Members of the RESEARCH COMMITTEE includes:</b>
             </p>
             <ul className="list-disc list-inside">
-              <li className="pb-2">
-                Majakhon Kamei HOD (Sociology) – Convenor
-              </li>
-              <li className="pb-2">
-                Imkongakum Ao Assistant Profesor (History), Member
-              </li>
-              <li className="pb-2">
-                Hanneng Asst. Prof. (Political Science) , Member
-              </li>
+              <li className="pb-2">Dr. Alomi Cynthia Shikhu – Convenor</li>
+              <li className="pb-2">I. Imkongakum Ao - Assistant Convenor</li>
+              <li className="pb-2">Sanjukta Bhattacharjee </li>
+              <li className="pb-2">Olivia Kikon </li>
+              <li className="pb-2">Seiboy Khongsai </li>
             </ul>
           </div>
         </div>
