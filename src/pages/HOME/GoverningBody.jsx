@@ -45,7 +45,7 @@ const GoverningBody = () => {
                   </td>
                 </tr>
                 <tr>
-                  <td className="p-3 text-sm "> Prof. V. K. Vidyarthi</td>
+                  <td className="p-3 text-sm "> Prof. C. S. Maiti</td>
                   <td className="p-3 text-sm ">
                     SASRD (Univ. Representative){" "}
                   </td>

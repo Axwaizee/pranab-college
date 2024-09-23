@@ -426,7 +426,7 @@ function Nav() {
           </tr>
           <tr>
             <td>
-              <Link to={routedOption("Examination CommitteeLiterary Club")}>
+              <Link to={routedOption("Examination Committee")}>
                 {" "}
                 <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
                   Examination Committee

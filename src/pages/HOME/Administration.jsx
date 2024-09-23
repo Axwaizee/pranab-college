@@ -1,7 +1,7 @@
 import React from "react";
 
 const principal = "/assets/elements/principal/Principal.webp";
-const vicePrincipal = "/assets/elements/principal/vicePrincipal/narola.webp";
+const vicePrincipal = "/assets/images/staffs/teaching/history/CNarolaAo.jpg";
 
 const Administration = () => {
   return (
@@ -16,7 +16,7 @@ const Administration = () => {
             <div>
               <img
                 src={principal}
-                className=" h-[250px] w-[210px] rounded-xl"
+                className=" h-[250px] w-[210px]  rounded-xl"
               />
             </div>
             <div className="flex items-center justify-center text-lg desk:p-5 desk:text-2xl">

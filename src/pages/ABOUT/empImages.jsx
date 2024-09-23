@@ -18,7 +18,6 @@ const tekamongla = "/assets/images/staffs/teaching/economics/TEKAMONGLA.jpg";
 const purnima = "/assets/images/staffs/teaching/evs/PURNIMA.JPG";
 
 //mil
-const atmaram = "/assets/images/staffs/teaching/mil/ATMARAM.webp";
 const pramila = "/assets/images/staffs/teaching/mil/P-PAUL.jpeg";
 
 //sociology
@@ -45,6 +44,7 @@ const atoholi = "/assets/images/staffs/teaching/polSci/Atoholi.JPG";
 const imkongakum = "/assets/images/staffs/teaching/history/IMKONGAKUM.jpeg";
 const imtijungla = "/assets/images/staffs/teaching/history/IMTIJUNGALA.JPG";
 const tainla = "/assets/images/staffs/teaching/history/TIANLA.JPG";
+const narola = "/assets/images/staffs/teaching/history/CNarolaAo.jpg";
 
 //office
 const moloy = "/assets/images/staffs/nonTeaching/office/MOLOY-CHOWDHURY.JPG";
@@ -333,21 +333,6 @@ export const mil = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
-          <div>
-            <img
-              src={atmaram}
-              className=" object-cover object-top h-[250px] w-[210px] rounded-xl"
-            />
-          </div>
-          <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
-            <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
-              Mr. Atma Ram Dwivedi (Hindi)
-              <br />
-              Assistant Professor
-            </p>
-          </div>
-        </div>
       </div>
     </>
   );
@@ -587,6 +572,21 @@ export const history = () => {
         Department of History
       </div>
       <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
+          <div>
+            <img
+              src={narola}
+              className=" object-cover object-top h-[250px] w-[210px] rounded-xl"
+            />
+          </div>
+          <div className="flex  justify-center p-5 min-[200px]:max-[426px]:text-lg text-2xl">
+            <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
+              Ms. C. Narola Ao
+              <br />
+              Vice Principal
+            </p>
+          </div>
+        </div>
         <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
