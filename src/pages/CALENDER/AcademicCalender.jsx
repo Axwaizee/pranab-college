@@ -1,6 +1,11 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 
+const academicCalender2024 = [
+  "/assets/images/calender/academic calander/1.jpeg",
+  "/assets/images/calender/academic calander/2.jpeg",
+];
+
 const links = {
   year2018:
     "https://drive.google.com/file/d/1ssrlABsqESUlWUyon3D2FISwdgbvE4mg/preview",
@@ -14,11 +19,12 @@ const links = {
     "https://drive.google.com/file/d/1qnvlhf9xqjYb_boFiFtEvx2cXz4rWxgk/preview",
 };
 
-const year2023 = () => {
+const year2024 = () => {
   return (
     <div className="flex w-full h-full p-2 dark:text-white ">
-      <div className="flex items-center justify-center w-full">
-        <p className="text-3xl dark:text-white">Content Comming Soon</p>
+      <div className="flex flex-col items-center justify-center w-full">
+        <img src={academicCalender2024[0]} alt="" />
+        <img src={academicCalender2024[1]} alt="" />
       </div>
     </div>
   );
@@ -45,9 +51,9 @@ const AcademicCalender = () => {
           <div className=" flex flex-col min-[200px]:max-[426px]:w-full w-2/6  p-1 gap-1">
             <Link
               className="w-full px-3 py-2 text-center transition-all duration-300 border border-blue-500 rounded-full dark:text-white hover:bg-blue-500 hover:text-white"
-              to="/calender/academicCalender/year2023"
+              to="/calender/academicCalender/year2024"
             >
-              ACADEMIC CALENDER 2023
+              ACADEMIC CALENDER 2024
             </Link>
             <Link
               className="w-full px-3 py-2 text-center transition-all duration-300 border border-blue-500 rounded-full dark:text-white hover:bg-blue-500 hover:text-white"
@@ -87,7 +93,7 @@ const AcademicCalender = () => {
               <Route path="year2020" element={link(links.year2020)} />
               <Route path="year2020-2021" element={link(links.year2021)} />
               <Route path="year2022" element={link(links.year2022)} />
-              <Route path="year2023" element={year2023()} />
+              <Route path="year2024" element={year2024()} />
             </Routes>
           </div>
         </div>

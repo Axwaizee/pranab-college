@@ -11,7 +11,7 @@ const ProcedurePolicies = () => {
           <p>
             The physical infrastructure of the institution like Library,
             Classrooms, Canteen, Common Room etc. are made available for the
-            girl students who are enrolled in our institution.
+            students who are enrolled in our institution.
             <br />
             <br />
             The students who enrolled to their desired courses and subjects are

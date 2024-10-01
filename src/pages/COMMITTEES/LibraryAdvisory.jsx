@@ -13,14 +13,16 @@ const LibraryAdvisory = () => {
               <b> POLICY GUIDELINES OF LIBRARY ADVISORY COMMITTEE</b>
             </p>
             <p className="pb-3">
-              The library advisory committee of the College was formed in the
-              year 2015 under the Chairmanship of Principal, Pranabananda
-              Women’s College, Dimapur.
+              The College appoints a library advisory committee who provides
+              guidance and recommendations to the library administration on
+              matters related to the library and its services. The library
+              advisory committee of the College was formed in the year 2015
+              under the Chairmanship of Principal, Pranab College, Dimapur.
             </p>
             <p className="pb-3">
               <b>AIMS:</b> This committee plays an advisory and guiding role
-              regarding the library on policy, planning and programme in the
-              support of teaching learning process.
+              regarding the library on Policy, Planning and Programme (PPP) in
+              the support of teaching learning process.
             </p>
             <p>
               <b>Objectives</b>
@@ -43,12 +45,16 @@ const LibraryAdvisory = () => {
                 as well as students.
               </li>
               <li className="pb-2">
-                Provide Internet, Wifi and photocopy facilities.
+                Provide Internet, Wifi, Photocopy and Printing facilities.{" "}
               </li>
               <li className="pb-2">
-                Hands on experience for access of N-LIST, NDLI , SOUL (OPAC) and
-                other e-resources etc with the computers available in the
-                library.
+                Hands on experience for access of N-LIST, NDLI , WEBOPAC/ OPAC
+                and other e-resources etc. with the computers available in the
+                library and smartphones.
+              </li>
+              <li className="pb-2">
+                Advises the library regarding library services, especially
+                innovation, for the college community.
               </li>
             </ul>
             <br />
@@ -60,11 +66,11 @@ const LibraryAdvisory = () => {
             </p>
             <br />
             <ul className="list-decimal list-inside">
-              <li className="pb-2">librarian - Convenor</li>
+              <li className="pb-2">Librarian - Convenor</li>
               <li className="pb-2">
                 Principal & Vice-Principal - Ex Officio members
               </li>
-              <li className="pb-2">All HODs - Members</li>
+              <li className="pb-2">HoD’s of all departments- Members</li>
             </ul>
           </div>
         </div>

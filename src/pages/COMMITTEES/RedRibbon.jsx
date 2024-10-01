@@ -138,14 +138,12 @@ const RedRibbon = () => {
                 <ul className="pt-2 pl-10 text-sm list-decimal list-inside">
                   <li className="pb-2">National Youth Day- 12th January</li>
                   <li className="pb-2">International Youth Day- 12th August</li>
+                  <li className="pb-2">
+                    National Voluntary Blood Donation Day-1st October
+                  </li>
+                  <li className="pb-2">World AIDS Day- 1st December</li>
                 </ul>
               </li>
-              <li className="pb-2">
-                National Voluntary Blood Donation Day-1st October
-              </li>
-              <ul className="pl-10 text-sm list-decimal list-inside">
-                <li>World AIDS Day- 1st December</li>
-              </ul>
             </ul>
             <br />
             <p>

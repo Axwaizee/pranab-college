@@ -1,6 +1,8 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 
+const holidayList2024 = "/assets/images/calender/Holiday List/HolidayList.jpeg";
+
 const links = {
   year2018:
     "https://drive.google.com/file/d/1Aqq8eAtQ8mSvY7DU6UUn8FlG2l_6OkDq/preview",
@@ -34,6 +36,16 @@ const link = (l) => {
   );
 };
 
+const year2024 = () => {
+  return (
+    <div className="flex w-full h-full p-2 dark:text-white ">
+      <div className="flex flex-col items-center justify-center w-full">
+        <img src={holidayList2024} alt="" />
+      </div>
+    </div>
+  );
+};
+
 const HolidayList = () => {
   return (
     <>
@@ -45,9 +57,9 @@ const HolidayList = () => {
           <div className=" flex flex-col min-[200px]:max-[426px]:w-full w-2/6  p-1 gap-1">
             <Link
               className="w-full px-3 py-2 text-center transition-all duration-300 border border-blue-500 rounded-full dark:text-white hover:bg-blue-500 hover:text-white"
-              to="/calender/holidayList/year2023"
+              to="/calender/holidayList/year2024"
             >
-              HOLIDAY LIST 2023
+              HOLIDAY LIST 2024
             </Link>
             <Link
               className="w-full px-3 py-2 text-center transition-all duration-300 border border-blue-500 rounded-full dark:text-white hover:bg-blue-500 hover:text-white"
@@ -87,7 +99,7 @@ const HolidayList = () => {
               <Route path="year2020" element={link(links.year2020)} />
               <Route path="year2021" element={link(links.year2021)} />
               <Route path="year2022" element={link(links.year2022)} />
-              <Route path="year2023" element={unavailable()} />
+              <Route path="year2024" element={year2024()} />
             </Routes>
           </div>
         </div>
