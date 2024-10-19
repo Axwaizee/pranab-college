@@ -29,7 +29,7 @@ function Nav() {
     if (option === "Courses Offered") {
       return "/home/coursesOffered";
     }
-    if (option === "Code of Conduct") {
+    if (option === "Code of Conduct & Dress Code") {
       return "/home/codeOfConduct";
     }
     if (option === "About us") {
@@ -119,6 +119,29 @@ function Nav() {
     if (option === "Results") {
       return "/resources/results";
     }
+
+    if (option === "Commerce") {
+      return "/department/commerce";
+    }
+    if (option === "Economics") {
+      return "/department/economics";
+    }
+    if (option === "Education") {
+      return "/department/education";
+    }
+    if (option === "English") {
+      return "/department/english";
+    }
+    if (option === "History") {
+      return "/department/history";
+    }
+    if (option === "Political Science") {
+      return "/department/polSci";
+    }
+    if (option === "Sociology") {
+      return "/department/sociology";
+    }
+
     if (option === "Syllabus") {
       return "https://nagalanduniversity.ac.in/English/node/69";
     }
@@ -272,6 +295,15 @@ function Nav() {
       "Journal",
       "Prospectus",
       "Results",
+    ],
+    Department: [
+      "Commerce",
+      "Economics",
+      "Education",
+      "English",
+      "History",
+      "Political Science",
+      "Sociology",
     ],
     Library: ["Syllabus", "Question Bank", "ILMS"],
     Committees: [
