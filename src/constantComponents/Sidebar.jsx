@@ -238,7 +238,7 @@ function Sidebar({ onLinkClick }) {
       "Procedure and Policies",
       "Association",
       "Courses Offered",
-      "Code of Conduct",
+      "Code of Conduct & Dress Code",
     ],
     About: ["About us", "Teaching Faculty", "Non-teaching Staff", "Contact"],
     Online_Admissions: [

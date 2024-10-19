@@ -9,14 +9,69 @@ const Magazine = () => {
       <div className="flex justify-center p-5 desk:p-10 dark:text-white">
         <div className="w-full desk:w-1/2">
           <div className="pt-1 ">
+            <p>
+              The magazine committee brings out the annual magazine of the
+              college “Pranab Vision”. An editorial board is formed comprising
+              of teachers and students. This annual magazine is inaugurated by
+              distinguished guests during the annual Fresher’s Day meet of the
+              college.
+            </p>
+            <br />
+            <p>
+              <b>Aims:</b>
+            </p>
+            <br />
+            <ol className="list-disc list-inside ">
+              <li className="pb-2">
+                To provide a platform to students to express their
+                creativity,thoughts and expressions.
+              </li>
+              <li className="pb-2">
+                To encourage literary,artistic talent among students.
+              </li>
+              <li className="pb-2">
+                It aims to promote academic and intellectual growth by fostering
+                a culture of learning and intellectual curiosity among students
+                and faculty members.
+              </li>
+            </ol>
+            <br />
+            <p>
+              <b>Objectives:</b>
+            </p>
+            <br />
+            <ol className="list-disc list-inside ">
+              <li className="pb-2">
+                To serves as an avenue where students and staff develop their
+                writing skills,communication,presentation abilities and critical
+                thinking skills.
+              </li>
+              <li className="pb-2">
+                It serves as a source of information for students,providing
+                updates on college programmes,initiatives and achievements.
+              </li>
+              <li className="pb-2">
+                Publishing articles,stories and poetry that reflects student ‘s
+                interest and concerns.
+              </li>
+              <li className="pb-2">
+                Creating a sense of belonging among students,faculty and alumni.
+              </li>
+            </ol>
+            <br />
             <p className="pb-1 text-lg font-semibold ">
               Members of the Magazine Committee includes:-
             </p>
             <ol className="list-decimal list-inside ">
-              <li>Imtijungla Longchar - Convenor </li>
-              <li>Meyisangla Jamir - Asst. Convenor</li>
-              <li>Tongpok</li>
-              <li>Executive members of PCSU</li>
+              <li>
+                Imtijungla Longchar - Assistant Professor - Department of
+                History{" "}
+              </li>
+              <li>Tongpok - Assistant Professor - Department of Sociology</li>
+              <li>
+                Bendangmongla Lemdur - Assistant Professor - Department of
+                Commerce
+              </li>
             </ol>
           </div>
         </div>
