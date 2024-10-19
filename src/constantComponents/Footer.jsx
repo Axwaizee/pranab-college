@@ -84,16 +84,30 @@ function Footer() {
                 className="font-inter text-base desk:text-lg font-normal leading-[30px]"
                 to="/about/aboutUs"
               >
-                <p>About us</p>
+                <p>About The Sponsoring Society</p>
               </Link>
             </div>
             <div className=" min-[200px]:max-[1180px]:order-3 min-[200px]:max-[1180px]:col-span-2 desk:mt-[28px] desk:grow-[1]">
-              <p className="font-inter text-base desk:text-lg font-normal leading-[30px]">
-                National Scholarship Program
-              </p>
-              <p className="font-inter text-base desk:text-lg font-normal leading-[30px]">
-                Nagaland State Scholarship
-              </p>
+              <a
+                href="https://scholarships.gov.in/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" hover:text-white"
+              >
+                <p className="font-inter text-base desk:text-lg font-normal leading-[30px]">
+                  National Scholarship Program
+                </p>
+              </a>
+              <a
+                href=""
+                target="_blank"
+                rel="noopener noreferrer"
+                className=" hover:text-white"
+              >
+                <p className="font-inter text-base desk:text-lg font-normal leading-[30px]">
+                  Nagaland State Scholarship
+                </p>
+              </a>
               <Link
                 to="/library/questionBank"
                 className="font-inter text-base desk:text-lg font-normal leading-[30px]"
@@ -112,19 +126,7 @@ function Footer() {
                 to="/studentServices/busService"
                 className="font-inter text-base desk:text-lg font-normal leading-[30px]"
               >
-                <p>Enrol for bus service</p>
-              </Link>
-              <Link
-                to="/studentServices/busService"
-                className="font-inter text-base desk:text-lg font-normal leading-[30px]"
-              >
                 <p>Bus route</p>
-              </Link>
-              <Link
-                to="/studentServices/busService"
-                className="font-inter text-base desk:text-lg  font-normal leading-[30px]"
-              >
-                <p>Pay your bus fees</p>
               </Link>
             </div>
           </div>

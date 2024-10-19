@@ -15,8 +15,36 @@ const Eco = () => {
         <p>Eco Club</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10">
-        <div className="w-full desk:w-3/4">
+        <div className="w-full desk:w-2/3">
           <div className="text-justify dark:text-white">
+            <p>
+              Eco-Club or Green Club is a voluntary group which promotes the
+              student’s involvement in learning about and improving their
+              environment. The Pranab College has an active eco- club to impart
+              knowledge to the students about the importance of Environmental
+              protection and Sustainable development.
+            </p>
+            <br />
+            <p>
+              <b>Eco Club Policy</b>
+            </p>
+            <br />
+            <p>
+              The Pranab College have an active Eco-club to impart knowledge to
+              the students about the importance of environmental protection and
+              sustainable development. As the whole world concern about various
+              environmental issues – environmental degradation, climate change;
+              taking into consideration, Eco-club of Pranab college also took
+              initiatives to make the students concious about their natural
+              environment – its conservation and protection. The club includes
+              four faculty members and all the students of the college join it
+              to support a clean environment within and outside campus. The club
+              organises various programme throughout the year such as
+              celebration of world environment day, earth day, awareness
+              programme on e-waste management, training programme on compost
+              making, Free – land knowledge on waste to wealth technologies etc.
+            </p>
+            <br />
             <p>
               <b>Objectives</b>
             </p>
@@ -24,70 +52,59 @@ const Eco = () => {
             <ul className="list-disc list-inside">
               <li className="pb-2">
                 To impart knowledge about various environmental issues and
-                problems, and how to tackle them.
+                problems and how to tackle them.
               </li>
               <li className="pb-2">
-                To motivate the students to maintain green and clean
-                surroundings.
+                To motivate the students to maintain clean and green campus
               </li>
               <li className="pb-2">
-                To educate the students to create awareness about the impact of
-                E-waste on the environment.
+                To educate the students about the impact of e-wastes on the
+                environment and how to manage it.
               </li>
               <li className="pb-2">
-                Sensitize the students to minimize the use of plastic bags which
-                create great havoc to the environment.
+                Sensitize the students to minimize the use of plastics which
+                create havoc to the environment.
+              </li>
+              <li className="pb-2">
+                To provide knowledge to the students about the various ways to
+                reduce the waste generated and how waste can be recycled or
+                converted into useful substances.
               </li>
             </ul>
             <br />
             <p>
-              <b>Functions:</b>
+              <b>Activities:</b>
             </p>
             <br />
             <ul className="list-decimal list-inside">
               <li className="pb-2">
-                The Eco-Club of Pranabananda Women’s College celebrates World
-                Environment Day and Earth Day every year to create awareness
-                among the students about the importance of clean and green
-                environment for a sustainable living.
+                The Eco-club of Pranab College organizes various programmes
+                throughout the year such as celebration of World Environment
+                Day, Earth Day etc. on every year.
               </li>
               <li className="pb-2">
-                Various sensitization programmes are organized from time to time
-                to impart knowledge about proper disposal of various waste and
-                their impact on the environment.
+                Every year the eco-club of the college organize an awareness
+                programme on E-waste management so as to make the students aware
+                of the harmful impact of e-waste on the environment.
+              </li>
+              <li className="pb-2">
+                Eco-club organize a training programme on compost making to
+                provide knowledge on how bio-degradable waste can be converted
+                into manure (Compost) to increase soil fertility.
               </li>
             </ul>
-            <br />
-            <p>
-              <b>Outcome:</b>
-            </p>
-            <br />
-            <ul className="list-decimal list-inside">
-              <li className="pb-2">
-                Students develop the habit of maintaining a clean surrounding
-                and develop the habit of safe waste disposal.
-              </li>
-              <li className="pb-2">
-                They participate in plantation programmes.
-              </li>
-              <li className="pb-2">
-                They participate in various sensitization programmes.
-              </li>
-              <li className="pb-2">
-                They participate in cleanliness drive in and outside the campus.
-              </li>
-            </ul>
+
             <br />
             <p>
               <b>Members of the Eco-Club includes:-</b>
             </p>
             <br />
             <ul className="list-decimal list-inside">
-              <li className="pb-2">Purnima Das, Convenor</li>
-              <li className="pb-2">Tekamongla Jamir Asst. Convenor</li>
-              <li className="pb-2">Ulla Laureen Fernandez</li>
-              <li className="pb-2">Bendangmongla Lemdur </li>
-              <li className="pb-2 ">Exceutive members of PCSU</li>
+              <li className="pb-2">Mrs. Purnima Das (Convenor)</li>
+              <li className="pb-2">Mrs. Tekamongla Jamir (Asst. Convenor)</li>
+              <li className="pb-2">Mrs Ulla Fernandez (Asst. Prof.)</li>
+              <li className="pb-2">Ms. Bendangmongla (Asst. Prof.) </li>
+              <li className="pb-2 ">Students Executives (Pranab College)</li>
             </ul>
           </div>
         </div>

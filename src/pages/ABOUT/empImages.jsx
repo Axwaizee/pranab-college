@@ -652,7 +652,8 @@ export const office = () => {
           </div>
           <div className="flex  justify-center p-5 min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
-              Mr. Moloy Chowdhury
+              Mr. Moloy Chowdhury <br />
+              <p className="text-lg ">Administrative cum Finance Officer</p>
             </p>
           </div>
         </div>
@@ -665,7 +666,8 @@ export const office = () => {
           </div>
           <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
-              Mr. Ratan Bhattacharjee
+              Mr. Ratan Bhattacharjee{" "}
+              <p className="text-lg ">Office Superintendent</p>
             </p>
           </div>
         </div>
@@ -679,6 +681,7 @@ export const office = () => {
           <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
               Mr. Suvankar Dasgupta
+              <p className="text-lg ">Section Officer (IT & Admin)</p>
             </p>
           </div>
         </div>
@@ -692,6 +695,7 @@ export const office = () => {
           <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
               Mr. Sujit Paul
+              <p className="text-lg ">Section Officer (Admission)</p>
             </p>
           </div>
         </div>
@@ -705,6 +709,9 @@ export const office = () => {
           <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
               Mr. Santanu Sarkar
+              <p className="text-lg ">
+                Section Officer (University & Examination)
+              </p>
             </p>
           </div>
         </div>
@@ -717,11 +724,12 @@ export const office = () => {
           </div>
           <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
-              Mr. Sudiptam Deb
+              Mr. Sudiptam Deb{" "}
+              <p className="text-lg ">Professional Assistant</p>
             </p>
           </div>
         </div>
-        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
+        {/* <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={swapan}
@@ -733,7 +741,7 @@ export const office = () => {
               Mr. Swapan Sarkar
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );
@@ -794,6 +802,7 @@ export const gradeIV = () => {
           <div className="flex  justify-center p-5 min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
               Mr. Surya Bahadur Limbu
+              <p className="text-lg ">Head Peon</p>
             </p>
           </div>
         </div>
@@ -807,6 +816,7 @@ export const gradeIV = () => {
           <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
               Mrs. Chabi Debnath
+              <p className="text-lg ">Aya cum Peon</p>
             </p>
           </div>
         </div>
@@ -820,6 +830,7 @@ export const gradeIV = () => {
           <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
               Mr. Dambar Bahadur Thapa
+              <p className="text-lg ">Gate Keeper</p>
             </p>
           </div>
         </div>
@@ -833,6 +844,7 @@ export const gradeIV = () => {
           <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
               Mr. Nitya Gopal Debnath
+              <p className="text-lg ">Peon</p>
             </p>
           </div>
         </div>
@@ -846,6 +858,7 @@ export const gradeIV = () => {
           <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
               Mr. Nirmal Kr. Das
+              <p className="text-lg ">Peon</p>
             </p>
           </div>
         </div>
@@ -872,6 +885,7 @@ export const gradeIV = () => {
           <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
               Mrs. Romita Sorgiary
+              <p className="text-lg ">Sweeper cum Cleaner</p>
             </p>
           </div>
         </div>
@@ -885,6 +899,21 @@ export const gradeIV = () => {
           <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
               Mrs. Aparna Sukla Baidya
+              <p className="text-lg ">Aya cum Cleaner</p>
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
+          <div>
+            <img
+              src={aparna}
+              className=" object-cover object-top h-[250px] w-[210px] rounded-xl"
+            />
+          </div>
+          <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
+            <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
+              Mrs. Asha Devi
+              <p className="text-lg ">Sweeper cum Cleaner</p>
             </p>
           </div>
         </div>
@@ -898,6 +927,7 @@ export const gradeIV = () => {
           <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
               Mr. Dhan Singh Sunar
+              <p className="text-lg ">Night Guard</p>
             </p>
           </div>
         </div>
@@ -911,6 +941,7 @@ export const gradeIV = () => {
           <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
               Mr. Rajesh Singh
+              <p className="text-lg ">Driver</p>
             </p>
           </div>
         </div>
@@ -923,7 +954,7 @@ export const gradeIV = () => {
           </div>
           <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
-              Mr. Rajiv Roy
+              Mr. Rajiv Roy<p className="text-lg ">Electrition</p>
             </p>
           </div>
         </div>

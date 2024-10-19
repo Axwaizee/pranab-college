@@ -9,23 +9,13 @@ const InnovationDevelopement = () => {
       <div className="flex justify-center p-5 desk:p-10 dark:text-white">
         <div className="w-full desk:w-1/2">
           <div className="pt-1 ">
-            <p className="pb-1 text-lg font-semibold ">
-              Members of the Innovation and Development Cell includes:-
-            </p>
-            <ol className="list-decimal list-inside ">
-              <li className="pb-2 "> Meyisangla Jamir - Convenor </li>
-              <li className="pb-2 ">
-                {" "}
-                Dr. Alomi Cynthia Shikhu - Asst. Convenor{" "}
-              </li>
-              <li className="pb-2">Rupam Dasgupta</li>
-              <li className="pb-2">Rupa Dutta</li>
-              <li className="pb-2">Moasunep</li>
-              <li className="pb-2">Tongpok</li>
-              <li className="pb-2">Suvankar Dasgupta</li>
-              <li className="pb-2">Saurav Dowarah - Advisor</li>
-              <li className="pb-2">I. Imkongakum Ao - Advisor</li>
-            </ol>
+            <div className="flex justify-center py-5">
+              <iframe
+                className="desk:w-1/2 min-[200px]:max-[1180px]:w-full min-[200px]:max-[1180px]:h-[600px] h-[1000px]"
+                src="https://drive.google.com/file/d/1xrEKo_T0cEVzd2sFMbvnCzcIUeFKhCUF/preview"
+                type="application/pdf"
+              />
+            </div>
           </div>
         </div>
       </div>

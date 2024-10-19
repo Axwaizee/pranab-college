@@ -134,6 +134,9 @@ function Sidebar({ onLinkClick }) {
     if (option === "NSS") {
       return "/committees/NSS";
     }
+    if (option === "IQAC") {
+      return "/committees/IQAC";
+    }
     if (option === "Anti-Ragging Committee") {
       return "/committees/antiRagging";
     }
@@ -290,6 +293,7 @@ function Sidebar({ onLinkClick }) {
       "Magazine Committee",
       "Mentor - Mentee Cell",
       "NSS",
+      "IQAC",
       "Parents - Teachers Association",
       "Publicity and Media Cell",
       "Red Ribbon Club",

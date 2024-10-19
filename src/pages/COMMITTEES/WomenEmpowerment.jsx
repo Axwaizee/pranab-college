@@ -13,15 +13,13 @@ const WomenEmpowerment = () => {
               <b>INTRODUCTION</b>
             </p>
             <p className="text-justify ">
-              The Women Empowerment, Anti-Ragging and Sexual Harassment Cell of
-              Pranabananda Women’s College was set up as per the guidelines of
-              UGC in the year 2016 under the leadership of the then Principal,
-              Ms. Uma Bhowmick and Mrs. Sanjukta Bhattarcharjee as the Convenor.
-              At present the cell is headed by the Principal Dr. Santosh Kumar
-              and Mrs. Gracia K Jimo as a Convenor. The cell was established
-              with an aim for promoting Gender Equality and enhance
-              understanding of issues relating to women and to make the college
-              campus a safe place for the students.
+              The women empowerment cell envisions to create a campus culture
+              that values and upholds the rights and wellbeing of women. Keeping
+              this in view, the cell organizes programs related to women’s
+              issues, status, safety and health for the students. Through these
+              programmes, the cell aims to instill positive confidence and
+              self-esteem to help them take right decisions which would improve
+              their quality of life and personal development.
             </p>
           </div>
           <br />
@@ -32,28 +30,15 @@ const WomenEmpowerment = () => {
             <ul className="list-decimal list-inside">
               <li className="pb-2">
                 To create awareness on various issues and problems of women and
-                in particular regarding gender discrimination.
+                in particular regarding gender equality.
               </li>
               <li className="pb-2">
-                To prevent violence and discrimination against women.
+                To organize talk, seminars and practical activity relating to
+                women’s mental health and overall personality.{" "}
               </li>
               <li className="pb-2">
-                To highlight the importance of health and hygiene.
-              </li>
-              <li className="pb-2">
-                To conduct practical activities for the students to develop
-                self-confidence.
-              </li>
-              <li className="pb-2">
-                To organize seminars, workshops relating to women safety and
-                overall personality development.
-              </li>
-              <li className="pb-2">
-                To prevent sexual harassment, ragging, abuse, exploitation, or
-                any kind of grievances of the students.
-              </li>
-              <li className="pb-2">
-                To commemorate the occasion of International Women’s Day.
+                To encourage female students to be self-reliant and economically
+                independent.{" "}
               </li>
             </ul>
           </div>
@@ -68,21 +53,9 @@ const WomenEmpowerment = () => {
                 addresses women issues and problems in the college.
               </li>
               <li className="pb-2">
-                It also strives to provide platforms for women to share their
-                experiences and views with regard to their status and challenges
-                in the society and suggest ways to improve and empower
-                themselves.
-              </li>
-              <li className="pb-2">
-                Aiming at the intellectual and social upliftment of the female
-                students, the Cell annually felicitates women who have achieved
-                excellence in their fields and who have an impact in the
-                society.
-              </li>
-              <li className="pb-2">
-                In order to encourage and boost the confidence of the students,
-                the Cell provides platforms for physical activity and self-
-                defense training.
+                It strives to provide platforms for women to share their
+                experiences and views with regard to their status, challenges in
+                the society and suggest ways to improve and empower themselves.
               </li>
             </ul>
           </div>

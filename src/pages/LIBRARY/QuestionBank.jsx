@@ -574,29 +574,11 @@ const QuestionBank = () => {
   return (
     <>
       <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
-        <p>Question Bank</p>
+        <p>Question Bank (Under construction)</p>
       </div>
       <div className="flex justify-center ">
         <div className="flex justify-center w-full p-16 desk:p-16 desk:w-1/2">
           <div className="flex flex-row min-[200px]:max-[1180px]:flex-col gap-8 ">
-            <div className="rounded-full h-14 desk:w-44 w-full group border-[1px] border-white relative flex items-center justify-center overflow-hidden">
-              <div className="absolute w-0 h-0 transition-all duration-300 ease-in-out bg-[#008ef3] rounded-full group-hover:w-48 group-hover:h-48 "></div>
-              <Link
-                to="/library/questionBank/BA"
-                className="absolute flex items-center justify-center w-full h-full dark:text-white"
-              >
-                Bachelors of Arts
-              </Link>
-            </div>
-            <div className="rounded-full h-14 w-56 group border-[1px] border-white relative flex items-center justify-center overflow-hidden">
-              <div className="absolute w-0 h-0 transition-all duration-300 ease-in-out bg-[#008ef3] rounded-full group-hover:w-56 group-hover:h-56 "></div>
-              <Link
-                to="/library/questionBank/BCOM"
-                className="absolute flex items-center justify-center w-full h-full dark:text-white"
-              >
-                Bachelors of Commerce
-              </Link>
-            </div>
             <div className="rounded-full h-14 desk:w-44 w-full group border-[1px] border-white relative flex items-center justify-center overflow-hidden">
               <div className="absolute w-0 h-0 transition-all duration-300 ease-in-out bg-[#008ef3] rounded-full group-hover:w-48 group-hover:h-48 "></div>
               <Link

@@ -134,6 +134,9 @@ function Nav() {
     if (option === "NSS") {
       return "/committees/NSS";
     }
+    if (option === "IQAC") {
+      return "/committees/IQAC";
+    }
     if (option === "Anti-Ragging Committee") {
       return "/committees/antiRagging";
     }
@@ -274,6 +277,7 @@ function Nav() {
     Committees: [
       "List of Committees and its Members",
       "NSS",
+      "IQAC",
       "Anti-Ragging Committee",
       "Career Guidance and Placement Cell",
       "Anti-Sexual Harassment Committee",
@@ -536,6 +540,15 @@ function Nav() {
               <Link to={routedOption("Women Empowerment Cell")}>
                 <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
                   Women Empowerment Cell
+                </div>
+              </Link>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <Link to={routedOption("IQAC")}>
+                <div className="h-[40px] font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out">
+                  IQAC
                 </div>
               </Link>
             </td>

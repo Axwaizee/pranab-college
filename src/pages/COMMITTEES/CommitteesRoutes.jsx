@@ -27,6 +27,7 @@ import MentorMentee from "./MentorMentee";
 import ParentsTeachers from "./ParentsTeachers";
 import PublicityMedia from "./PublicityMedia";
 import Error404 from "../Error404";
+import IQAC from "./IQAC";
 
 const CommitteesRoutes = () => {
   return (
@@ -64,6 +65,7 @@ const CommitteesRoutes = () => {
       <Route path="mentorMentee/*" element={<MentorMentee />} />
       <Route path="parentsTeachers/*" element={<ParentsTeachers />} />
       <Route path="publicityMedia/*" element={<PublicityMedia />} />
+      <Route path="IQAC/*" element={<IQAC />} />
       <Route path="*" element={<Error404 />} />
     </Routes>
   );
