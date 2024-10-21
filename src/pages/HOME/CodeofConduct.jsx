@@ -8,7 +8,7 @@ const CodeofConduct = () => {
       </div>
       <div className="flex justify-center py-5">
         <div className="p-5 desk:w-3/4 dark:text-white">
-          <ol className="p-2 text-justify list-decimal list-inside">
+          <ol className="p-2 text-justify list-disc list-inside">
             <li className="py-1.5">
               80% attendance must be secured by students in each semester.
               Defaulters may be debarred from appearing the end term semester
@@ -74,7 +74,6 @@ const CodeofConduct = () => {
           <p>
             <b>Boys’ Uniform</b>
           </p>
-          <br />
           <p className="pb-2 ">
             <b>(Mon, Tue, Thurs, Fri):</b> Navy blue pants with Sky blue and
             white stripe Shirt (white collar), navy blue necktie and formal
@@ -85,11 +84,9 @@ const CodeofConduct = () => {
             formal black shoe
           </p>
           <br />
-          <br />
           <p>
             <b>Girls’ Uniform</b>
           </p>
-          <br />
           <p className="pb-2 ">
             <b>(Mon, Tue, Thurs, Fri):</b> Navy blue pants with Sky blue and
             white stripe Shirt (white collar), navy blue necktie and formal

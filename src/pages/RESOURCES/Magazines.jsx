@@ -13,32 +13,36 @@ const mag22 = () => {
   );
 };
 
+const mag24 = () => {
+  return (
+    <div className="flex justify-center py-5">
+      <iframe
+        className="desk:w-1/2 min-[200px]:max-[1180px]:w-full min-[200px]:max-[1180px]:h-[600px] h-[1000px]"
+        src="https://drive.google.com/file/d/1xrEKo_T0cEVzd2sFMbvnCzcIUeFKhCUF/preview"
+        type="application/pdf"
+      />
+    </div>
+  );
+};
+
 const Magazines = () => {
   return (
     <>
       <div className="flex text-center  items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
-        <p>Magazine</p>
+        <p>Pranab Vision 2024</p>
       </div>
-      <div className="flex items-center justify-center h-60">
-        <div
-          className=" h-[200px] w-[250px] px-6 pt-14 pb-10 text-center
-            bg-slate-50 rounded-3xl flex flex-col justify-between"
-        >
-          <p className="">MAGAZINE 2022</p>
-          <div className="flex justify-center text-white rounded-full ">
-            <Link
-              className="px-8 py-2 text-black transition-all duration-300 border border-black rounded-full hover:bg-gray-950 hover:text-white"
-              to="/resources/magazines/mag22"
-            >
-              View
-            </Link>
+      <div className="flex justify-center p-5 desk:p-10 dark:text-white">
+        <div className="w-full desk:w-1/2">
+          <div className="pt-1 ">
+            <div className="flex justify-center py-5">
+              <iframe
+                className="desk:w-3/4 min-[200px]:max-[1180px]:w-full min-[200px]:max-[1180px]:h-[600px] h-[1000px]"
+                src="https://drive.google.com/file/d/1WKhqiNHKS6dxurj4vBqlHGVvATYeTYTF/preview"
+                type="application/pdf"
+              />
+            </div>
           </div>
         </div>
-      </div>
-      <div>
-        <Routes>
-          <Route path="mag22" element={mag22()} />
-        </Routes>
       </div>
     </>
   );

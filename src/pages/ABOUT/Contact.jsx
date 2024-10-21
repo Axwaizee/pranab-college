@@ -17,12 +17,12 @@ const Contact = () => {
               <p className="inline text-orange-600"> 03862357469</p> <br />
               Email:{" "}
               <a href="mailto:pranabcollege@yahoo.com">
-                Pranabcollege@yahoo.com
+                pranabcollege@yahoo.com
               </a>
               <br />
               Email:{" "}
               <a href="mailto:pranabananda_wc@yahoo.com">
-                Pranabananda_wc@yahoo.com
+                pranabananda_wc@yahoo.com
               </a>
             </p>
           </div>

@@ -20,7 +20,6 @@ const English = () => {
             <p>
               <b>Vision</b>
             </p>
-            <br />
             <p>
               To become a center of excellence in English language and
               literature, producing , critically engaged, and creatively
@@ -51,7 +50,6 @@ const English = () => {
             <p>
               <b>Courses Offered</b>
             </p>
-            <br />{" "}
             <ol className="list-disc list-inside ">
               <li className="pb-2">
                 Bachelor of Arts (Major and Minor Courses)
@@ -63,20 +61,20 @@ const English = () => {
             <p>
               <b>Faculty Profile</b>
             </p>
-            <br />{" "}
             <ol className="list-disc list-inside ">
               <li className="pb-2">
-                Dr Sanjukta Bhattacharjee (HoD) MA, B. Ed, Ph.D( Education)
+                Dr. Sanjukta Bhattacharjee, Head of Department
               </li>
-              <li className="pb-2">Ms Meyisangla Jamir MA NET </li>
-              <li className="pb-2">Mrs Anju Rai MA </li>
-              <li className="pb-2">Ms Rupa Dutta MA </li>
+              <li className="pb-2">
+                Ms. Meyisangla Jamir, Assistant Professor
+              </li>
+              <li className="pb-2">Mrs. Anju Rai, Assistant Professor</li>
+              <li className="pb-2">Ms. Rupa Dutta, Assistant Professor</li>
             </ol>
             <br />
             <p>
               <b>Resources</b>
             </p>
-            <br />{" "}
             <ol className="list-disc list-inside ">
               <li className="pb-2">Well-stocked library with e-resources </li>
               <li className="pb-2">Guest lectures and workshops.</li>
@@ -86,7 +84,6 @@ const English = () => {
             <p>
               <b>Career Opportunities</b>
             </p>
-            <br />{" "}
             <ol className="list-disc list-inside ">
               <li className="pb-2">Teacher/Educator </li>
               <li className="pb-2">Writer/Journalist </li>

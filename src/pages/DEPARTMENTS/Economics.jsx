@@ -75,10 +75,10 @@ const Economics = () => {
             </p>
             <br />{" "}
             <ol className="list-disc list-inside ">
-              <li className="pb-2">Mr. Dhruba kumar Dhar (HOD)</li>
               <li className="pb-2">
-                Mrs. Tekamongla jamir. (Asstt. Professor)
+                Mr. Dhruba Kumar Dhar, Head of Department
               </li>
+              <li className="pb-2">Mrs. Tekamongla Jamir, Asstt. Professor</li>
             </ol>
           </div>
         </div>

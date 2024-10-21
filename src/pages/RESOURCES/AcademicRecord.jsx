@@ -255,7 +255,7 @@ const RankHolder = () => {
             <td className="p-3 text-sm ">2011</td>
             <td className="p-3 text-sm ">1st class in Political Science</td>
           </tr>
-          <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
+          <tr>
             <td className="p-3 text-sm ">7</td>
             <td className="p-3 text-sm ">MS. ARPITA PODDAR</td>
             <td className="p-3 text-sm ">BCOM</td>
@@ -270,7 +270,7 @@ const RankHolder = () => {
             <td className="p-3 text-sm ">2015</td>
             <td className="p-3 text-sm ">10th</td>
           </tr>
-          <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
+          <tr>
             <td className="p-3 text-sm ">9</td>
             <td className="p-3 text-sm ">BABITA SINHA</td>
             <td className="p-3 text-sm ">BA</td>
@@ -284,7 +284,7 @@ const RankHolder = () => {
             <td className="p-3 text-sm ">2024</td>
             <td className="p-3 text-sm ">6th (Education)</td>
           </tr>
-          <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
+          <tr>
             <td className="p-3 text-sm ">11</td>
             <td className="p-3 text-sm ">HAFIZA BEGUM</td>
             <td className="p-3 text-sm ">BA</td>
@@ -298,8 +298,8 @@ const RankHolder = () => {
             <td className="p-3 text-sm ">2024</td>
             <td className="p-3 text-sm ">10th (Sociology)</td>
           </tr>
-          <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
-            <td className="p-3 text-sm ">6</td>
+          <tr>
+            <td className="p-3 text-sm ">13</td>
             <td className="p-3 text-sm ">ANGOLU</td>
             <td className="p-3 text-sm ">BCOM</td>
             <td className="p-3 text-sm ">2024</td>

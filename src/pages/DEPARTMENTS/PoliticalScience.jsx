@@ -20,7 +20,6 @@ const PoliticalScience = () => {
             <p>
               <b>Aims/ Mission</b>
             </p>
-            <br />
             <p>
               To foster critical thinking, analytical skills and informed
               citizenship among students, enabling them to navigate complex
@@ -31,7 +30,6 @@ const PoliticalScience = () => {
             <p>
               <b>Objectives</b>
             </p>
-            <br />
             <ol className="list-disc list-inside ">
               <li className="pb-2">
                 To provide a rigorous academic program as prescribed by Nagaland
@@ -57,11 +55,9 @@ const PoliticalScience = () => {
             <p>
               <b>Faculty Members</b>
             </p>
-            <br />
-            <p>Anil Kumar Das(HOD)</p>
-            <p>Saurav Dowarah</p>
-            <p>Mhono Tsanglao</p>
-            <p>Atoholi H</p>
+            <p>Mr. Anil Kumar Das, Head of Department</p>
+            <p>Mr. Saurav Dowarah, Assistant Professor</p>
+            <p>Ms. Atoholi H, Assistant Professor</p>
           </div>
         </div>
       </div>

@@ -104,7 +104,7 @@ function Sidebar({ onLinkClick }) {
     if (option === "Holiday List") {
       return "/calender/holidayList";
     }
-    if (option === "Academic Record") {
+    if (option === "Academic Record (Rank Holders)") {
       return "/resources/academicRecord";
     }
     if (option === "Magazines") {
@@ -248,6 +248,9 @@ function Sidebar({ onLinkClick }) {
     if (option === "Cleanliness Drive") {
       return "/gallery/cleanlinessDrive";
     }
+    if (option === "Freshers Social") {
+      return "/gallery/freshersSocial";
+    }
   };
 
   const navItems = {
@@ -293,7 +296,7 @@ function Sidebar({ onLinkClick }) {
     ],
     Calender: ["Academic Calender", "Holiday List"],
     Resources: [
-      "Academic Record",
+      "Academic Record (Rank Holders)",
       "Magazines",
       "Journal",
       "Prospectus",
@@ -345,6 +348,7 @@ function Sidebar({ onLinkClick }) {
       "Study Tours",
       "Charity Drive",
       "Cleanliness Drive",
+      "Freshers Social",
     ],
   };
 

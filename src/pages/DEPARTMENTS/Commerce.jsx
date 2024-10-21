@@ -78,8 +78,8 @@ const Commerce = () => {
             </p>
             <ol className="list-disc list-inside ">
               <li className="pb-2">Mr. Suraj Chhinal, Head of Department</li>
-              <li className="pb-2">Ms. Rupam Dasgupta, Assistant professor</li>
-              <li className="pb-2">Ms. Moasunep, Assistant Professor</li>
+              <li className="pb-2">Mr. Rupam Dasgupta, Assistant professor</li>
+              <li className="pb-2">Mr. Moasunep, Assistant Professor</li>
               <li className="pb-2">
                 Ms. Bendangmongla Lemtur, Assistant Professor
               </li>

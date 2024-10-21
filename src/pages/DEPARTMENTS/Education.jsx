@@ -86,10 +86,12 @@ const Education = () => {
               <b>The present teaching staff of the Department:</b>
             </p>
             <ol className="list-disc list-inside ">
-              <li className="pb-2">Nayan Basu. (HoD)</li>
-              <li className="pb-2">Gracia K.Jimo</li>
-              <li className="pb-2">Rina Anal</li>
-              <li className="pb-2">Ulla Laureen Fernandez</li>
+              <li className="pb-2">Mr. Nayan Basu, Head of Department</li>
+              <li className="pb-2">Mrs. Gracia K Jimo, Assistant Professor</li>
+              <li className="pb-2">Mrs. Rina Anal, Assistant Professor </li>
+              <li className="pb-2">
+                Mrs. Ulla Laureen Fernandez, Assistant Professor
+              </li>
             </ol>
           </div>
         </div>

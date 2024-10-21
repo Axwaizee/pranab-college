@@ -147,23 +147,27 @@ const FeesStructure = () => {
             <p>
               <b>ADITIONAL FEES</b>
             </p>
-            <p>(As and when required)</p>
-            <br />
+            <p>
+              <i>(As and when required)</i>
+            </p>
             <div className="flex w-full">
-              <div className="w-1/2 ">
-                <p>Transfer Certificate - ₹100/- </p>
-                <p>Character Certificate - ₹100/-</p>
-                <p>Duplicate Identity Card/Fee Card – ₹100/-</p>
-                <p>Bonafied Student Certificate – ₹100/-</p>
-              </div>
-              <div className="w-1/2 ">
-                <p>Fees for Practical Exam (per subject) – ₹300/- </p>
-                <p>
+              <ol className="list-disc list-inside ">
+                <li className="">Transfer Certificate - ₹100/- </li>
+                <li className="">Character Certificate - ₹100/-</li>
+                <li className="">Duplicate Identity Card/Fee Card – ₹100/-</li>
+                <li className="">Bonafied Student Certificate – ₹100/-</li>
+
+                <li className="">
+                  Fees for Practical Exam (per subject) – ₹300/-{" "}
+                </li>
+                <li className="">
                   Additional fee for viva of dissertation for post graduate
                   programme.{" "}
-                </p>
-                <p>Any others fees fixed by the Nagaland University</p>
-              </div>
+                </li>
+                <li className="">
+                  Any others fees fixed by the Nagaland University
+                </li>
+              </ol>
             </div>
           </div>
         </div>

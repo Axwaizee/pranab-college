@@ -14,6 +14,8 @@ const links = {
     "https://drive.google.com/file/d/1Gv7VuUUxSqA5kPwbpIBukWoqSjJdQXoa/preview",
   year2022:
     "https://drive.google.com/file/d/1d4RS5ftWto_pJhB09b-5UnsmiPonCVLA/preview",
+  year2023:
+    "https://drive.google.com/file/d/1zUTrkv81KjjIx0pFiycfz8j_NkkjTNaK/preview",
 };
 
 const unavailable = () => {
@@ -63,6 +65,12 @@ const HolidayList = () => {
             </Link>
             <Link
               className="w-full px-3 py-2 text-center transition-all duration-300 border border-blue-500 rounded-full dark:text-white hover:bg-blue-500 hover:text-white"
+              to="/calender/holidayList/year2023"
+            >
+              HOLIDAY LIST 2023
+            </Link>
+            <Link
+              className="w-full px-3 py-2 text-center transition-all duration-300 border border-blue-500 rounded-full dark:text-white hover:bg-blue-500 hover:text-white"
               to="/calender/holidayList/year2022"
             >
               HOLIDAY LIST 2022
@@ -99,6 +107,7 @@ const HolidayList = () => {
               <Route path="year2020" element={link(links.year2020)} />
               <Route path="year2021" element={link(links.year2021)} />
               <Route path="year2022" element={link(links.year2022)} />
+              <Route path="year2023" element={link(links.year2023)} />
               <Route path="year2024" element={year2024()} />
             </Routes>
           </div>
