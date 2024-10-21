@@ -11,7 +11,7 @@ const CommitteeList = () => {
           {" "}
           <iframe
             className="w-full h-full"
-            src="https://drive.google.com/file/d/1AO7yA8fag6xMAdOmYVkgnvjETwik6cyu/preview"
+            src="https://drive.google.com/file/d/1UPqhCI5OQtJkh_SECoPxP9nryk0f3ufu/preview"
             type="application/pdf"
           />
         </div>

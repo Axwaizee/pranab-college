@@ -71,10 +71,38 @@ const CodeofConduct = () => {
       </div>
       <div className="flex justify-center py-5">
         <div className="p-5 desk:w-3/4 dark:text-white">
-          <p className=" dark:text-white">
-            The students will have to put on uniform prescribed by the College
-            authorities i.e., Salwar-Kameez, having half sleeved pink kameez
-            (Upper part) and white salwar (Lower part), with white Dupatta.
+          <p>
+            <b>Boys’ Uniform</b>
+          </p>
+          <br />
+          <p className="pb-2 ">
+            <b>(Mon, Tue, Thurs, Fri):</b> Navy blue pants with Sky blue and
+            white stripe Shirt (white collar), navy blue necktie and formal
+            black shoe.
+          </p>
+          <p>
+            <b>(Wed, Sat):</b> Navy blue pants with Olive green polo shirt and
+            formal black shoe
+          </p>
+          <br />
+          <br />
+          <p>
+            <b>Girls’ Uniform</b>
+          </p>
+          <br />
+          <p className="pb-2 ">
+            <b>(Mon, Tue, Thurs, Fri):</b> Navy blue pants with Sky blue and
+            white stripe Shirt (white collar), navy blue necktie and formal
+            black shoe.
+          </p>
+          <p>
+            <b>(Wed, Sat):</b> Navy blue pants with Peach color polo shirt and
+            formal black shoe.
+          </p>
+          <br />
+          <p>
+            <b>N.B.:</b> Girls’ student may opt. for Kurti and dupatta instead
+            of Shirt.
           </p>
         </div>
       </div>

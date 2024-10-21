@@ -10,7 +10,7 @@ import Error404 from "../Error404";
 const AboutRoutes = () => {
   return (
     <Routes>
-      <Route path="aboutUs" element={<AboutUs />} />
+      <Route path="aboutTheSponsoringSociety" element={<AboutUs />} />
       <Route path="contact" element={<Contact />} />
       <Route path="teachingEmployees/*" element={<TeachingEmployees />} />
       <Route path="nonTeachingEmployees/*" element={<NonTeachingEmployees />} />

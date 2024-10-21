@@ -73,6 +73,7 @@ const rajesh = "/assets/images/staffs/nonTeaching/gradeIV/rajesh-singh.webp";
 const rajiv = "/assets/images/staffs/nonTeaching/gradeIV/rajiv.webp";
 const romita = "/assets/images/staffs/nonTeaching/gradeIV/Romita.JPG";
 const bahadur = "/assets/images/staffs/nonTeaching/gradeIV/S-BAHADUR.JPG";
+const asha = "/assets/images/staffs/nonTeaching/gradeIV/Asha.JPG";
 
 export const english = () => {
   return (
@@ -885,6 +886,20 @@ export const gradeIV = () => {
           <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
               Mrs. Romita Sorgiary
+              <p className="text-lg ">Sweeper cum Cleaner</p>
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
+          <div>
+            <img
+              src={asha}
+              className=" object-cover object-top h-[250px] w-[210px] rounded-xl"
+            />
+          </div>
+          <div className="flex  justify-center p-5  min-[200px]:max-[426px]:text-lg text-2xl">
+            <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
+              Mrs. Asha Devi
               <p className="text-lg ">Sweeper cum Cleaner</p>
             </p>
           </div>

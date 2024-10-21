@@ -29,61 +29,73 @@ const PCSU = () => {
               <thead className="bg-gray-200 border-b-2 border-zinc-500 dark:bg-opacity-25 dark:bg-black">
                 <tr>
                   <th className="p-3 text-sm font-semibold tracking-wide text-left ">
-                    SL. NO.
+                    #
                   </th>
-                  <th className="p-3 text-sm font-semibold tracking-wide text-left ">
+                  <th className="p-3 text-sm font-semibold tracking-wide text-left">
                     NAME
                   </th>
-                  <th className="p-3 text-sm font-semibold tracking-wide text-left ">
+                  <th className="p-3 text-sm font-semibold tracking-wide text-left">
                     CLASS
                   </th>
-                  <th className="p-3 text-sm font-semibold tracking-wide text-left ">
+                  <th className="p-3 text-sm font-semibold tracking-wide text-left">
                     DESIGNATION
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td className="p-3 text-sm ">1</td>
-                  <td className="p-3 text-sm ">Ms. Alovi S.Chisi </td>
-                  <td className="p-3 text-sm ">B.Com 6th Sem </td>
-                  <td className="p-3 text-sm ">General Secretary </td>
+                  <td className="p-3 text-lg ">1</td>
+                  <td className="p-3 text-lg">Loangam Konyak</td>
+                  <td className="p-3 text-lg">B.A. 5th Sem</td>
+                  <td className="p-3 text-lg">President</td>
                 </tr>
                 <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
-                  <td className="p-3 text-sm ">2</td>
-                  <td className="p-3 text-sm ">Ms. Livino S. Zhimo </td>
-                  <td className="p-3 text-sm ">B.A. 6th Sem </td>
-                  <td className="p-3 text-sm ">General Secretary </td>
+                  <td className="p-3 text-lg ">2</td>
+                  <td className="p-3 text-lg">Veronica K Yeptho</td>
+                  <td className="p-3 text-lg">B.A. 3rd Sem</td>
+                  <td className="p-3 text-lg">General Secretary</td>
                 </tr>
                 <tr>
-                  <td className="p-3 text-sm ">3</td>
-                  <td className="p-3 text-sm ">Ms. Rituparna Das</td>
-                  <td className="p-3 text-sm ">B.Com 2nd Sem </td>
-                  <td className="p-3 text-sm ">Asst. General Secretary </td>
+                  <td className="p-3 text-lg ">3</td>
+                  <td className="p-3 text-lg">Priyanka Dey</td>
+                  <td className="p-3 text-lg">B.A. 5th Sem</td>
+                  <td className="p-3 text-lg">Cultural Secretary</td>
                 </tr>
                 <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
-                  <td className="p-3 text-sm ">4</td>
-                  <td className="p-3 text-sm ">Ms. Ruokuokhrienuo Rio</td>
-                  <td className="p-3 text-sm ">B.Com 4th Sem </td>
-                  <td className="p-3 text-sm ">Cultural Secretary </td>
+                  <td className="p-3 text-lg ">4</td>
+                  <td className="p-3 text-lg">Ambika Kashyap</td>
+                  <td className="p-3 text-lg">B.Com 3rd Sem</td>
+                  <td className="p-3 text-lg">Finance Secretary</td>
                 </tr>
                 <tr>
-                  <td className="p-3 text-sm ">5</td>
-                  <td className="p-3 text-sm ">Ms. Tolivi Yeptho </td>
-                  <td className="p-3 text-sm ">B.A. 2nd Sem </td>
-                  <td className="p-3 text-sm ">Asst. Cultural Secretary</td>
+                  <td className="p-3 text-lg ">5</td>
+                  <td className="p-3 text-lg">Jenny Konyak</td>
+                  <td className="p-3 text-lg">B.A. 5th Sem</td>
+                  <td className="p-3 text-lg">Sports Secretary</td>
                 </tr>
                 <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
-                  <td className="p-3 text-sm ">6</td>
-                  <td className="p-3 text-sm ">Keyicudaule Iranggau </td>
-                  <td className="p-3 text-sm ">B.A. 4th Sem </td>
-                  <td className="p-3 text-sm ">Finance Secretary</td>
+                  <td className="p-3 text-lg ">6</td>
+                  <td className="p-3 text-lg">Kedarai Chewang</td>
+                  <td className="p-3 text-lg">B.A. 3rd Sem</td>
+                  <td className="p-3 text-lg">Information Secretary</td>
                 </tr>
                 <tr>
-                  <td className="p-3 text-sm ">7</td>
-                  <td className="p-3 text-sm ">Mercy A.Konyak </td>
-                  <td className="p-3 text-sm ">B.A. 4th Sem </td>
-                  <td className="p-3 text-sm ">Sports Secretary</td>
+                  <td className="p-3 text-lg ">7</td>
+                  <td className="p-3 text-lg">Kiboka</td>
+                  <td className="p-3 text-lg">B.A. 1st Sem </td>
+                  <td className="p-3 text-lg">Asst. General Secretary</td>
+                </tr>
+                <tr>
+                  <td className="p-3 text-lg ">8</td>
+                  <td className="p-3 text-lg">Nyanbemo Ngullie</td>
+                  <td className="p-3 text-lg">B.A. 1st Sem </td>
+                  <td className="p-3 text-lg">Asst. Sports Secretary</td>
+                </tr>
+                <tr>
+                  <td className="p-3 text-lg ">9</td>
+                  <td className="p-3 text-lg">Itoka Tuccu</td>
+                  <td className="p-3 text-lg">B.A. 1st Sem </td>
+                  <td className="p-3 text-lg">Asst. Cultural Secretary</td>
                 </tr>
               </tbody>
             </table>

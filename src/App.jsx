@@ -15,6 +15,7 @@ import LibraryRoutes from "./pages/LIBRARY/LibraryRoutes";
 import CommitteesRoutes from "./pages/COMMITTEES/CommitteesRoutes";
 import GalleryRoutes from "./pages/GALLERY/GalleryRoutes";
 import DepartmentRoutes from "./pages/DEPARTMENTS/DepartmentRoutes";
+import OnlineAdmissionRoutes from "./pages/ONLINEADMISSIONS/OnlineAdmissionRoutes";
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
         <Route path="/committees/*" element={<CommitteesRoutes />} />
         <Route path="/gallery/*" element={<GalleryRoutes />} />
         <Route path="/department/*" element={<DepartmentRoutes />} />
+        <Route path="/onlineAdmissions/*" element={<OnlineAdmissionRoutes />} />
 
         <Route path="/*" element={<Error404 />} />
       </Routes>

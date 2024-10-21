@@ -189,7 +189,7 @@ const result = () => {
     </div>
   );
 };
-const rankHolder = () => {
+const RankHolder = () => {
   return (
     <div className="overflow-auto shadow rounded-2xl">
       <table className="w-full dark:text-white ">
@@ -255,6 +255,56 @@ const rankHolder = () => {
             <td className="p-3 text-sm ">2011</td>
             <td className="p-3 text-sm ">1st class in Political Science</td>
           </tr>
+          <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
+            <td className="p-3 text-sm ">7</td>
+            <td className="p-3 text-sm ">MS. ARPITA PODDAR</td>
+            <td className="p-3 text-sm ">BCOM</td>
+            <td className="p-3 text-sm ">2015</td>
+            <td className="p-3 text-sm ">7th</td>
+          </tr>
+
+          <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
+            <td className="p-3 text-sm ">8</td>
+            <td className="p-3 text-sm ">SITA KUMARI</td>
+            <td className="p-3 text-sm ">BCOM</td>
+            <td className="p-3 text-sm ">2015</td>
+            <td className="p-3 text-sm ">10th</td>
+          </tr>
+          <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
+            <td className="p-3 text-sm ">9</td>
+            <td className="p-3 text-sm ">BABITA SINHA</td>
+            <td className="p-3 text-sm ">BA</td>
+            <td className="p-3 text-sm ">2024</td>
+            <td className="p-3 text-sm ">1st (Education)</td>
+          </tr>
+          <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
+            <td className="p-3 text-sm ">10</td>
+            <td className="p-3 text-sm ">PRIYANKA KATHERIA</td>
+            <td className="p-3 text-sm ">BA</td>
+            <td className="p-3 text-sm ">2024</td>
+            <td className="p-3 text-sm ">6th (Education)</td>
+          </tr>
+          <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
+            <td className="p-3 text-sm ">11</td>
+            <td className="p-3 text-sm ">HAFIZA BEGUM</td>
+            <td className="p-3 text-sm ">BA</td>
+            <td className="p-3 text-sm ">2024</td>
+            <td className="p-3 text-sm ">7th (Education)</td>
+          </tr>
+          <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
+            <td className="p-3 text-sm ">12</td>
+            <td className="p-3 text-sm ">IMJUNGWATILA LONGKUMER</td>
+            <td className="p-3 text-sm ">BA</td>
+            <td className="p-3 text-sm ">2024</td>
+            <td className="p-3 text-sm ">10th (Sociology)</td>
+          </tr>
+          <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
+            <td className="p-3 text-sm ">6</td>
+            <td className="p-3 text-sm ">ANGOLU</td>
+            <td className="p-3 text-sm ">BCOM</td>
+            <td className="p-3 text-sm ">2024</td>
+            <td className="p-3 text-sm ">2nd (Commerce)</td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -265,9 +315,9 @@ const AcademicRecord = () => {
   return (
     <>
       <div className="flex items-center text-center  justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
-        <p>Academic Record</p>
+        <p>Academic Record - Rank Holder of the College</p>
       </div>
-      <div className="flex justify-center p-10 ">
+      {/* <div className="flex justify-center p-10 ">
         <div className="w-full desk:w-1/2">
           <div className="flex flex-col w-full gap-5 desk:flex-row">
             <Link
@@ -284,13 +334,14 @@ const AcademicRecord = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
       <div className="flex justify-center pb-5 desk:pb-10">
         <div className="w-full pt-10 desk:w-3/4">
-          <Routes>
+          {/* <Routes>
             <Route path="result" element={result()} />
             <Route path="rankHolder" element={rankHolder()} />
-          </Routes>
+          </Routes> */}
+          <RankHolder />
         </div>
       </div>
     </>

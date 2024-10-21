@@ -17,6 +17,8 @@ const links = {
     "https://drive.google.com/file/d/1L8g8-YnDoiSs3yqc136c5fDrw1B_qcFg/preview",
   year2022:
     "https://drive.google.com/file/d/1qnvlhf9xqjYb_boFiFtEvx2cXz4rWxgk/preview",
+  year2023:
+    "https://drive.google.com/file/d/1cwnlFIcHV9TOwe3u0TUAWHawIFWQrU7G/preview",
 };
 
 const year2024 = () => {
@@ -57,6 +59,12 @@ const AcademicCalender = () => {
             </Link>
             <Link
               className="w-full px-3 py-2 text-center transition-all duration-300 border border-blue-500 rounded-full dark:text-white hover:bg-blue-500 hover:text-white"
+              to="/calender/academicCalender/year2023"
+            >
+              ACADEMIC CALENDER 2023
+            </Link>
+            <Link
+              className="w-full px-3 py-2 text-center transition-all duration-300 border border-blue-500 rounded-full dark:text-white hover:bg-blue-500 hover:text-white"
               to="/calender/academicCalender/year2022"
             >
               ACADEMIC CALENDER 2022
@@ -93,6 +101,7 @@ const AcademicCalender = () => {
               <Route path="year2020" element={link(links.year2020)} />
               <Route path="year2020-2021" element={link(links.year2021)} />
               <Route path="year2022" element={link(links.year2022)} />
+              <Route path="year2023" element={link(links.year2023)} />
               <Route path="year2024" element={year2024()} />
             </Routes>
           </div>

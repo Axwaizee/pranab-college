@@ -32,8 +32,8 @@ function Sidebar({ onLinkClick }) {
     if (option === "Code of Conduct & Dress Code") {
       return "/home/codeOfConduct";
     }
-    if (option === "About us") {
-      return "/about/aboutUs";
+    if (option === "About The Sponsoring Society") {
+      return "/about/aboutTheSponsoringSociety";
     }
     if (option === "Teaching Faculty") {
       return "/about/teachingEmployees";
@@ -261,7 +261,12 @@ function Sidebar({ onLinkClick }) {
       "Courses Offered",
       "Code of Conduct & Dress Code",
     ],
-    About: ["About us", "Teaching Faculty", "Non-teaching Staff", "Contact"],
+    About: [
+      "About The Sponsoring Society",
+      "Teaching Faculty",
+      "Non-teaching Staff",
+      "Contact",
+    ],
     Online_Admissions: [
       "New Admissions to 1st Semester (under construction)",
       "Fee Payment for New Students (under construction)",
