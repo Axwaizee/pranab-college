@@ -103,56 +103,58 @@ const Cultural = () => {
             <table className="w-full">
               <tbody>
                 <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
-                  <td className="p-3 text-sm">1</td>
-                  <td className="p-3 text-sm">Mrs. Majakhon Kamei </td>
-                  <td className="p-3 text-sm">
-                    Asst.Professor, Dept.of Sociology{" "}
+                  <td className="p-3 text-md">1</td>
+                  <td className="p-3 text-md">Mrs. Majakhon Kamei </td>
+                  <td className="p-3 text-md">
+                    Head of Department, Dept. of Sociology{" "}
                   </td>
-                  <td className="p-3 text-sm">Convenor</td>
+                  <td className="p-3 text-md">Convenor</td>
                 </tr>
                 <tr>
-                  <td className="p-3 text-sm">2</td>
-                  <td className="p-3 text-sm">N. Tainla Jamir </td>
-                  <td className="p-3 text-sm">HOD, Dept.of History</td>
-                  <td className="p-3 text-sm">Asst. Convenor</td>
+                  <td className="p-3 text-md">2</td>
+                  <td className="p-3 text-md">Mrs. N. Tainla Jamir </td>
+                  <td className="p-3 text-md">
+                    Head of Department, Dept. of History
+                  </td>
+                  <td className="p-3 text-md">Asst. Convenor</td>
                 </tr>
                 <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
-                  <td className="p-3 text-sm">3</td>
-                  <td className="p-3 text-sm">Mrs. Anju Rai </td>
-                  <td className="p-3 text-sm">
+                  <td className="p-3 text-md">3</td>
+                  <td className="p-3 text-md">Mrs. Anju Rai </td>
+                  <td className="p-3 text-md">
                     Asst. Professor Dept. of English
                   </td>
-                  <td className="p-3 text-sm">Executive member</td>
+                  <td className="p-3 text-md">Executive member</td>
                 </tr>
                 <tr>
-                  <td className="p-3 text-sm">4</td>
-                  <td className="p-3 text-sm">Ms. Olivia Kikon </td>
-                  <td className="p-3 text-sm">
-                    Asst.Professor, Dept.of Sociology{" "}
+                  <td className="p-3 text-md">4</td>
+                  <td className="p-3 text-md">Ms. Olivia J Kikon </td>
+                  <td className="p-3 text-md">
+                    Asst. Professor, Dept. of Sociology{" "}
                   </td>
-                  <td className="p-3 text-sm">Executive member</td>
+                  <td className="p-3 text-md">Executive member</td>
                 </tr>
                 <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
-                  <td className="p-3 text-sm">5</td>
-                  <td className="p-3 text-sm">Mr. Moasunep </td>
-                  <td className="p-3 text-sm">
-                    Asst.Professor, Dept.of Commerce{" "}
+                  <td className="p-3 text-md">5</td>
+                  <td className="p-3 text-md">Mr. Moasunep </td>
+                  <td className="p-3 text-md">
+                    Asst. Professor, Dept. of Commerce{" "}
                   </td>
-                  <td className="p-3 text-sm">Executive member</td>
+                  <td className="p-3 text-md">Executive member</td>
                 </tr>
                 <tr>
-                  <td className="p-3 text-sm">6</td>
-                  <td className="p-3 text-sm">Ms. Priyanka Dey</td>
-                  <td className="p-3 text-sm">Cultural Secretary,PCSU </td>
-                  <td className="p-3 text-sm">Student member</td>
+                  <td className="p-3 text-md">6</td>
+                  <td className="p-3 text-md">Ms. Priyanka Dey</td>
+                  <td className="p-3 text-md">Cultural Secretary, PCSU </td>
+                  <td className="p-3 text-md">Student member</td>
                 </tr>
                 <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
-                  <td className="p-3 text-sm">7</td>
-                  <td className="p-3 text-sm">Mr. Itoka Tuccu </td>
-                  <td className="p-3 text-sm">
-                    Asst. Cultural Secretary,PCSU{" "}
+                  <td className="p-3 text-md">7</td>
+                  <td className="p-3 text-md">Mr. Itoka Tuccu </td>
+                  <td className="p-3 text-md">
+                    Asst. Cultural Secretary, PCSU{" "}
                   </td>
-                  <td className="p-3 text-sm">Student member</td>
+                  <td className="p-3 text-md">Student member</td>
                 </tr>
               </tbody>{" "}
             </table>

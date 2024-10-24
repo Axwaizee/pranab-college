@@ -21,7 +21,7 @@ const AntiSexualHarassment = () => {
             <b>Goal:</b> Prevention of sexual harassment to ensure safe
             environment for girl students in the college premises.
           </p>
-          <p className="text-xl ">Objectives:</p>
+          <p className="text-xl font-bold ">Objectives:</p>
           <ul className="list-disc list-inside">
             <li className="pb-2">
               To develop guidelines and norms for policies against sexual
@@ -89,7 +89,6 @@ const AntiSexualHarassment = () => {
               and is covered by the committee
             </b>
           </p>
-          <br />
           <ul className="list-disc list-inside">
             <li className="pb-2">Eve-teasing</li>
             <li className="pb-2">Unsavory remarks</li>
@@ -128,12 +127,11 @@ const AntiSexualHarassment = () => {
             action.
           </p>
           <br />
-          <br />
-          <p className="pb-2 text-xl">
+          <p className="pb-2 text-xl font-bold">
             For any Complaints, Queries & Assistance
           </p>
           <p className="pb-2 ">
-            <b>Contact:</b> phone number of cell coordinator.
+            <b>Contact:</b> Phone number of Cell Coordinator.
           </p>
           <p>
             <p className="pb-2 ">
@@ -141,7 +139,7 @@ const AntiSexualHarassment = () => {
             </p>
             <ul className="pl-2 list-decimal list-inside ">
               <li className="pb-2">
-                Gracia K Jimo (Co-ordinator) – 9862816745
+                Mrs. Gracia K Jimo (Co-ordinator) – 9862816745
               </li>{" "}
             </ul>
           </p>
@@ -150,10 +148,10 @@ const AntiSexualHarassment = () => {
               Members of the Anti Sexual Harassment Committees includes:-
             </p>
             <ol className="list-decimal list-inside ">
-              <li>N. Tainla Jamir - Convenor </li>
-              <li>I. Imkongakum Ao - Asst. Convenor</li>
-              <li>Gracia K Jimo</li>
-              <li>Saurav Dowarah</li>
+              <li>Mrs. N. Tainla Jamir - Convenor </li>
+              <li>Mr. I. Imkongakum Ao - Asst. Convenor</li>
+              <li>Mrs. Gracia K Jimo</li>
+              <li>Mr. Saurav Dowarah</li>
             </ol>
           </div>
         </div>

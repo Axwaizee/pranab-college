@@ -12,15 +12,15 @@ const Research = () => {
             <p className="text-justify ">
               The Research and Development Committee was formed as per the UGC
               guidelines in the year 2016 under the guidance of the than
-              Principal Uma Bhokmick and Mrs Majakhon Kamei, HOD, Department of
-              Sociology. At present, it is headed by the Principal Dr Santosh
-              Kumar and convenor Dr Alomi Cynthia Shikhu, Department of
-              Sociology. The Research Development Cell have been working towards
-              encouraging students and faculty in the fields of research,
-              organising and attending seminars, attending orientation etc. Over
-              the year, there has been increase in participation and the Cell
-              will continue to excel in providing and promoting further research
-              interest.
+              Principal Ms. Uma Bhowmick and Mrs. Majakhon Kamei, Head of
+              Department, Department of Sociology. At present, it is headed by
+              the Principal Dr. Santosh Kumar and Convenor Dr. Alomi Cynthia
+              Shikhu, Department of Sociology. The Research Development Cell
+              have been working towards encouraging students and faculty in the
+              fields of research, organising and attending seminars, attending
+              orientation etc. Over the year, there has been increase in
+              participation and the Cell will continue to excel in providing and
+              promoting further research interest.
             </p>
           </div>
           <br />
@@ -31,21 +31,21 @@ const Research = () => {
             <ul className="list-disc list-inside">
               <li className="pb-2">
                 To promote research among the teaching faculty by upgrading the
-                pedagogies and teaching skills{" "}
+                pedagogies and teaching skills.{" "}
               </li>
               <li className="pb-2">
                 Provide platform for students to further their studies on
-                research-based activities
+                research-based activities.
               </li>
               <li className="pb-2">
                 To encourage visiting scholars and colleges faculty for short
-                term and long-term benefits
+                term and long-term benefits.
               </li>
               <li className="pb-2">
                 To encourage funding agencies for research-based activities for
-                the students and teaching faculties
+                the students and teaching faculties.
               </li>
-              <li className="pb-2">to publish annual college journal</li>
+              <li className="pb-2">to publish annual college journal.</li>
             </ul>
           </div>
           <br />
@@ -56,7 +56,7 @@ const Research = () => {
             <ul className="list-disc list-inside">
               <li className="pb-2">
                 The committee will strive to encourage students to contribute
-                articles writing in college journal
+                articles writing in college journal.
               </li>
               <li className="pb-2">
                 The committee will make an attempt to provide visiting scholars
@@ -73,23 +73,23 @@ const Research = () => {
             <p className="pb-3">
               <b>ACTIVITIES CARRIED OUT</b>
             </p>
-            <ul className="list-disc list-inside">
+            <ul className="text-justify list-disc list-inside">
               <li className="pb-4">
                 The Department of Sociology organised Inter- College seminar on
                 the theme “Current Topics and Debates of 21st Century” on 16th
-                April 2024{" "}
+                April 2024.{" "}
               </li>
               <li className="pb-4">
-                Two students from Sociology Department presented paper at St
-                John College on 23rd April 2024 organized by Department of
-                Sociology and Political Science in Collaboration with Research
-                Cell, St John College
+                Two students from Sociology Department presented paper at St.
+                John College on 23<sup>rd</sup> April 2024 organized by
+                Department of Sociology and Political Science in Collaboration
+                with Research Cell, St. John College.
                 <ul className="pl-8 list-decimal list-inside">
-                  <li className="pb-4">
-                    Yinglichumei(PG 4th Sem)- Online Shopping behavior among
-                    college students in Dimapur
+                  <li className="pb-1">
+                    Yinglichumei (PG 4th Sem)- Online Shopping behavior among
+                    college students in Dimapur.
                   </li>
-                  <li className="pb-4">
+                  <li className="pb-1">
                     Imjungwatila Longkumer(UG 6th Sem)- Mental Health issues
                     among Genz: Causes, Impact and Measures.
                   </li>
@@ -97,74 +97,76 @@ const Research = () => {
               </li>
 
               <li className="pb-4">
-                Dr. Alomi Cynthia Shikhu, Asst Professor, Department of
+                Dr. Alomi Cynthia Shikhu, Asst. Professor, Department of
                 Sociology co-published paper in an edited book Farmers
                 Innovations and best practices by Shifting Cultivators in
                 Asia-Pacific on the topic Traditional use of Macaranga Trees for
-                soil fertility, edited by Malcolm Cairns, UK, Croydon, CR(2023){" "}
+                soil fertility, edited by Malcolm Cairns, UK, Croydon, CR(2023).{" "}
               </li>
               <li className="pb-4">
-                Dr. Alomi Cynthia Shikhu, Asst Professor, Department of
+                Dr. Alomi Cynthia Shikhu, Asst. Professor, Department of
                 Sociology attended as an external member for A. Mary Jahini,
-                Ph.D scholar, St Joseph University, Ikishe Model Village,
+                Ph.D scholar, St. Joseph University, Ikishe Model Village,
                 Chumoukedima on 28th May 2024 on the topic Role of Self-Help
                 Group in promoting social transformation among schedule tribes
                 with special reference to Kalvarayan Hills in Salem District of
-                Tamil Nadu
+                Tamil Nadu.
               </li>
               <li className="pb-4">
-                Olivia Kikon, Asst Professor, Department of Sociology
+                Ms. Olivia J Kikon, Asst Professor, Department of Sociology
                 <ul className="pl-8 list-decimal list-inside">
                   <li className="pb-4">
                     Participant in a Ten-Day Research Methodology Course in
-                    Social Sciences. Organized by Dept. Of Sociology, Nagaland
+                    Social Sciences. Organized by Dept. of Sociology, Nagaland
                     University under the sponsorship of Indian Council for
                     Social Science Research, New Delhi. Dated 21st - 31st May,
-                    2024
+                    2024.
                   </li>
                   <li className="pb-4">
                     Participant as well as organising member on a Two-Day
                     National Workshop on Qualitative Research Methods organized
-                    by dept of Sociology, Nagaland University. Dated 27th - 28th
-                    March, 2024
+                    by Dept. of Sociology, Nagaland University. Dated 27th -
+                    28th March, 2024.
                   </li>
                 </ul>
               </li>
               <li className="pb-4">
-                Peulungling and Chemdenchila(UG 4th Semester) presented paper on
-                the topic Malala Yousafzai: An activist for Women Empowerment in
-                the Inter- College seminar organized by The Department of
-                Sociology, Pranabananda Women’s College on the theme “Current
-                Topics and Debates of 21st Century” on 16th April 2024
+                Ms. Peulungling and Ms. Chemdenchila (UG 4th Semester) presented
+                paper on the topic Malala Yousafzai: An activist for Women
+                Empowerment in the Inter- College seminar organized by the
+                Department of Sociology, Pranabananda Women’s College on the
+                theme “Current Topics and Debates of 21st Century” on 16th April
+                2024.
               </li>
               <li className="pb-4">
-                Pintu Chakraborty, Liberian, Pranabananda Women’s College
-                published an article in the 4th edition of the College
-                Journal(2023)on the topic Changing Roles and Responsibility of
-                Library Professionals in Adopting the Digital Revolution.
+                Mr. Pintu Chakraborty, Librarian, Pranabananda Women’s College
+                published an article in the 4th edition of the College Journal
+                (2023) on the topic Changing Roles and Responsibility of Library
+                Professionals in Adopting the Digital Revolution.
               </li>
               <li className="pb-4">
                 Following PG students published article in the 4th edition of
-                the College Journal(2023)
+                the College Journal (2023):
                 <ul className="pl-8 list-decimal list-inside">
-                  <li className="pb-4">
-                    Hanluchi- Socio-Economic Status of Street Vendors in Dimapur
+                  <li className="pb-1">
+                    Hanluchi- Socio-Economic Status of Street Vendors in
+                    Dimapur.
                   </li>
-                  <li className="pb-4">
+                  <li className="pb-1">
                     Litoli B Muru- Self Help Group and Women Empowerment in
-                    Kivikhu Village
+                    Kivikhu Village.
                   </li>
-                  <li className="pb-4">
+                  <li className="pb-1">
                     Talijungla jamir- Women Entrepreneurs: A study of Naga
-                    Society
+                    Society.
                   </li>
-                  <li className="pb-4">
+                  <li className="pb-1">
                     V. Alokali Tuccu- A Study on folktales and folklores of Sumi
-                    Naga
+                    Naga.
                   </li>
-                  <li className="pb-4">
+                  <li className="pb-1">
                     Wikami Chewang- Study on Street- food Vendors with special
-                    reference to safety and hygiene in Dimapur town
+                    reference to safety and hygiene in Dimapur town.
                   </li>
                 </ul>
               </li>
@@ -197,7 +199,7 @@ const Research = () => {
                     University in 2023. ISBN: 978-81-19948-17-8 and
                     Communication Skills (As per latest curriculum of the
                     directives of NEP 2020) FYUGP North Eastern Hills University
-                    in 2024. ISBN: 978-81-19948-49-9
+                    in 2024. ISBN: 978-81-19948-49-9.
                   </li>
                 </ul>
               </li>

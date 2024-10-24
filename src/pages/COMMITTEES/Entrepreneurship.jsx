@@ -7,8 +7,8 @@ const Entrepreneurship = () => {
         <p>Entrepreneurship Cell</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10 dark:text-white">
-        <div className="w-full desk:w-1/2">
-          <div className="pt-1 text-lg ">
+        <div className="w-full desk:w-3/4">
+          <div className="pt-1 text-lg text-justify ">
             <p>
               The Entrepreneurship Cell was set up in 2023. This committee is
               dedicated to promoting the spirit of entrepreneurship among the
@@ -65,10 +65,10 @@ const Entrepreneurship = () => {
               Members of the Entrepreneurship Cell includes:-
             </p>
             <ol className="list-decimal list-inside ">
-              <li>Suraj Chhinal - Convenor </li>
-              <li>MajaKhon Kamei - Asst. Convenor</li>
-              <li>Rupam Dasgupta</li>
-              <li>Imtijungla Longchar</li>
+              <li>Mr. Suraj Chhinal - Convenor </li>
+              <li>Mrs. MajaKhon Kamei - Asst. Convenor</li>
+              <li>Mr. Rupam Dasgupta</li>
+              <li>Mrs. Imtijungla Longchar</li>
             </ol>
           </div>
         </div>

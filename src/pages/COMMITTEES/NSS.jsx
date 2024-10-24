@@ -8,26 +8,26 @@ const NSS = () => {
         <p>NSS</p>
       </div>
       <div className="flex justify-center">
-        <div className="w-full p-5 desk:w-3/4 desk:text-lg dark:text-white desk:p-10">
+        <div className="w-full p-5 text-justify desk:w-3/4 desk:text-lg dark:text-white desk:p-10">
           <section className="pb-5 ">
-            <p className="pb-3 text-2xl font-bold">INTRODUCTION</p>
+            <p className="pb-3 text-2xl font-bold ">INTRODUCTION</p>
             <p>
               The National Service Scheme cell is a centrally funded cell Under
-              the sector of Ministry of youth Affairs and Sports, GOI and the
-              cell functions under its directives . The NSS cell of nagaland has
-              a designated regional officerand a state liaison officer. The NSS
-              CELLcarrires out activities which help youth to develop leadership
-              skills ,personality development and character of youth through
-              social service .The NSS CELL of Pranabananda Women’s College has
-              been functioning in the college for more than 15years now. At
-              present the NSS cell of the college has one unit consisting of 100
-              volunteers which is headed by the principal (Dr. Santosh
-              Kumar-since 2021) and trained programme officer (Mrsullalaureen
-              Fernandez- Asst.prof, dept of education-since2014) along
-              with—Mr.RupamDasguptaAsst prof (dept of
-              commerece),TemsenyalaAmlari, Asst prof-(dept of commerce),
-              Mrseiboykhongsai,Asst prof. (dept of sociology) as members of the
-              NSS cell .
+              the sector of Ministry of Youth Affairs and Sports, GOI and the
+              cell functions under its directives. The NSS cell of nagaland has
+              a designated regional officerand a State Liaison Officer. The NSS
+              CELL carrires out activities which help youth to develop
+              leadership skills ,personality development and character of youth
+              through social service .The NSS CELL of Pranabananda Women’s
+              College has been functioning in the college for more than 15 years
+              now. At present the NSS cell of the college has one unit
+              consisting of 100 volunteers which is headed by the principal (Dr.
+              Santosh Kumar-since 2021) and trained Programme Officer (Mrs. Ulla
+              Laureen Fernandez- Asst. Prof, Dept. of Education - since 2014)
+              along with — Mr. Rupam Dasgupta - Asst. Prof. (Dept. of
+              Commerce),Ms. Temsenyala Amlari- Asst. Prof- (Dept. of Commerce),
+              Mr. Seiboy Khongsai, Asst. Prof. (Dept of Sociology) as members of
+              the NSS cell .
             </p>
           </section>
           <section className="pb-5 ">
@@ -54,7 +54,7 @@ const NSS = () => {
                 </li>
                 <li className="pb-1 ">
                   NSS volunteers should work by mingling with the community
-                  agents who represent the people
+                  agents who represent the people.
                 </li>
                 <li className="pb-1 ">
                   To find inherent talent in his/her knowledge through community
@@ -68,7 +68,9 @@ const NSS = () => {
                 </li>
               </ul>
             </p>
-            <p className="pb-2 text-xl">Roles / Responsibilities:</p>
+            <p className="pb-2 text-xl font-bold uppercase">
+              Roles / Responsibilities:
+            </p>
             <ul className="listStyle">
               <li>
                 Students should enroll their name as an NSS volunteer in the
@@ -115,8 +117,8 @@ const NSS = () => {
                 <li className="pb-1 ">
                   Strategic perspective plans need to be submitted by the cell
                   along with estimated budget prior to the commencement of the
-                  academic year.. (Tentative dates to be included in the
-                  academic calendar of the college.)
+                  academic year. (Tentative dates to be included in the academic
+                  calendar of the college.)
                 </li>
                 <li className="pb-1 ">
                   Any NSS events will be planned in association with
@@ -145,10 +147,10 @@ const NSS = () => {
               Members of the NSS includes:-
             </p>
             <ul className="list-decimal ">
-              <li>Ms. Ulla Laureen Fernandez, Convenor</li>
+              <li>Mrs. Ulla Laureen Fernandez, Convenor</li>
               <li>Mr. Moasunep, Asst. Convenor</li>
               <li>Mr. Rupam Dasgupta</li>
-              <li>Ms. Tekamongla Jamir</li>
+              <li>Mrs. Tekamongla Jamir</li>
             </ul>
           </section>
         </div>

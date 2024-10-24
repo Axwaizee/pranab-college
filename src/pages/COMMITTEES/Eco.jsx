@@ -28,7 +28,6 @@ const Eco = () => {
             <p>
               <b>Eco Club Policy</b>
             </p>
-            <br />
             <p>
               The Pranab College have an active Eco-club to impart knowledge to
               the students about the importance of environmental protection and
@@ -48,7 +47,6 @@ const Eco = () => {
             <p>
               <b>Objectives</b>
             </p>
-            <br />
             <ul className="list-disc list-inside">
               <li className="pb-2">
                 To impart knowledge about various environmental issues and
@@ -75,7 +73,6 @@ const Eco = () => {
             <p>
               <b>Activities:</b>
             </p>
-            <br />
             <ul className="list-decimal list-inside">
               <li className="pb-2">
                 The Eco-club of Pranab College organizes various programmes
@@ -98,12 +95,13 @@ const Eco = () => {
             <p>
               <b>Members of the Eco-Club includes:-</b>
             </p>
-            <br />
             <ul className="list-decimal list-inside">
               <li className="pb-2">Mrs. Purnima Das (Convenor)</li>
               <li className="pb-2">Mrs. Tekamongla Jamir (Asst. Convenor)</li>
-              <li className="pb-2">Mrs Ulla Fernandez (Asst. Prof.)</li>
-              <li className="pb-2">Ms. Bendangmongla (Asst. Prof.) </li>
+              <li className="pb-2">
+                Mrs. Ulla Laureen Fernandez (Asst. Prof.)
+              </li>
+              <li className="pb-2">Ms. Bendangmongla Lemdur (Asst. Prof.) </li>
               <li className="pb-2 ">Students Executives (Pranab College)</li>
             </ul>
           </div>

@@ -7,20 +7,19 @@ const Magazine = () => {
         <p>Magazine Committee</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10 dark:text-white">
-        <div className="w-full desk:w-1/2">
+        <div className="w-full desk:w-4/5">
           <div className="pt-1 ">
             <p>
               The magazine committee brings out the annual magazine of the
-              college “Pranab Vision”. An editorial board is formed comprising
-              of teachers and students. This annual magazine is inaugurated by
-              distinguished guests during the annual Fresher’s Day meet of the
-              college.
+              college <h6 className="inline font-semibold">“Pranab Vision”</h6>.
+              An editorial board is formed comprising of teachers and students.
+              This annual magazine is inaugurated by distinguished guests during
+              the annual Fresher’s Day meet of the college.
             </p>
             <br />
             <p>
               <b>Aims:</b>
             </p>
-            <br />
             <ol className="list-disc list-inside ">
               <li className="pb-2">
                 To provide a platform to students to express their
@@ -39,7 +38,6 @@ const Magazine = () => {
             <p>
               <b>Objectives:</b>
             </p>
-            <br />
             <ol className="list-disc list-inside ">
               <li className="pb-2">
                 To serves as an avenue where students and staff develop their
@@ -64,12 +62,14 @@ const Magazine = () => {
             </p>
             <ol className="list-decimal list-inside ">
               <li>
-                Imtijungla Longchar - Assistant Professor - Department of
+                Mrs. Imtijungla Longchar - Assistant Professor - Department of
                 History{" "}
               </li>
-              <li>Tongpok - Assistant Professor - Department of Sociology</li>
               <li>
-                Bendangmongla Lemdur - Assistant Professor - Department of
+                Mr. Tongpok - Assistant Professor - Department of Sociology
+              </li>
+              <li>
+                Ms. Bendangmongla Lemdur - Assistant Professor - Department of
                 Commerce
               </li>
             </ol>

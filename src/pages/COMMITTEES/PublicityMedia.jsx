@@ -13,9 +13,9 @@ const PublicityMedia = () => {
               Members of the Publicity and Media Cell includes:-
             </p>
             <ol className="list-decimal list-inside ">
-              <li>Meyisangla Jamir - Convenor </li>
+              <li>Ms. Meyisangla Jamir - Convenor </li>
               <li>Dr. Alomi Cynthia Shikhu - Asst. Convenor</li>
-              <li>Suvankar Dasgupta</li>
+              <li>Mr. Suvankar Dasgupta</li>
             </ol>
           </div>
         </div>

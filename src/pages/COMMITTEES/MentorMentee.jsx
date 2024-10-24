@@ -13,9 +13,9 @@ const MentorMentee = () => {
               Members of the Mentor - Mentee Cell includes:-
             </p>
             <ol className="list-decimal list-inside ">
-              <li>C. Narola Ao - Convenor </li>
-              <li>Tongpok - Asst. Convenor</li>
-              <li>Bendangmongla Lemdur</li>
+              <li>Ms. C. Narola Ao - Convenor </li>
+              <li>Mr. Tongpok - Asst. Convenor</li>
+              <li>Ms. Bendangmongla Lemdur</li>
             </ol>
           </div>
         </div>

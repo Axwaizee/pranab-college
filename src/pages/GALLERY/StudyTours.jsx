@@ -16,7 +16,7 @@ const images = [
   "/assets/images/gallery/3.png ",
 ];
 
-const Gallery = () => {
+const StudyTours = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [photoIndex, setPhotoIndex] = useState(0);
 
@@ -50,7 +50,7 @@ const Gallery = () => {
     <>
       {" "}
       <div className="flex  text-center items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
-        <p>Sports</p>
+        <p>Study Tour</p>
       </div>
       <div className="container p-4 mx-auto">
         <Masonry
@@ -88,4 +88,4 @@ const Gallery = () => {
   );
 };
 
-export default Gallery;
+export default StudyTours;

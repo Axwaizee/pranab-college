@@ -209,17 +209,17 @@ const Association = () => {
                   <tr>
                     <td className="p-3 text-lg ">1</td>
                     <td className="p-3 text-lg">
-                      Ms. C. Narola Ao, Vice-Principal{" "}
+                      Mr. Saurav Dowarah, Asst. Prof., Dept. of Political
+                      Science{" "}
                     </td>
                     <td className="p-3 text-lg">Convenor</td>
                   </tr>
                   <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
                     <td className="p-3 text-lg ">2</td>
                     <td className="p-3 text-lg">
-                      Mr. Saurav Dowarah, Asst. Prof., Dept. of Political
-                      Science{" "}
+                      Ms. C. Narola Ao, Vice-Principal{" "}
                     </td>
-                    <td className="p-3 text-lg">Member</td>
+                    <td className="p-3 text-lg">Asst. Convenor</td>
                   </tr>
                 </tbody>
               </table>

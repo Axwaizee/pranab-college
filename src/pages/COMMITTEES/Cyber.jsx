@@ -8,11 +8,11 @@ const Cyber = () => {
       </div>
       <div className="flex justify-center p-5 desk:p-10 dark:text-white">
         <div className="flex flex-col w-full desk:w-2/3">
-          <h1 className="text-xl font-bold text-center ">
-            Cyber Cell Policies of Pranab College
+          <h1 className="text-3xl font-bold text-center ">
+            Cyber Cell Policies
           </h1>
           <br />
-          <div className="flex flex-col gap-4 ">
+          <div className="flex flex-col gap-0 ">
             <h2 className="font-bold ">
               Cybersecurity Awareness and Education
             </h2>
@@ -24,7 +24,7 @@ const Cyber = () => {
             </p>
           </div>{" "}
           <br />
-          <div className="flex flex-col gap-4 ">
+          <div className="flex flex-col gap-0 ">
             <h2 className="font-bold ">Acceptable Use of College Network</h2>
             <p>
               Use of college internet, Wi-Fi, and other digital resources is for
@@ -36,7 +36,7 @@ const Cyber = () => {
             </p>
           </div>{" "}
           <br />
-          <div className="flex flex-col gap-4 ">
+          <div className="flex flex-col gap-0 ">
             <h2 className="font-bold ">Password Management</h2>
             <p>
               All users must follow strong password protocols: a minimum of 8
@@ -47,7 +47,7 @@ const Cyber = () => {
             </p>
           </div>{" "}
           <br />
-          <div className="flex flex-col gap-4 ">
+          <div className="flex flex-col gap-0 ">
             <h2 className="font-bold ">Reporting Cyber Incidents</h2>
             <p>
               Any cybersecurity incidents, including phishing attempts, malware
@@ -58,7 +58,7 @@ const Cyber = () => {
             </p>
           </div>{" "}
           <br />
-          <div className="flex flex-col gap-4 ">
+          <div className="flex flex-col gap-0 ">
             <h2 className="font-bold ">Social Media and Online Conduct</h2>
             <p>
               Misuse of social media platforms for harassment, bullying, or
@@ -69,7 +69,7 @@ const Cyber = () => {
             </p>
           </div>{" "}
           <br />
-          <div className="flex flex-col gap-4 ">
+          <div className="flex flex-col gap-0 ">
             <h2 className="font-bold ">Cyberbullying and Harassment</h2>
             <p>
               The college has a zero-tolerance policy toward cyberbullying,
@@ -79,7 +79,7 @@ const Cyber = () => {
             </p>
           </div>{" "}
           <br />
-          <div className="flex flex-col gap-4 ">
+          <div className="flex flex-col gap-0 ">
             <h2 className="font-bold ">Data Protection and Privacy</h2>
             <p>
               Personal data of students and staff, such as email addresses,
@@ -90,7 +90,7 @@ const Cyber = () => {
             </p>
           </div>{" "}
           <br />
-          <div className="flex flex-col gap-4 ">
+          <div className="flex flex-col gap-0 ">
             <h2 className="font-bold ">Device Security</h2>
             <p>
               All devices connected to the college network, including personal
@@ -101,7 +101,7 @@ const Cyber = () => {
             </p>
           </div>{" "}
           <br />
-          <div className="flex flex-col gap-4 ">
+          <div className="flex flex-col gap-0 ">
             <h2 className="font-bold ">Use of College Email</h2>
             <p>
               The college-provided email address is to be used for official
@@ -111,7 +111,7 @@ const Cyber = () => {
             </p>
           </div>{" "}
           <br />
-          <div className="flex flex-col gap-4 ">
+          <div className="flex flex-col gap-0 ">
             <h2 className="font-bold ">Cyber Investigation Protocol</h2>
             <p>
               The cyber cell is authorized to investigate any reported or
@@ -124,7 +124,7 @@ const Cyber = () => {
             </p>
           </div>{" "}
           <br />
-          <div className="flex flex-col gap-4 ">
+          <div className="flex flex-col gap-0 ">
             <h2 className="font-bold ">Third-Party Software and Apps</h2>
             <p>
               The installation of third-party software or apps on college
@@ -134,7 +134,7 @@ const Cyber = () => {
             </p>
           </div>{" "}
           <br />
-          <div className="flex flex-col gap-4 ">
+          <div className="flex flex-col gap-0 ">
             <h2 className="font-bold ">Encryption of Sensitive Data</h2>
             <p>
               Any sensitive data stored or transmitted over the college network
@@ -145,7 +145,7 @@ const Cyber = () => {
             </p>
           </div>{" "}
           <br />
-          <div className="flex flex-col gap-4 ">
+          <div className="flex flex-col gap-0 ">
             <h2 className="font-bold ">Policy Review and Updates</h2>
             <p>
               Cyber cell policies will be reviewed annually, or as needed, to
@@ -163,10 +163,10 @@ const Cyber = () => {
               Members of the Cyber Cell includes:-
             </p>
             <ol className="list-decimal list-inside ">
-              <li>Saurav Dowarah - Convenor </li>
-              <li>Nayan Basu - Asst. Convenor</li>
-              <li>Meyisangla Jamir</li>
-              <li>Rupam Dasgupta</li>
+              <li>Mr. Saurav Dowarah - Convenor </li>
+              <li>Mr. Nayan Basu - Asst. Convenor</li>
+              <li>Ms. Meyisangla Jamir</li>
+              <li>Mr. Rupam Dasgupta</li>
             </ol>
           </div>
         </div>

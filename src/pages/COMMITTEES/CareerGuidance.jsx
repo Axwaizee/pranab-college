@@ -6,7 +6,7 @@ const CareerGuidance = () => {
       <div className="flex  text-center items-center justify-center p-8 min-[200px]:max-[1180px]:text-center min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
         <p>Career Guidance and Placement Cell</p>
       </div>
-      <div className="flex justify-center p-5 desk:p-10">
+      <div className="flex justify-center p-5 text-justify desk:p-10">
         <div className="w-full desk:w-3/4 dark:text-white">
           <div>
             <p className="pb-3 ">
@@ -36,18 +36,25 @@ const CareerGuidance = () => {
                 skills and communication skills for our students
               </li>
             </ol>
-            <p className="pb-3 ">
+            <p className="pb-3 font-bold ">
               The following are members of the Career Guidance and Counselling
               Cell:
             </p>
             <ol className="pb-3 list-disc list-inside">
-              <li>Ms. Rupa Dutta, Asst. Prof. of English, Convenor</li>
               <li>
-                Mrs. Sanjukta Bhattacharjee, Asst. Prof. & Head, Dept. Of
+                Ms. Rupa Dutta, Asst. Prof. , Department of English, Convenor
+              </li>
+              <li>
+                Dr. Sanjukta Bhattacharjee, Head of Department, Department of
                 English, Assistant Convenor
               </li>
-              <li>Mrs. Rina Anal, Asst. Prof. of Education, Member</li>
-              <li>Mr. Seiboy Khongsai, Asst. Prof. of Sociology, Member</li>
+              <li>
+                Mrs. Rina Anal, Asst. Prof., Department of Education, Member
+              </li>
+              <li>
+                Mr. Seiboy Khongsai, Asst. Prof., Department of Sociology,
+                Member
+              </li>
             </ol>
           </div>
           <div className=" h-[260px] desk:h-[600px] flex justify-center">

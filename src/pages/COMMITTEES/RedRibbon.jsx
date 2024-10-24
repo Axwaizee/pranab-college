@@ -12,7 +12,6 @@ const RedRibbon = () => {
             <p>
               <b>Red Ribbon Club (RRC)</b>
             </p>
-            <br />
             <p>
               The Purpose of Pranab College Red Ribbon Club was formed to
               encourage Peer-to-Peer messaging on HIV prevention and to provide
@@ -30,7 +29,6 @@ const RedRibbon = () => {
             <p>
               <b>AIMS and Objectives of RRC</b>
             </p>
-            <br />
             <ul className="list-disc list-inside">
               <li className="pb-2">
                 To harness the potential of the youth by equipping them with
@@ -59,7 +57,6 @@ const RedRibbon = () => {
             <p>
               <b>Strategies of RRC</b>
             </p>
-            <br />
             <ul className="list-decimal list-inside">
               <li className="pb-2">Awareness Campaigns</li>
               <li className="pb-2">Leadership training as peer educators</li>
@@ -79,7 +76,6 @@ const RedRibbon = () => {
             <p>
               <b>Role of RRC</b>
             </p>
-            <br />
             <p>
               Red Ribbon club is not bound to perform a set of duties or
               functions. However, some roles expected of them are:
@@ -88,7 +84,6 @@ const RedRibbon = () => {
             <p>
               <b>LEARN:</b>
             </p>
-            <br />
             <ul className="list-disc list-inside">
               <li className="pb-2">The facts of HIV and AIDS</li>
               <li className="pb-2">About self responsible behavior</li>
@@ -101,7 +96,6 @@ const RedRibbon = () => {
             <p>
               <b>SHARE:</b>
             </p>
-            <br />
             <ul className="list-disc list-inside">
               <li className="pb-2">
                 The truth about HIV and AIDS with their peers.
@@ -124,7 +118,6 @@ const RedRibbon = () => {
             <p>
               <b>ACT:</b>
             </p>
-            <br />
             <ul className="list-disc list-inside">
               <li className="pb-2">
                 Coordinate with college authority for health awareness
@@ -135,7 +128,7 @@ const RedRibbon = () => {
               </li>
               <li className="pb-2">
                 Observe and participate in events such as: <br />
-                <ul className="pt-2 pl-10 text-sm list-decimal list-inside">
+                <ul className="pt-2 pl-10 list-decimal list-inside text-md">
                   <li className="pb-2">National Youth Day- 12th January</li>
                   <li className="pb-2">International Youth Day- 12th August</li>
                   <li className="pb-2">
@@ -149,9 +142,7 @@ const RedRibbon = () => {
             <p>
               <b>Want to Join?</b>
             </p>
-            <br />
             <p>If you want to be a member of Red Ribbon Club, You Can</p>
-            <br />
             <ul className="list-decimal list-inside">
               <li className="pb-2">
                 Ask the Nodal Officer of RRC who will help you to enroll.

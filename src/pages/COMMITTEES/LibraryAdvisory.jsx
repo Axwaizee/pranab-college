@@ -7,9 +7,9 @@ const LibraryAdvisory = () => {
         <p>Library Advisory Committee</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10">
-        <div className="w-full desk:text-lg desk:w-3/4">
+        <div className="w-full desk:text-lg desk:w-4/5">
           <div className="text-justify dark:text-white">
-            <p className="pb-3 ">
+            <p className="pb-3 text-3xl text-center ">
               <b> POLICY GUIDELINES OF LIBRARY ADVISORY COMMITTEE</b>
             </p>
             <p className="pb-3">
@@ -20,22 +20,21 @@ const LibraryAdvisory = () => {
               under the Chairmanship of Principal, Pranab College, Dimapur.
             </p>
             <p className="pb-3">
-              <b>AIMS:</b> This committee plays an advisory and guiding role
+              <b>Aims:</b> This committee plays an advisory and guiding role
               regarding the library on Policy, Planning and Programme (PPP) in
               the support of teaching learning process.
             </p>
             <p>
-              <b>Objectives</b>
+              <b className="">Objectives</b>
             </p>
-            <br />
             <ul className="list-disc list-inside">
               <li className="pb-2">
                 Organize library orientation programme to all the newly inducted
                 students.
               </li>
               <li className="pb-2">
-                Preparation of library budget of Rs. 10000/- per month for
-                purchase of books.
+                Preparation of library budget of ₹10000/- per month for purchase
+                of books.
               </li>
               <li className="pb-2">
                 Requisition and procurement of books department wise
@@ -64,13 +63,12 @@ const LibraryAdvisory = () => {
                 The following are the members of library advisory committee:
               </b>
             </p>
-            <br />
             <ul className="list-decimal list-inside">
               <li className="pb-2">Librarian - Convenor</li>
               <li className="pb-2">
                 Principal & Vice-Principal - Ex Officio members
               </li>
-              <li className="pb-2">HoD’s of all departments- Members</li>
+              <li className="pb-2">Head of Departments of all departments.</li>
             </ul>
           </div>
         </div>

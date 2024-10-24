@@ -8,7 +8,7 @@ const Admission = () => {
       </div>
       <div className="flex justify-center p-5 desk:p-10 dark:text-white">
         <div className="w-full desk:w-1/2">
-          <ul className="list-disc list-inside ">
+          <ul className="text-justify list-disc list-inside ">
             <li className="pb-2">
               After declaration of HSSLC result, the office of the Principal
               will issue necessary information regarding admission.
@@ -54,10 +54,10 @@ const Admission = () => {
               Members of the Admission Committees includes:-
             </p>
             <ol className="list-decimal list-inside ">
-              <li>C. Narola Ao </li>
-              <li>Dhruba Kumar Dhar</li>
-              <li>Suraj Chhinal</li>
-              <li>N. Tainla Jamir</li>
+              <li>Ms. C. Narola Ao </li>
+              <li>Mr. Dhruba Kumar Dhar</li>
+              <li>Mr. Suraj Chhinal</li>
+              <li>Mrs. N. Tainla Jamir</li>
             </ol>
           </div>
         </div>

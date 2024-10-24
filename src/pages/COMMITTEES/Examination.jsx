@@ -183,44 +183,44 @@ const Examination = () => {
             <table className="w-full rounded-2xl ">
               <thead className="bg-gray-200 border-b-2 border-zinc-500 dark:bg-opacity-25 dark:bg-black">
                 <tr>
-                  <th className="p-3 text-sm font-semibold tracking-wide text-left ">
+                  <th className="p-3 font-semibold tracking-wide text-left text-md ">
                     Programme Name
                   </th>
-                  <th className="p-3 text-sm font-semibold tracking-wide text-left ">
+                  <th className="p-3 font-semibold tracking-wide text-left text-md ">
                     Examination Type
                   </th>
-                  <th className="p-3 text-sm font-semibold tracking-wide text-left ">
+                  <th className="p-3 font-semibold tracking-wide text-left text-md ">
                     Full Marks
                   </th>
-                  <th className="p-3 text-sm font-semibold tracking-wide text-left ">
+                  <th className="p-3 font-semibold tracking-wide text-left text-md ">
                     Pass Marks
                   </th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td className="p-3 text-sm">BA / B.Com (CBCS) </td>
-                  <td className="p-3 text-sm">Internal Exam </td>
-                  <td className="p-3 text-sm">25</td>
-                  <td className="p-3 text-sm">10</td>
+                  <td className="p-3 text-md">BA / B.Com (CBCS) </td>
+                  <td className="p-3 text-md">Internal Exam </td>
+                  <td className="p-3 text-md">25</td>
+                  <td className="p-3 text-md">10</td>
                 </tr>
                 <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
-                  <td className="p-3 text-sm">BA / B.Com (CBCS) </td>
-                  <td className="p-3 text-sm">External Exam </td>
-                  <td className="p-3 text-sm">75</td>
-                  <td className="p-3 text-sm">30</td>
+                  <td className="p-3 text-md">BA / B.Com (CBCS) </td>
+                  <td className="p-3 text-md">External Exam </td>
+                  <td className="p-3 text-md">75</td>
+                  <td className="p-3 text-md">30</td>
                 </tr>
                 <tr>
-                  <td className="p-3 text-sm">BA / B.Com (Old) </td>
-                  <td className="p-3 text-sm">Internal Exam </td>
-                  <td className="p-3 text-sm">30</td>
-                  <td className="p-3 text-sm">13.5</td>
+                  <td className="p-3 text-md">BA / B.Com (Old) </td>
+                  <td className="p-3 text-md">Internal Exam </td>
+                  <td className="p-3 text-md">30</td>
+                  <td className="p-3 text-md">13.5</td>
                 </tr>
                 <tr className="bg-gray-100 dark:bg-opacity-25 dark:bg-black">
-                  <td className="p-3 text-sm">BA / B.Com (Old) </td>
-                  <td className="p-3 text-sm">External Exam </td>
-                  <td className="p-3 text-sm">70</td>
-                  <td className="p-3 text-sm">31.5</td>
+                  <td className="p-3 text-md">BA / B.Com (Old) </td>
+                  <td className="p-3 text-md">External Exam </td>
+                  <td className="p-3 text-md">70</td>
+                  <td className="p-3 text-md">31.5</td>
                 </tr>
               </tbody>
             </table>

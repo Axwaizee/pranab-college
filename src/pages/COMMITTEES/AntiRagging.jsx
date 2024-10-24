@@ -74,7 +74,7 @@ const MeetingMinutes = () => {
 const Policies = () => {
   return (
     <>
-      <div className="p-5 dark:text-white desk:p-10">
+      <div className="p-5 text-justify dark:text-white desk:p-10">
         <div className="pb-2 ">
           <p>
             The Women Empowerment, Anti-Ragging and Sexual Harassment Cell of
@@ -88,6 +88,7 @@ const Policies = () => {
             for the students.
           </p>
         </div>
+        <br />
         <div className="pb-2 ">
           <p className="pb-1 text-lg font-semibold ">OBJECTIVES OF THE CELL</p>
           <ol className="list-decimal list-inside ">
@@ -112,6 +113,7 @@ const Policies = () => {
             <li>To commemorate the occasion of International Women’s Day.</li>
           </ol>
         </div>
+        <br />
         <div className="pb-2">
           <p className="pb-1 text-lg font-semibold ">ROLES AND FUNCTIONS</p>
           <ol className="list-decimal list-inside ">
@@ -136,15 +138,16 @@ const Policies = () => {
             </li>
           </ol>
         </div>
+        <br />
         <div className="pb-7">
           <p className="pb-1 text-lg font-semibold ">
             Members of the Anti-Ragging Cell includes:-
           </p>
           <ol className="list-decimal list-inside ">
-            <li>N. Tainla Jamir - Convenor </li>
-            <li>I. Imkongakum Ao - Asst. Convenor</li>
-            <li>Gracia K Jimo</li>
-            <li>Saurav Dowarah</li>
+            <li>Mrs. N. Tainla Jamir - Convenor </li>
+            <li>Mr. I. Imkongakum Ao - Asst. Convenor</li>
+            <li>Mrs. Gracia K Jimo</li>
+            <li>Mr. Saurav Dowarah</li>
           </ol>
         </div>
         <div className="flex justify-center ">

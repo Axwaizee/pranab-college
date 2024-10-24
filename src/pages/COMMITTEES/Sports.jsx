@@ -10,7 +10,7 @@ const Sports = () => {
         <div className="w-full desk:w-3/4">
           <div className="text-justify dark:text-white">
             <p>
-              Sports committee of Pranab College is organized to promote and
+              Sports Committee of Pranab College is organized to promote and
               develop interest in a particular sport for the students. The
               committee functions with the core objectives of up-holding and
               uplifting the mission of the institute. The Sports Committee of
@@ -28,7 +28,6 @@ const Sports = () => {
             <p>
               <b>Objectives</b>
             </p>
-            <br />
             <ul className="list-disc list-inside">
               <li className="pb-2">All round development of the Students.</li>
               <li className="pb-2">To promote sport and fitness.</li>
@@ -49,7 +48,6 @@ const Sports = () => {
             <p>
               <b>Functions:</b>
             </p>
-            <br />
             <ul className="list-decimal list-inside">
               <li className="pb-2">
                 To create zeal amongst students and faculty members towards
@@ -73,15 +71,14 @@ const Sports = () => {
             </ul>
             <br />
             <p>
-              <b>Members of the Sports committee includes:-</b>
+              <b>Members of the Sports Committee includes:-</b>
             </p>
-            <br />
             <ul className="list-decimal list-inside">
-              <li className="pb-2">Anil Kumar Das(HOD)Convener </li>
-              <li className="pb-2">Tongpok Asst. Convener </li>
-              <li className="pb-2">Tekamongla Jamir</li>
-              <li className="pb-2">Ulla Lauren Fernandez </li>
-              <li className="pb-2">Dhruba Kumar Dhar </li>
+              <li className="pb-2">Mr. Anil Kumar Das, Convener </li>
+              <li className="pb-2">Mr. Tongpok, Asst. Convener </li>
+              <li className="pb-2">Mrs. Tekamongla Jamir</li>
+              <li className="pb-2">Mrs. Ulla Lauren Fernandez </li>
+              <li className="pb-2">Mr. Dhruba Kumar Dhar </li>
               <li className="pb-2">Sports Secretary,PCSU</li>
               <li className="pb-2">Asst. Sports Secretary, PCSU</li>
             </ul>

@@ -12,7 +12,7 @@ const Literary = () => {
             <p>
               <b>About</b>
             </p>
-            <br />
+
             <p>
               The literary committee is the backbone of the academic and
               literary development of the students. Since its inception in the
@@ -26,7 +26,6 @@ const Literary = () => {
             <p>
               <b>Objectives</b>
             </p>
-            <br />
             <p>
               The main objective of the literary committee is to enhance the
               literary skills of students, to bring to light the hidden talents
@@ -37,7 +36,6 @@ const Literary = () => {
             <p>
               <b>Role and Functions</b>
             </p>
-            <br />
             <p>
               <ol className="list-disc list-inside ">
                 <li className="pb-2">
@@ -63,18 +61,17 @@ const Literary = () => {
               Members of the Literary Club includes:-
             </p>
             <ol className="list-decimal list-inside ">
-              <li>Anju Rai - Convenor </li>
-              <li>Rupa Dutta - Asst. Convenor</li>
-              <li>Sanjukta Bhattacharjee</li>
-              <li>Meyisangla Jamir</li>
-              <li>Promila Paul</li>
+              <li>Mrs. Anju Rai - Convenor </li>
+              <li>Ms. Rupa Dutta - Asst. Convenor</li>
+              <li>Dr. Sanjukta Bhattacharjee</li>
+              <li>Ms. Meyisangla Jamir</li>
+              <li>Mrs. Promila Paul</li>
               <li>Hindi Teacher</li>
             </ol>
             <br />
             <p>
               <b>Activities</b>
             </p>
-            <br />
             <p>
               Literary committee organize activities to help students develop
               there writing and speaking skills and to encourage them to
