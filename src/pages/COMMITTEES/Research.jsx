@@ -90,7 +90,7 @@ const Research = () => {
                     college students in Dimapur.
                   </li>
                   <li className="pb-1">
-                    Imjungwatila Longkumer(UG 6th Sem)- Mental Health issues
+                    Imjungwatila Longkumer (UG 6th Sem) - Mental Health issues
                     among Genz: Causes, Impact and Measures.
                   </li>
                 </ul>
@@ -171,14 +171,14 @@ const Research = () => {
                 </ul>
               </li>
               <li className="pb-4">
-                Rina Anal, Asst Professor, Department of Education, completed
-                5th NEP 2020 Orientation and Sensitization Programme under
-                Malaviya Mission Teacher Training Programme(MM-TTP) of
+                Mrs. Rina Anal, Asst Professor, Department of Education,
+                completed 5th NEP 2020 Orientation and Sensitization Programme
+                under Malaviya Mission Teacher Training Programme(MM-TTP) of
                 University Grants Commission organised by MMTTC, Central
                 University of Haryana, Mahendergarh (India) from Feb 5-14, 2024.
               </li>
               <li className="pb-4">
-                Nayan Basu, Asst Professor, Department of Education
+                Mr. Nayan Basu, Head of Department, Department of Education
                 <ul className="pl-8 list-decimal list-inside">
                   <li className="pb-4">
                     Completed 5th NEP 2020 Orientation and Sensitization
@@ -204,17 +204,17 @@ const Research = () => {
                 </ul>
               </li>
               <li className="pb-4">
-                Ulla Laureen Fernandez, Asst Professor, Department of Education
-                Attended 5th NEP 2020 Orientation & Sensitization Programme'
-                under Malaviya Mission Teacher Training Programme (MM-TTP) of
-                University Grants Commission organised by MMTTC, Central
-                University of Haryana, Mahendergarh (India) from February 5-14,
-                2024.
+                Mrs. Ulla Laureen Fernandez, Asst Professor, Department of
+                Education Attended 5th NEP 2020 Orientation & Sensitization
+                Programme' under Malaviya Mission Teacher Training Programme
+                (MM-TTP) of University Grants Commission organised by MMTTC,
+                Central University of Haryana, Mahendergarh (India) from
+                February 5-14, 2024.
               </li>
               <li className="pb-4">
-                Rupa Dutta, Asst. Professor attended 5 days Non Residential
+                Ms. Rupa Dutta, Asst. Professor attended 5 days Non Residential
                 Faculty Development Programme organised by Indian Institute of
-                Entrepreneurship, Lalmati, Guwahati(Assam) from 19-02-2024 to
+                Entrepreneurship, Lalmati, Guwahati (Assam) from 19-02-2024 to
                 23-02-2024.
               </li>
             </ul>
@@ -227,10 +227,12 @@ const Research = () => {
             </p>
             <ul className="list-disc list-inside">
               <li className="pb-2">Dr. Alomi Cynthia Shikhu – Convenor</li>
-              <li className="pb-2">I. Imkongakum Ao - Assistant Convenor</li>
-              <li className="pb-2">Sanjukta Bhattacharjee </li>
-              <li className="pb-2">Olivia Kikon </li>
-              <li className="pb-2">Seiboy Khongsai </li>
+              <li className="pb-2">
+                Mr. I. Imkongakum Ao - Assistant Convenor
+              </li>
+              <li className="pb-2">Dr. Sanjukta Bhattacharjee </li>
+              <li className="pb-2">Ms. Olivia J Kikon </li>
+              <li className="pb-2">Mr. Seiboy Khongsai </li>
             </ul>
           </div>
         </div>

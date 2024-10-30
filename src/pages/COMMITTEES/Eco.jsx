@@ -15,7 +15,7 @@ const Eco = () => {
         <p>Eco Club</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10">
-        <div className="w-full desk:w-2/3">
+        <div className="w-full desk:w-3/4">
           <div className="text-justify dark:text-white">
             <p>
               Eco-Club or Green Club is a voluntary group which promotes the

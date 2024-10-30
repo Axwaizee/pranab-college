@@ -7,7 +7,7 @@ const Admission = () => {
         <p>Admission Procedure</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10 dark:text-white">
-        <div className="w-full desk:w-1/2">
+        <div className="w-full desk:w-3/4">
           <ul className="text-justify list-disc list-inside ">
             <li className="pb-2">
               After declaration of HSSLC result, the office of the Principal

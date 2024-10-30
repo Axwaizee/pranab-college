@@ -44,16 +44,16 @@ function Nav() {
     if (option === "Contact") {
       return "/about/contact";
     }
-    if (option === "New Admissions to 1st Semester (under construction)") {
-      return "/onlineAdmissions/newAdmissions";
+    if (option === "Online Admissions (under construction)") {
+      return "/onlineAdmissions/onlineAdmissions";
     }
-    if (option === "Fee Payment for New Students (under construction)") {
+    if (option === "Pay Your Fees (under construction)") {
       return "/onlineAdmissions/underConstruction";
     }
-    if (option === "Fee Payment for Current Students (under construction)") {
+    if (option === "Pay Your Bus Fees (under construction)") {
       return "/onlineAdmissions/underConstruction";
     }
-    if (option === "Fee Payment for Bus Students (under construction)") {
+    if (option === "View Application Status (under construction)") {
       return "/onlineAdmissions/underConstruction";
     }
     if (option === "View Application Status (under construction)") {
@@ -273,10 +273,9 @@ function Nav() {
       "Contact",
     ],
     Online_Admissions: [
-      "New Admissions to 1st Semester (under construction)",
-      "Fee Payment for New Students (under construction)",
-      "Fee Payment for Current Students (under construction)",
-      "Fee Payment for Bus Students (under construction)",
+      "Online Admissions (under construction)",
+      "Pay Your Fees (under construction)",
+      "Pay Your Bus Fees (under construction)",
       "View Application Status (under construction)",
       "Admission Procedure",
       "Fee Structure",

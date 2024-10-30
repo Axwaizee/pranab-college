@@ -7,7 +7,7 @@ const Cyber = () => {
         <p>Cyber Cell</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10 dark:text-white">
-        <div className="flex flex-col w-full desk:w-2/3">
+        <div className="flex flex-col w-full desk:w-3/4">
           <h1 className="text-3xl font-bold text-center ">
             Cyber Cell Policies
           </h1>

@@ -6,7 +6,7 @@ const Cultural = () => {
       <div className="flex  text-center items-center justify-center p-8 min-[200px]:max-[1180px]:text-center min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
         <p>Cultural Committee</p>
       </div>
-      <div className="flex justify-center p-5 desk:p-10">
+      <div className="flex justify-center p-5 text-justify desk:p-10">
         <div className="w-full desk:w-3/4 dark:text-white">
           <div>
             <p className="pb-3">
@@ -15,7 +15,7 @@ const Cultural = () => {
                 COLLEGE
               </b>
             </p>
-            <p className="pb-3">
+            <p className="pb-3 ">
               The Institution set up a Cultural Committee in the year 2014. The
               purpose of the establishment of the Committee is to showcase the
               talents of the students, preserve and keep alive the traditional

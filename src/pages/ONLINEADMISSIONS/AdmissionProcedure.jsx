@@ -7,7 +7,7 @@ const AdmissionProcedure = () => {
         <p>Admission Procedure</p>
       </div>
       <div className="flex justify-center p-5 desk:p-10 dark:text-white">
-        <div className="w-full desk:w-1/2">
+        <div className="w-full desk:w-3/4">
           <div className="pt-1 ">
             {" "}
             <ol className="list-disc list-inside ">

@@ -7,7 +7,7 @@ const ProcedurePolicies = () => {
         <p>Procedure & Policies</p>
       </div>
       <div className="flex justify-center">
-        <div className="w-full p-5 text-justify desk:p-10 desk:w-1/2 dark:text-white">
+        <div className="w-full p-5 text-justify desk:p-10 desk:w-3/4 dark:text-white">
           <p>
             The physical infrastructure of the institution like Library,
             Classrooms, Canteen, Common Room etc. are made available for the

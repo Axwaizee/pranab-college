@@ -11,6 +11,7 @@ export default {
         poppins: ["Poppins", "sans-serif"],
         roboto: ["Roboto", "sans-serif"],
         inter: ["Inter", "sans-serif"],
+        greatVibes: ["Great Vibes", "cursive"],
       },
     },
   },

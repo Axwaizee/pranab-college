@@ -78,7 +78,7 @@ const asha = "/assets/images/staffs/nonTeaching/gradeIV/Asha.JPG";
 export const english = () => {
   return (
     <>
-      <div className="p-3 text-2xl text-center uppercase dark:text-white">
+      <div className="p-3 text-2xl font-semibold text-center uppercase dark:text-white">
         Department of English
       </div>
       <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
@@ -91,7 +91,7 @@ export const english = () => {
           </div>
           <div className="flex  justify-center p-5 min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
-              Mrs. Sanjukta Bhattacharjee
+              Dr. Sanjukta Bhattacharjee
               <br />
               Head of the Department
             </p>
@@ -150,7 +150,7 @@ export const english = () => {
 export const education = () => {
   return (
     <>
-      <div className="p-3 text-2xl text-center uppercase dark:text-white">
+      <div className="p-3 text-2xl font-semibold text-center uppercase dark:text-white">
         Department of Education
       </div>
       <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
@@ -222,7 +222,7 @@ export const education = () => {
 export const economics = () => {
   return (
     <>
-      <div className="p-3 text-2xl text-center uppercase dark:text-white">
+      <div className="p-3 text-2xl font-semibold text-center uppercase dark:text-white">
         Department of Economics
       </div>
       <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
@@ -263,7 +263,7 @@ export const economics = () => {
 export const evs = () => {
   return (
     <>
-      <div className="p-3 text-2xl text-center uppercase dark:text-white">
+      <div className="p-3 text-2xl font-semibold text-center uppercase dark:text-white">
         Department of Environmental Studies
       </div>
       <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
@@ -315,7 +315,7 @@ export const evs = () => {
 export const mil = () => {
   return (
     <>
-      <div className="p-3 text-2xl text-center uppercase dark:text-white">
+      <div className="p-3 text-2xl font-semibold text-center uppercase dark:text-white">
         Department of MIL
       </div>
       <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
@@ -341,7 +341,7 @@ export const mil = () => {
 export const sociology = () => {
   return (
     <>
-      <div className="p-3 text-2xl text-center uppercase dark:text-white">
+      <div className="p-3 text-2xl font-semibold text-center uppercase dark:text-white">
         Department of Sociology
       </div>
       <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
@@ -360,7 +360,7 @@ export const sociology = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
+        <div className="flex items-center  min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={tongpok}
@@ -427,7 +427,7 @@ export const sociology = () => {
 export const commerce = () => {
   return (
     <>
-      <div className="p-3 text-2xl text-center uppercase dark:text-white">
+      <div className="p-3 text-2xl font-semibold text-center uppercase dark:text-white">
         Department of Commerce
       </div>
       <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
@@ -498,7 +498,7 @@ export const commerce = () => {
 export const polSci = () => {
   return (
     <>
-      <div className="p-3 text-2xl text-center uppercase dark:text-white">
+      <div className="p-3 text-2xl font-semibold text-center uppercase dark:text-white">
         Department of Political Science
       </div>
       <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
@@ -532,7 +532,7 @@ export const polSci = () => {
             </p>
           </div>
         </div>
-        <div className="flex items-center min-[200px]:max-[426px]:flex-col">
+        {/* <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
               src={mhono}
@@ -546,7 +546,7 @@ export const polSci = () => {
               Assistant Professor
             </p>
           </div>
-        </div>
+        </div> */}
         <div className="flex items-center min-[200px]:max-[426px]:flex-col">
           <div>
             <img
@@ -556,7 +556,7 @@ export const polSci = () => {
           </div>
           <div className="flex  justify-center p-5   min-[200px]:max-[426px]:text-lg text-2xl">
             <p className=" min-[200px]:max-[426px]:text-center min-[200px]:max-[426px]:pt-5">
-              Mrs. Atoholi H
+              Ms. Atoholi H
               <br />
               Assistant Professor
             </p>
@@ -569,7 +569,7 @@ export const polSci = () => {
 export const history = () => {
   return (
     <>
-      <div className="p-3 text-2xl text-center uppercase dark:text-white">
+      <div className="p-3 text-2xl font-semibold text-center uppercase dark:text-white">
         Department of History
       </div>
       <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
@@ -640,7 +640,7 @@ export const history = () => {
 export const office = () => {
   return (
     <>
-      <div className="p-3 text-2xl text-center uppercase dark:text-white">
+      <div className="p-3 text-2xl font-semibold text-center uppercase dark:text-white">
         Office Staff
       </div>
       <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
@@ -750,7 +750,7 @@ export const office = () => {
 export const library = () => {
   return (
     <>
-      <div className="p-3 text-2xl text-center uppercase dark:text-white">
+      <div className="p-3 text-2xl font-semibold text-center uppercase dark:text-white">
         Library Staff
       </div>
       <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">
@@ -789,7 +789,7 @@ export const library = () => {
 export const gradeIV = () => {
   return (
     <>
-      <div className="p-3 text-2xl text-center uppercase dark:text-white">
+      <div className="p-3 text-2xl font-semibold text-center uppercase dark:text-white">
         Grade IV Staff
       </div>
       <div className="flex flex-col gap-5 p-2 desk:pl-10 dark:text-white">

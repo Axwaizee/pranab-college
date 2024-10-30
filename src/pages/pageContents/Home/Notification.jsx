@@ -1,16 +1,21 @@
 import React from "react";
 
 const principal = "/assets/elements/principal/principal.png";
+const saurav = "/assets/images/notification/saurav.jpeg";
+
+// bg-[#fafafa]   notifiation bg color
 
 const Notification = () => {
   return (
     <div className=" min-[1181px]:max-[1399px]:px-[100px] min-[1400px]:max-[1600px]:px-[200px] wide:px-[300px] min-[200px]:max-[1180px]:px-5 desk:mt-[120px] desk:max-[1919px]:mt-[80px] min-[200px]:max-[1180px]:mt-12">
-      <div className="flex w-full">
-        <div className=" fl bg-[#fafafa] p-8 text-[#008EF3] rounded-3xl  ">
-          <div>
-            <p className="text-3xl font-medium font-inter">Notifications</p>
-          </div>
-          <div className=" text-center mt-2.5">
+      <div className="flex justify-center w-full">
+        <div className=" flex justify-center  p-8 text-[#008EF3] rounded-3xl  ">
+          {/* <div className="flex justify-center ">
+            <p className="text-6xl font-medium font-greatVibes">
+              In the sweet memory of
+            </p>
+          </div> */}
+          {/* <div className=" text-center mt-2.5">
             <p className="text-2xl font-medium font-inter">VACANCY</p>
           </div>
           <div className="mt-4 ">
@@ -32,7 +37,8 @@ const Notification = () => {
               <br />
               <br />
             </p>
-          </div>
+          </div> */}
+          <img src={saurav} className="w-1/2 " alt="" srcset="" />
         </div>
 
         {/* Currently removed, add back after receiving new photo */}

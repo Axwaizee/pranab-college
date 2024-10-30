@@ -9,11 +9,11 @@ const WomenEmpowerment = () => {
       <div className="flex justify-center p-5 desk:p-10">
         <div className="w-full desk:w-3/4 dark:text-white">
           <div>
-            <p className="pb-3">
+            <p className="">
               <b>INTRODUCTION</b>
             </p>
             <p className="text-justify ">
-              The women empowerment cell envisions to create a campus culture
+              The Women Empowerment cell envisions to create a campus culture
               that values and upholds the rights and wellbeing of women. Keeping
               this in view, the cell organizes programs related to women’s
               issues, status, safety and health for the students. Through these
@@ -24,19 +24,19 @@ const WomenEmpowerment = () => {
           </div>
           <br />
           <div>
-            <p className="pb-3">
+            <p className="">
               <b>OBJECTIVES OF THE CELL </b>
             </p>
             <ul className="list-decimal list-inside">
-              <li className="pb-2">
+              <li className="">
                 To create awareness on various issues and problems of women and
                 in particular regarding gender equality.
               </li>
-              <li className="pb-2">
+              <li className="">
                 To organize talk, seminars and practical activity relating to
                 women’s mental health and overall personality.{" "}
               </li>
-              <li className="pb-2">
+              <li className="pb-1">
                 To encourage female students to be self-reliant and economically
                 independent.{" "}
               </li>
@@ -44,15 +44,15 @@ const WomenEmpowerment = () => {
           </div>
           <br />
           <div>
-            <p className="pb-3 ">
+            <p className="">
               <b>ROLES AND FUNCTIONS</b>
             </p>
             <ul className="list-decimal list-inside">
-              <li className="pb-2">
+              <li className="">
                 The cell organizes and participates in seminars, workshops and
                 addresses women issues and problems in the college.
               </li>
-              <li className="pb-2">
+              <li className="">
                 It strives to provide platforms for women to share their
                 experiences and views with regard to their status, challenges in
                 the society and suggest ways to improve and empower themselves.
@@ -61,16 +61,16 @@ const WomenEmpowerment = () => {
           </div>
           <br />
           <div>
-            <p className="pb-1 ">
+            <p className="">
               <b>Members of the Women Empoerment Cell includes:-</b>
             </p>
             <ul className="list-decimal list-inside ">
-              <li className="pb-2">Gracia K. Jimo, Convenor</li>
-              <li className="pb-2">Rina Anal, Asst. Convenor</li>
-              <li className="pb-2">Dr. Alomi Cynthia Shikhu</li>
-              <li className="pb-2">Purnima Das</li>
-              <li className="pb-2">President - PCSU</li>
-              <li className="pb-2">Police Personnel (Women's Cell)</li>
+              <li className="">Mrs. Gracia K. Jimo, Convenor</li>
+              <li className="">Mrs. Rina Anal, Asst. Convenor</li>
+              <li className="">Dr. Alomi Cynthia Shikhu</li>
+              <li className="">Mrs. Purnima Das</li>
+              <li className="">President - PCSU</li>
+              <li className="">Police Personnel (Women's Cell)</li>
             </ul>
           </div>
         </div>
