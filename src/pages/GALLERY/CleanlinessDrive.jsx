@@ -50,9 +50,9 @@ const CleanlinessDrive = () => {
     <>
       {" "}
       <div className="flex  text-center items-center justify-center p-8 min-[200px]:max-[1180px]:text-3xl text-5xl font-normal text-white bg-[#003eb9] font-inter">
-        <p>Cleanliness Drive</p>
+        <p>Cleanliness Drive (Under Construction)</p>
       </div>
-      <div className="container p-4 mx-auto">
+      {/* <div className="container p-4 mx-auto">
         <Masonry
           breakpointCols={breakpointColumnsObj}
           className="flex -ml-4"
@@ -83,7 +83,7 @@ const CleanlinessDrive = () => {
             {...swipeHandlers}
           />
         )}
-      </div>
+      </div> */}
     </>
   );
 };
