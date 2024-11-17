@@ -9,36 +9,32 @@ const Notification = () => {
   return (
     <div className=" min-[1181px]:max-[1399px]:px-[100px] min-[1400px]:max-[1600px]:px-[200px] wide:px-[300px] min-[200px]:max-[1180px]:px-5 desk:mt-[120px] desk:max-[1919px]:mt-[80px] min-[200px]:max-[1180px]:mt-12">
       <div className="flex justify-center w-full">
-        <div className=" flex justify-center  p-8 text-[#008EF3] rounded-3xl  ">
+        <div className=" flex justify-center p-8 dark:text-white rounded-3xl border-[1px] rounded-xl ">
           {/* <div className="flex justify-center ">
             <p className="text-6xl font-medium font-greatVibes">
               In the sweet memory of
             </p>
           </div> */}
-          {/* <div className=" text-center mt-2.5">
-            <p className="text-2xl font-medium font-inter">VACANCY</p>
-          </div>
-          <div className="mt-4 ">
+          <div className="mt-4 max-w-screen-lg " >
+            <p className="text-2xl text-center underline sm:font-medium font-black font-inter">VACANCY</p>
             <p className="text-lg font-inter desk:font-normal">
               Applications are invited from the prospective and eligible
-              candidate for the vacant post of Professor / Associate-Professor /
-              Assistant-Professor in the Department of Political Science.
-              Qualifications required as per UGC norms. <br />
+              candidate for the vacant post:
               <br />
-              Qualified retired professors can also apply. Candidates may send
-              their resume during office hour or through email
-              pranabananda_wc@yahoo.com on or before 20th May 2024. <br />{" "}
-              <i>
-                {" "}
-                For further details contact: 03862-357469 / 9863233963 /
-                7005658208
-              </i>
+              <b>i) Assistant Professor, Department of Political Science
+              <br />
+              ii) Assistant Professor, Department of Sociology</b>
+              <br />
+              Candidates must possess qualification as per the UGC norms. Interested candidates should submit their CV/Resume along with relevant testimonials to the office during working hours or through email at pranabananda_wc@yahoo.com on or before 22<sup>nd</sup> November, 2024. <br />
+              <b>
+                For further details contact: 03862-357469 / 8787454987 / 9863233963
+              </b>
               <br />
               <br />
               <br />
             </p>
-          </div> */}
-          <img src={saurav} className="w-1/2 " alt="" srcset="" />
+          </div>
+          {/* <img src={saurav} className="w-1/2 " alt="" srcset="" /> */}
         </div>
 
         {/* Currently removed, add back after receiving new photo */}

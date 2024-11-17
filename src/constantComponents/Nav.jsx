@@ -386,7 +386,7 @@ function Nav() {
   const CommitteesRender = () => {
     return (
       <table className="z-50 w-full dark:text-white ml-9">
-        <tbody>
+        <tbody  onClick={handleMouseOut}>
           <tr>
             <td>
               <Link to={routedOption("List of Committees and its Members")}>
@@ -604,7 +604,7 @@ function Nav() {
           navItems[currentNav] &&
           navItems[currentNav].map((option) => (
             // for loop display only 12 items
-            <Link to={routedOption(option)} className="">
+            <Link to={routedOption(option)} className="" onClick={handleMouseOut}>
               <div
                 key={option}
                 className=" z-50 pl-9 h-[40px] w-full font-semibold  dark:text-[#fafafa] text-2xl font-inter hover:cursor-pointer hover:text-blue-500 transition ease-in-out"
